@@ -1,8 +1,0 @@
-B-ns
-B-nt
-E-ns
-E-nt
-M-ns
-M-nt
-O
-S
