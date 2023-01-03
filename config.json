@@ -5,6 +5,7 @@
   "app_repository_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-extensions/master/repository.json",
   "app_emoticon_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/master/emoji.json",
   "app_trans_data_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/master/translate.zip",
+  "app_analyzer_data_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/master/analyzer.zip",
   "app_version": "1.1.31",
   "app_eink_version": "1.1.15",
   "app_free_download": 3,
@@ -12,7 +13,7 @@
   "app_adblock_url": "https://abpvn.com/android/abpvn.txt",
   "app_adblock_version": "20190723",
   "app_emo_last_update": "20201212",
-  "app_changelog": "Thêm chức năng di chuyển nguồn hàng loạt.",
+  "app_changelog": "Sửa chức năng lọc names.",
   "app_font_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/master/font.json",
   "app_facebook_url": "https://www.facebook.com/vbookapp",
   "app_share_url": "https://bit.ly/vbookapp"
