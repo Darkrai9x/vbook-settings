@@ -54,8 +54,8 @@
     "size": "462KB"
   },
   {
-    "name": "ProductSans.ttf",
-    "url": "https://github.com/Darkrai9x/vbook-settings/raw/main/fonts/ProductSans.ttf",
+    "name": "ProductSans.otf",
+    "url": "https://github.com/Darkrai9x/vbook-settings/raw/main/fonts/ProductSans.otf",
     "thumb": "https://github.com/Darkrai9x/vbook-settings/raw/main/fonts/ProductSans.jpeg",
     "size": "90KB"
   },
@@ -69,7 +69,7 @@
     "name": "Times New Roman.ttf",
     "url": "https://github.com/Darkrai9x/vbook-settings/raw/main/fonts/Times New Roman.ttf",
     "thumb": "https://github.com/Darkrai9x/vbook-settings/raw/main/fonts/Times New Roman.jpeg",
-    "size": "`1085`KB"
+    "size": "1085KB"
   },
   {
     "name": "Traveling Typewriter.ttf",
