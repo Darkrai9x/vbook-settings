@@ -6,7 +6,7 @@
   "app_emoticon_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/emoji.json",
   "app_trans_data_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/translate.zip",
   "app_analyzer_data_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/analyzer.zip",
-  "app_version": "1.1.54",
+  "app_version": "1.1.55",
   "app_eink_version": "1.1.15",
   "app_free_download": 3,
   "app_discord_url": "http://discord.gg/SE8xc3n",
@@ -16,5 +16,5 @@
   "app_changelog": "Sửa một vài lỗi nhỏ",
   "app_font_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/master/font.json",
   "app_facebook_url": "https://www.facebook.com/vbookapp",
-  "app_share_url": "https://bit.ly/vbookapp"
+  "app_share_url": "https://vbookapp.com/download"
 }
