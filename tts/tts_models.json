@@ -9,7 +9,9 @@
     "checksum": "b1e59abf26d5d93eb2eff88c19cbd7d7f9340836f38caef67adb36a8667dc563",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "female"
+    "gender": "female",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "chieuthanh",
@@ -21,7 +23,9 @@
     "checksum": "3a7937ec65350dcdb2bd86b73d69a4a6ddfb986b27d6b4b0326e69635e504ef5",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "male"
+    "gender": "male",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "deepman3909",
@@ -33,7 +37,9 @@
     "checksum": "89328b13befbc34df05cc578eb5a40a510fe356fc5784ee9490aed4b87ae82d1",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "male"
+    "gender": "male",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "duyoryx3175",
@@ -45,7 +51,9 @@
     "checksum": "db8ba4c8a1c8dc2ab3d95c97bbad4fea06843319a876a42e12fbfb325f8adf85",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "male"
+    "gender": "male",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "lacphi",
@@ -57,7 +65,9 @@
     "checksum": "de040c3b3099b2450cec5c4d7eac52e534241f6d188be2b9a7a12318611f9b6c",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "male"
+    "gender": "male",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "maiphuong",
@@ -69,7 +79,9 @@
     "checksum": "2f0c844499be725c665505b0274f7d641287b59e343df218fdea7ea7cf4a20d4",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "female"
+    "gender": "female",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "minhkhang",
@@ -81,7 +93,9 @@
     "checksum": "5edc92cdd586bd4fffb4e0fdc05354b506eed889b4ab7a0e97202e8e9b5e9a13",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "male"
+    "gender": "male",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "minhquang",
@@ -93,7 +107,9 @@
     "checksum": "95e8ceb9999fa4903aa14bf8f32734d3d292f6e7805e3c752beb5f00aa1f671d",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "male"
+    "gender": "male",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "manhdung",
@@ -105,7 +121,9 @@
     "checksum": "d54a3bf631fc58c5dca10b397ea5d28515be2890f8e72b337cb248c287d004d3",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "male"
+    "gender": "male",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "mytam2794",
@@ -117,7 +135,9 @@
     "checksum": "0ed50bea15913422808a8a3b05e59244e75f6cc89d0a67992d37fd6f57183ad8",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "female"
+    "gender": "female",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "mytam2",
@@ -129,7 +149,9 @@
     "checksum": "aa79202238e2631fab9ee4447b14689bb7be9d25bf9d5351edb08c27f7b3fb94",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "female"
+    "gender": "female",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "ngochuyennew",
@@ -141,7 +163,9 @@
     "checksum": "eb54f09fe8a545db3c4a9fa242800b6c715c8b3fd71cd12fdb204b87474e2a96",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "female"
+    "gender": "female",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "ngocngan3701",
@@ -153,7 +177,9 @@
     "checksum": "c10f95e2a38a33618b988a23c1ab05dc41beed13e51e8f5bb893a83379199657",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "male"
+    "gender": "male",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "phuongtrang",
@@ -165,7 +191,9 @@
     "checksum": "130e9051ea4096a0459fb8ef3071565e473e8581d631e6a6f7ec442754a1f9b2",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "female"
+    "gender": "female",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "thanhphuong2",
@@ -177,7 +205,9 @@
     "checksum": "adb336dfdaf5277a8a37bbbf1eac3e438a0dcf712780c608ec7c78dc4070a982",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "female"
+    "gender": "female",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "thientam",
@@ -189,7 +219,9 @@
     "checksum": "a2399b5abb2ee9b4800f75a29f6297c1979a16264ba2c8a8f826d96b343354ad",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "male"
+    "gender": "male",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "tranthanh3870",
@@ -201,7 +233,9 @@
     "checksum": "b7a1acb5562dc30bdb52d05ad657151fbfa3b12a2ef8b07f58a3d47ae9985cb1",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "male"
+    "gender": "male",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "taian4",
@@ -213,7 +247,9 @@
     "checksum": "a01c263e46e15c770993057956f8e0755f0bd9346844bacdb1c7711f88ec9751",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "male"
+    "gender": "male",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "vietthao3886",
@@ -225,7 +261,9 @@
     "checksum": "369b152b0f0e568f8a458200afc05554dba6a2ef4c6a960c9e1f7a5157bb4857",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "male"
+    "gender": "male",
+    "model_type": "vits",
+    "model_format": "onnx"
   },
   {
     "id": "adam1",
@@ -237,6 +275,8 @@
     "checksum": "6980e5ac60fb28301d822bb2f2bea327168662b0f60eb54cd6cca696a6f0f037",
     "sample_rate": 22050,
     "num_speakers": 1,
-    "gender": "male"
+    "gender": "male",
+    "model_type": "vits",
+    "model_format": "onnx"
   }
 ]
