@@ -1,5 +1,33 @@
 [
   {
+    "id": "vi_south",
+    "name": "Giọng miền Nam",
+    "language": "vi",
+    "size_bytes": 38198039,
+    "description": "Giọng miền Nam",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/models/vi_south.zip",
+    "checksum": "8d3328957052580261582393e6280eac02e3abbacf10558c9e58730b0d206c88",
+    "sample_rate": 22050,
+    "num_speakers": 12,
+    "gender": "multi",
+    "model_type": "piper",
+    "model_format": "vmodel"
+  },
+  {
+    "id": "vi_north",
+    "name": "Giọng miền Bắc",
+    "language": "vi",
+    "size_bytes": 38198039,
+    "description": "Giọng miền Bắc",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/models/vi_north.zip",
+    "checksum": "852d8476f23c020ce4acaa948a8122993acaa56f4156d795e7cb626702c96158",
+    "sample_rate": 22050,
+    "num_speakers": 12,
+    "gender": "multi",
+    "model_type": "piper",
+    "model_format": "vmodel"
+  },
+  {
     "id": "banmai",
     "name": "Ban Mai",
     "language": "vi-VN",
