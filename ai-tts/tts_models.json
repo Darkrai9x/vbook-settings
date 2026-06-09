@@ -1,0 +1,30 @@
+[
+  {
+    "id": "vi_south",
+    "name": "Tiếng Việt - Miền Nam",
+    "language": "vi",
+    "size_bytes": 38210837,
+    "description": "Giọng miền Nam",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/vi_south.zip",
+    "checksum": "fff301585757fe1fed6b5269d1f65b9d4be852e4744fd48194c2dadd6def60bc",
+    "sample_rate": 22050,
+    "num_speakers": 12,
+    "gender": "multi",
+    "model_type": "piper",
+    "model_format": "vmodel"
+  },
+  {
+    "id": "vi_north",
+    "name": "Tiếng Việt - Miền Bắc",
+    "language": "vi",
+    "size_bytes": 38210834,
+    "description": "Giọng miền Bắc",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/vi_north.zip",
+    "checksum": "ee28446a3433cf48a614d0dc73fa8c2b023d006110753006a9f9a2db6f823553",
+    "sample_rate": 22050,
+    "num_speakers": 12,
+    "gender": "multi",
+    "model_type": "piper",
+    "model_format": "vmodel"
+  }
+]
