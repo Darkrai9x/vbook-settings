@@ -40,5 +40,19 @@
     "gender": "female",
     "model_type": "piper",
     "model_format": "vmodel"
+  },
+  {
+    "id": "ngochuyen",
+    "name": "Ngọc Huyền",
+    "language": "vi-VN",
+    "size_bytes": 31472586,
+    "description": "Giọng đọc tiếng Việt: Ngọc Huyền",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/ngochuyen.zip",
+    "checksum": "e46eeb0ebdd65621e9218735200172a521f669f1f6f064f325760f527a896608",
+    "sample_rate": 22050,
+    "num_speakers": 1,
+    "gender": "female",
+    "model_type": "piper",
+    "model_format": "vmodel"
   }
 ]
