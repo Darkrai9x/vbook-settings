@@ -54,5 +54,19 @@
     "gender": "female",
     "model_type": "piper",
     "model_format": "vmodel"
+  },
+  {
+    "id": "minhquang",
+    "name": "Minh Quang",
+    "language": "vi-VN",
+    "size_bytes": 31472581,
+    "description": "Giọng đọc tiếng Việt: Minh Quang",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/minhquang.zip",
+    "checksum": "ca3afc1f218ccca336d79a242997fbad3c69ab77e33ba63e1c4225ff6bc5f1db",
+    "sample_rate": 22050,
+    "num_speakers": 1,
+    "gender": "male",
+    "model_type": "piper",
+    "model_format": "vmodel"
   }
 ]
