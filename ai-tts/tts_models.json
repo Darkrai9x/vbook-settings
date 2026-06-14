@@ -82,5 +82,33 @@
     "gender": "female",
     "model_type": "piper",
     "model_format": "vmodel"
+  },
+  {
+    "id": "manhdung",
+    "name": "Mạnh Dũng",
+    "language": "vi-VN",
+    "size_bytes": 31472582,
+    "description": "Giọng đọc tiếng Việt: Mạnh Dũng",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/manhdung.zip",
+    "checksum": "c85b0325f76f4ce04322cd582845b3ed468155587f6c3bbe30048db3bbc16ce6",
+    "sample_rate": 22050,
+    "num_speakers": 1,
+    "gender": "male",
+    "model_type": "piper",
+    "model_format": "vmodel"
+  },
+  {
+    "id": "ngocngan",
+    "name": "Ngọc Ngạn",
+    "language": "vi-VN",
+    "size_bytes": 31472580,
+    "description": "Giọng đọc tiếng Việt: Ngọc Ngạn",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/ngocngan.zip",
+    "checksum": "17522f41b38295fab78f7da9ee6f66a63409a9143d0163342ab406a4fe9ec988",
+    "sample_rate": 22050,
+    "num_speakers": 1,
+    "gender": "male",
+    "model_type": "piper",
+    "model_format": "vmodel"
   }
 ]
