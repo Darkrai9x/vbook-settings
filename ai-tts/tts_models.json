@@ -110,5 +110,19 @@
     "gender": "male",
     "model_type": "piper",
     "model_format": "vmodel"
+  },
+  {
+    "id": "adam",
+    "name": "Adam",
+    "language": "vi-VN",
+    "size_bytes": 31472513,
+    "description": "Giọng đọc tiếng Việt: Adam",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/adam.zip",
+    "checksum": "e22c819fa511bb3e0fe26a9e2ea6d5066bd882d7e80d9973473bc1f22778132d",
+    "sample_rate": 22050,
+    "num_speakers": 1,
+    "gender": "male",
+    "model_type": "piper",
+    "model_format": "vmodel"
   }
 ]
