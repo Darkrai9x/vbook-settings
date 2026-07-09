@@ -124,5 +124,19 @@
     "gender": "male",
     "model_type": "piper",
     "model_format": "vmodel"
+  },
+  {
+    "id": "ly",
+    "name": "Ly",
+    "language": "vi-VN",
+    "size_bytes": 31472507,
+    "description": "Giọng đọc tiếng Việt: Ly",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/ly.zip",
+    "checksum": "404595d207ee0bb7a100ba4beb0c62c53abaed5719e68bf53d445371d2b646c1",
+    "sample_rate": 22050,
+    "num_speakers": 1,
+    "gender": "female",
+    "model_type": "piper",
+    "model_format": "vmodel"
   }
 ]
