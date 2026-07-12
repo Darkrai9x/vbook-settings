@@ -8,7 +8,7 @@
   "app_trans_data_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/translate2.zip",
   "app_trans_data_version": 1,
   "app_analyzer_data_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/analyzer.zip",
-  "app_analyzer_data_version": 1,
+  "app_analyzer_data_version": 2,
   "app_tts_data_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/tts-data.zip",
   "app_tts_data_version": 2,
   "app_tts_model_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/tts_models.json",
