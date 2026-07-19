@@ -138,5 +138,19 @@
     "gender": "female",
     "model_type": "piper",
     "model_format": "vmodel"
+  },
+  {
+    "id": "lacphi",
+    "name": "Lạc Phi",
+    "language": "vi-VN",
+    "size_bytes": 31472540,
+    "description": "Giọng đọc tiếng Việt: Lạc Phi",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/lacphi.zip",
+    "checksum": "598797387eacc0be0eb66601ab196b13718fbb74c0eb9733e8520e42cf9d7144",
+    "sample_rate": 22050,
+    "num_speakers": 1,
+    "gender": "female",
+    "model_type": "piper",
+    "model_format": "vmodel"
   }
 ]
