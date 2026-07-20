@@ -152,5 +152,19 @@
     "gender": "female",
     "model_type": "piper",
     "model_format": "vmodel"
+  },
+  {
+    "id": "maiphuong",
+    "name": "Mai Phương",
+    "language": "vi-VN",
+    "size_bytes": 31472546,
+    "description": "Giọng đọc tiếng Việt: Mai Phương",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/maiphuong.zip",
+    "checksum": "235a72d875f2c673db0fd3512ecccb407d25cc363798d84408beafb8fdd3c744",
+    "sample_rate": 22050,
+    "num_speakers": 1,
+    "gender": "female",
+    "model_type": "piper",
+    "model_format": "vmodel"
   }
 ]
