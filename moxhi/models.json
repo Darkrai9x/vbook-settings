@@ -1,0 +1,29 @@
+[
+  {
+    "id": "hachimi60",
+    "name": "Hachimi 60 (Trung → Việt)",
+    "language": "zh-vi",
+    "size_bytes": 146574921,
+    "description": "Model dịch Trung → Việt: Hachimi 60",
+    "download_url": "https://huggingface.co/longvvv/vbook-moxhi/resolve/main/hachimi60.zip",
+    "checksum": "48f822a18b06f20bd6e66dc1e3ca2d227f008a4625cf8e16ac032ff0e16369ef"
+  },
+  {
+    "id": "hachimi30",
+    "name": "Hachimi 30 (Trung → Việt, nhẹ)",
+    "language": "zh-vi",
+    "size_bytes": 112540755,
+    "description": "Model dịch Trung → Việt: Hachimi 30 (nhẹ)",
+    "download_url": "https://huggingface.co/longvvv/vbook-moxhi/resolve/main/hachimi30.zip",
+    "checksum": "dd400d30d28f72039323ad5545de37cfd66218f32d6a1e3cccc195f3a7e4a0ff"
+  },
+  {
+    "id": "hachimi60qt",
+    "name": "Hachimi 60 QT (Trung → Việt)",
+    "language": "zh-vi",
+    "size_bytes": 158595277,
+    "description": "Model dịch Trung → Việt: Hachimi 60 QT",
+    "download_url": "https://huggingface.co/longvvv/vbook-moxhi/resolve/main/hachimi60qt.zip",
+    "checksum": "56e713a80767f59a62876866df817862432383a7c9329ce1a130132eac58a803"
+  }
+]

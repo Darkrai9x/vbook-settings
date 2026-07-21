@@ -2,3 +2,6 @@
 .idea/*
 *.iml
 .DS_Store
+
+# moxhi model zips hosted on HuggingFace (>100MB, GitHub rejects)
+moxhi/models/*.zip
