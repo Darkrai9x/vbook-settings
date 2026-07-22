@@ -1,7 +1,7 @@
 [
   {
     "id": "hachimi60",
-    "name": "Hachimi 60 (Trung → Việt)",
+    "name": "Hachimi 60",
     "language": "zh-vi",
     "size_bytes": 75444462,
     "description": "Model dịch Trung → Việt: Hachimi 60",
@@ -10,7 +10,7 @@
   },
   {
     "id": "hachimi30",
-    "name": "Hachimi 30 (Trung → Việt, nhẹ)",
+    "name": "Hachimi 30 (nhẹ)",
     "language": "zh-vi",
     "size_bytes": 52698501,
     "description": "Model dịch Trung → Việt: Hachimi 30 (nhẹ)",
@@ -19,7 +19,7 @@
   },
   {
     "id": "hachimi60qt",
-    "name": "Hachimi 60 QT (Trung → Việt)",
+    "name": "Hachimi 60 QT",
     "language": "zh-vi",
     "size_bytes": 80706889,
     "description": "Model dịch Trung → Việt: Hachimi 60 QT",
