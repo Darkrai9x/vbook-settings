@@ -3,27 +3,27 @@
     "id": "hachimi60",
     "name": "Hachimi 60",
     "language": "zh-vi",
-    "size_bytes": 75444462,
+    "size_bytes": 106436605,
     "description": "Model dịch Trung → Việt: Hachimi 60",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/moxhi/models/hachimi60.zip",
-    "checksum": "652c693f91d132a1e6983b299ea44466e3d10626dc555c03c97b272c64e7c625"
+    "download_url": "https://huggingface.co/longvvv/vbook-moxhi/resolve/main/hachimi60.zip",
+    "checksum": "f3ab78c1f24ccefd1266a7be1be43dbe5ecb0fa012657f8bc3f74f4648f35d8b"
   },
   {
     "id": "hachimi30",
     "name": "Hachimi 30 (nhẹ)",
     "language": "zh-vi",
-    "size_bytes": 52698501,
+    "size_bytes": 79173895,
     "description": "Model dịch Trung → Việt: Hachimi 30 (nhẹ)",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/moxhi/models/hachimi30.zip",
-    "checksum": "469a8289df90cb20af68ed132fea0ccfe81239764fb7c5b4cb1fbc50e8fddf4b"
+    "download_url": "https://huggingface.co/longvvv/vbook-moxhi/resolve/main/hachimi30.zip",
+    "checksum": "b2a7b9b6dca97db2540d9911d78a2b81ddca86918abd687876f7ed683e3aaa0c"
   },
   {
     "id": "hachimi60qt",
     "name": "Hachimi 60 QT",
     "language": "zh-vi",
-    "size_bytes": 80706889,
+    "size_bytes": 115795774,
     "description": "Model dịch Trung → Việt: Hachimi 60 QT",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/moxhi/models/hachimi60qt.zip",
-    "checksum": "e4f2056b68bf283fa48696109aded1ffe1f78556fdd5ea2dcce810dc90714993"
+    "download_url": "https://huggingface.co/longvvv/vbook-moxhi/resolve/main/hachimi60qt.zip",
+    "checksum": "54af3ac048ea92ded77d6e95af71dd149336d6326ce6d998dfad27b3936173bf"
   }
 ]
