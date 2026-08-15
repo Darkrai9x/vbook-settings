@@ -1,0 +1,20 @@
+[
+  {
+    "id": "default",
+    "name": "Trung / Nhật / Anh",
+    "language": "zh,ja,en",
+    "size_bytes": 8889877,
+    "description": "Nhận dạng chữ Trung (giản thể + phồn thể), Nhật, Anh và pinyin",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ocr/models/ppocrv5-default.zip",
+    "checksum": "c6b5f149f6267d0045309420884f8eaefd29b08d8d50028fd15cbc326bf7d09f"
+  },
+  {
+    "id": "korean",
+    "name": "Hàn",
+    "language": "ko",
+    "size_bytes": 6116585,
+    "description": "Nhận dạng chữ Hàn",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ocr/models/ppocrv5-korean.zip",
+    "checksum": "3177a411edf682b6d7274f99e7da8c4d8fdfff64ca621c6d0d8211e46cd5e091"
+  }
+]
