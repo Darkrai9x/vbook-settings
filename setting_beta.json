@@ -1,7 +1,6 @@
 {
   "app_version": "1.0.0",
-  "app_update_url_android": "",
-  "app_update_url_ios": "",
+  "app_update_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-extensions/master/update.json",
   "app_extension_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-extensions/master/plugin.json",
   "app_repository_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-extensions/master/repository.json",
   "app_emoticon_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/emoji.json",
