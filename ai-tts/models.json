@@ -180,5 +180,19 @@
     "gender": "female",
     "model_type": "piper",
     "model_format": "vmodel"
+  },
+  {
+    "id": "lananh",
+    "name": "Lan Anh",
+    "language": "vi-VN",
+    "size_bytes": 31472520,
+    "description": "Giọng đọc tiếng Việt: Lan Anh",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/lananh.zip",
+    "checksum": "f5d1187023312c1db9ae0e025dee2bb9d67381e1614adeb1f24905cac478e77c",
+    "sample_rate": 22050,
+    "num_speakers": 1,
+    "gender": "female",
+    "model_type": "piper",
+    "model_format": "vmodel"
   }
 ]
