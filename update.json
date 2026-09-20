@@ -1,13 +1,13 @@
 {
   "targets": {
     "android": {
-      "version_name": "1.0.1",
-      "version_code": "2",
+      "version_name": "1.0.2",
+      "version_code": "3",
       "mandatory": false,
       "changelog": "",
-      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/1.0.1/vBook_1.0.1.apk",
-      "sha256": "d70296719f4e77cdc8f8f983aa99fbd25d9dc4c97d6314fedeb9ac9a3236f08e",
-      "size": 26207547
+      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/1.0.2/vBook_1.0.2.apk",
+      "sha256": "ff8bc0a7e67f0baf275003747f89e3cfcc2800fac437067d8fbbb28b1b2e18be",
+      "size": 26229539
     },
     "ios": {
       "version_name": "1.0.0",
