@@ -194,5 +194,19 @@
     "gender": "female",
     "model_type": "piper",
     "model_format": "vmodel"
+  },
+  {
+    "id": "phuonglinh",
+    "name": "Phương Linh",
+    "language": "vi-VN",
+    "size_bytes": 31472540,
+    "description": "Giọng đọc tiếng Việt: Phương Linh",
+    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/phuonglinh.zip",
+    "checksum": "2562d816cc495e969111216c6d67f91bed6e911818e0e0d4b98fe0aa35c0cd5b",
+    "sample_rate": 22050,
+    "num_speakers": 1,
+    "gender": "female",
+    "model_type": "piper",
+    "model_format": "vmodel"
   }
 ]
