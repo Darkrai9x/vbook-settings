@@ -1,13 +1,13 @@
 {
   "targets": {
     "android": {
-      "version_name": "1.0.2",
-      "version_code": "3",
+      "version_name": "1.0.4",
+      "version_code": "5",
       "mandatory": false,
-      "changelog": "• Xem chi tiết sách ngay trong trình đọc: tên gốc + bản dịch, số chương đã tải, dung lượng, xoá chương đã tải\n• Tìm trong sách: lưu lịch sử tìm kiếm, gợi ý khi gõ, giữ vị trí cuộn\n• Mở sách từ Mail, Files và app khác (iOS)\n• Đồng bộ: sao lưu tài khoản cloud, prompt AI, từ điển; giữ nhiều bản backup\n• Bình luận: thu gọn trả lời + nội dung dài",
-      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/1.0.2/vBook_1.0.2.apk",
-      "sha256": "ff8bc0a7e67f0baf275003747f89e3cfcc2800fac437067d8fbbb28b1b2e18be",
-      "size": 26229539
+      "changelog": "- Giao diện mới: lựa chọn phong cách M3, Liquid Glass hoặc E-Ink.\n- Đã sửa lỗi phông chữ tùy chỉnh và một số lỗi nhỏ khác.",
+      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/1.0.4/vBook_1.0.4.apk",
+      "sha256": "8c323e612d5829adb63cc6ab4d1aaf2e2737486b4f18858f5f02f5ad8047a080",
+      "size": 27344656
     },
     "ios": {
       "version_name": "1.0.0",
