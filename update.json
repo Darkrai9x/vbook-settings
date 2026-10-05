@@ -1,13 +1,13 @@
 {
   "targets": {
     "android": {
-      "version_name": "1.0.5",
-      "version_code": "6",
+      "version_name": "1.0.6",
+      "version_code": "7",
       "mandatory": false,
-      "changelog": "-Extension: cơ sở dữ liệu riêng (localDatabase) kèm màn quản lý\n-Extension: action hiện tiến trình và nhật ký; cấu hình động",
-      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/android/vBook_1.0.5.apk",
-      "sha256": "e7ee973fa53e7bf0c8da69699737bbe6030c8bb7de49df8dc6f6a42f327914c9",
-      "size": 27269132
+      "changelog": "- Trình duyệt có tab, dấu trang, lịch sử\n-Video: danmaku, giao diện mới\n-Lật trang mô phỏng mượt hơn ở chế độ hai trang\n-Sửa lỗi dịch, TTS và crash",
+      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/android/vBook_1.0.6-arm64-v8a.apk",
+      "sha256": "576e17c6c719bb5d367c6184d935116fd370a344320205908a6dc360be494bc2",
+      "size": 23262910
     },
     "ios": {
       "version_name": "1.0.0",
