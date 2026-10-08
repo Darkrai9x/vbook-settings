@@ -1,13 +1,13 @@
 {
   "targets": {
     "android": {
-      "version_name": "1.0.6",
-      "version_code": "7",
+      "version_name": "1.0.7",
+      "version_code": "8",
       "mandatory": false,
-      "changelog": "- Trình duyệt có tab, dấu trang, lịch sử\n-Video: danmaku, giao diện mới\n-Lật trang mô phỏng mượt hơn ở chế độ hai trang\n-Sửa lỗi dịch, TTS và crash",
-      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/android/vBook_1.0.6-arm64-v8a.apk",
-      "sha256": "576e17c6c719bb5d367c6184d935116fd370a344320205908a6dc360be494bc2",
-      "size": 23262910
+      "changelog": "- Cất giữ truyện để đọc sau (Danh mục → Cất giữ); tìm kiếm trong danh mục\n- Xem phim ngắn dạng lướt dọc\n- Quản lý bộ nhớ đệm trong Cài đặt và theo từng truyện\n- Trình duyệt: chặn quảng cáo theo danh sách lọc\n- Khôi phục bản sao lưu nhanh hơn, hiện tiến trình\n- Giao diện Liquid Glass và E-ink hoàn thiện hơn\n- Hỗ trợ máy x86 / x86_64\n- Sửa lỗi và cải thiện độ ổn định",
+      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/android/vBook_1.0.7-arm64-v8a.apk",
+      "sha256": "dee6f2000249569735c5939ea416cd243bfc2b0b2ff847ea4ae329d1bc04395d",
+      "size": 23421081
     },
     "ios": {
       "version_name": "1.0.0",
@@ -17,40 +17,40 @@
       "store_url": "https://apps.apple.com/app/idXXXXXXXXXX"
     },
     "windows": {
-      "version_name": "1.0.0",
-      "version_code": "2",
+      "version_name": "1.0.6",
+      "version_code": "7",
       "mandatory": false,
-      "changelog": "",
-      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/1.0.0/vBook-1.0.0.msi",
-      "sha256": "REPLACE_WITH_MSI_SHA256",
-      "size": "REPLACE_WITH_MSI_SIZE_BYTES"
+      "changelog": "- Trình duyệt có tab, dấu trang, lịch sử\n- Video: danmaku, giao diện mới\n- Windows: thêm bản portable, sửa lỗi không mở được\n- Gói cài nhỏ hơn\n- Sửa lỗi dịch, TTS và crash",
+      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/desktop/vbook-1.0.6-win-x64.msi",
+      "sha256": "328eb7c3bfafa1e7bac83b2ccdd7fcb133bb6a65ebcadde62bf2edf6fa32a671",
+      "size": 130363392
     },
     "macos": {
-      "version_name": "1.0.0",
-      "version_code": "1",
+      "version_name": "1.0.6",
+      "version_code": "7",
       "mandatory": false,
-      "changelog": "",
-      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/1.0.0/vBook-1.0.0.dmg",
-      "sha256": "REPLACE_WITH_DMG_SHA256",
-      "size": "REPLACE_WITH_DMG_SIZE_BYTES"
+      "changelog": "- Trình duyệt có tab, dấu trang, lịch sử\n- Video: danmaku, giao diện mới\n- Gói cài nhỏ hơn\n- Sửa lỗi dịch, TTS và crash",
+      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/desktop/vbook-1.0.6-mac-arm64.dmg",
+      "sha256": "f4e2110f9ef60094616c97b373f16451f095a2927ed3339339d8eb98a89a0be5",
+      "size": 133891843
     },
     "linux_deb": {
-      "version_name": "1.0.0",
-      "version_code": "1",
+      "version_name": "1.0.6",
+      "version_code": "7",
       "mandatory": false,
-      "changelog": "",
-      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/1.0.0/vbook_1.1.0_amd64.deb",
-      "sha256": "REPLACE_WITH_DEB_SHA256",
-      "size": "REPLACE_WITH_DEB_SIZE_BYTES"
+      "changelog": "- Trình duyệt có tab, dấu trang, lịch sử\n- Video: danmaku, giao diện mới\n- Gói cài nhỏ hơn\n- Sửa lỗi dịch, TTS và crash",
+      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/desktop/vbook-1.0.6-linux-amd64.deb",
+      "sha256": "77446f8d383d109553be01ff906deec2cb909c03a4ca471b96d39630efb0b23e",
+      "size": 130571348
     },
     "linux_rpm": {
-      "version_name": "1.0.0",
-      "version_code": "1",
+      "version_name": "1.0.6",
+      "version_code": "7",
       "mandatory": false,
-      "changelog": "",
-      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/1.0.0/vBook-1.1.0.x86_64.rpm",
-      "sha256": "REPLACE_WITH_RPM_SHA256",
-      "size": "REPLACE_WITH_RPM_SIZE_BYTES"
+      "changelog": "- Trình duyệt có tab, dấu trang, lịch sử\n- Video: danmaku, giao diện mới\n- Gói cài nhỏ hơn\n- Sửa lỗi dịch, TTS và crash",
+      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/desktop/vbook-1.0.6-linux-x86_64.rpm",
+      "sha256": "8aed6f6b51cd582f77116e13ea78feed810ab1095d0574ad45a05aa0c2d08634",
+      "size": 125694033
     }
   }
 }
