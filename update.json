@@ -5,9 +5,9 @@
       "version_code": "8",
       "mandatory": false,
       "changelog": "- Cất giữ truyện để đọc sau (Danh mục → Cất giữ); tìm kiếm trong danh mục\n- Xem phim ngắn dạng lướt dọc\n- Quản lý bộ nhớ đệm trong Cài đặt và theo từng truyện\n- Trình duyệt: chặn quảng cáo theo danh sách lọc\n- Khôi phục bản sao lưu nhanh hơn, hiện tiến trình\n- Giao diện Liquid Glass và E-ink hoàn thiện hơn\n- Hỗ trợ máy x86 / x86_64\n- Sửa lỗi và cải thiện độ ổn định",
-      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/android/vBook_1.0.7-arm64-v8a.apk",
-      "sha256": "dee6f2000249569735c5939ea416cd243bfc2b0b2ff847ea4ae329d1bc04395d",
-      "size": 23421081
+      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/android/vBook_1.0.7.apk",
+      "sha256": "3f2aa977caa7add66f14173dde0ef8a54ab690d7105db4e23dfa286e1bd52f5e",
+      "size": 62207792
     },
     "ios": {
       "version_name": "1.0.7",
