@@ -10,11 +10,11 @@
       "size": 23421081
     },
     "ios": {
-      "version_name": "1.0.0",
-      "version_code": "1",
+      "version_name": "1.0.7",
+      "version_code": "8",
       "mandatory": false,
-      "changelog": "",
-      "store_url": "https://apps.apple.com/app/idXXXXXXXXXX"
+      "changelog": "- Cất giữ truyện để đọc sau (Danh mục → Cất giữ); tìm kiếm trong danh mục\n- Xem phim ngắn dạng lướt dọc\n- Quản lý bộ nhớ đệm trong Cài đặt và theo từng truyện\n- Trình duyệt: chặn quảng cáo theo danh sách lọc\n- Khôi phục bản sao lưu nhanh hơn, hiện tiến trình\n- Giao diện Liquid Glass và E-ink hoàn thiện hơn\n- Sửa lỗi và cải thiện độ ổn định",
+      "store_url": "https://apps.apple.com/app/id6808265499"
     },
     "windows": {
       "version_name": "1.0.6",
