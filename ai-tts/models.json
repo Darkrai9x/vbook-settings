@@ -5,13 +5,16 @@
     "language": "vi",
     "size_bytes": 38210824,
     "description": "Giọng miền Nam đa dạng (12 giọng)",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/vi_south.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vi_south.zip",
     "checksum": "ed43203c01010b3e46523760a5e160f00f3862b2674b73c55ea27e6837344492",
     "sample_rate": 22050,
     "num_speakers": 12,
     "gender": "multi",
     "model_type": "piper",
-    "model_format": "vmodel"
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "",
+    "note": ""
   },
   {
     "id": "vi_north",
@@ -19,13 +22,16 @@
     "language": "vi",
     "size_bytes": 38210822,
     "description": "Giọng miền Bắc đa dạng (12 giọng)",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/vi_north.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vi_north.zip",
     "checksum": "22d48c082aff50751d7fe479d628d0751230a0127cc334d9653a297a5fb068f6",
     "sample_rate": 22050,
     "num_speakers": 12,
     "gender": "multi",
     "model_type": "piper",
-    "model_format": "vmodel"
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "",
+    "note": ""
   },
   {
     "id": "banmai",
@@ -33,13 +39,16 @@
     "language": "vi-VN",
     "size_bytes": 31472573,
     "description": "Giọng đọc tiếng Việt: Ban Mai",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/banmai.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/banmai.zip",
     "checksum": "3f298d4939f93ad2d26562f30bd50e9493f18660d16b69708eeb8253194ac19d",
     "sample_rate": 22050,
     "num_speakers": 1,
     "gender": "female",
     "model_type": "piper",
-    "model_format": "vmodel"
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "",
+    "note": ""
   },
   {
     "id": "ngochuyen",
@@ -47,13 +56,16 @@
     "language": "vi-VN",
     "size_bytes": 31472586,
     "description": "Giọng đọc tiếng Việt: Ngọc Huyền",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/ngochuyen.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/ngochuyen.zip",
     "checksum": "e46eeb0ebdd65621e9218735200172a521f669f1f6f064f325760f527a896608",
     "sample_rate": 22050,
     "num_speakers": 1,
     "gender": "female",
     "model_type": "piper",
-    "model_format": "vmodel"
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "",
+    "note": ""
   },
   {
     "id": "minhquang",
@@ -61,13 +73,16 @@
     "language": "vi-VN",
     "size_bytes": 31472581,
     "description": "Giọng đọc tiếng Việt: Minh Quang",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/minhquang.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/minhquang.zip",
     "checksum": "ca3afc1f218ccca336d79a242997fbad3c69ab77e33ba63e1c4225ff6bc5f1db",
     "sample_rate": 22050,
     "num_speakers": 1,
     "gender": "male",
     "model_type": "piper",
-    "model_format": "vmodel"
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "",
+    "note": ""
   },
   {
     "id": "phuongtrang",
@@ -75,13 +90,16 @@
     "language": "vi-VN",
     "size_bytes": 31472590,
     "description": "Giọng đọc tiếng Việt: Phương Trang",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/phuongtrang.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/phuongtrang.zip",
     "checksum": "145e60edea875dea667aaee61c24f69905df5f50336614b0d50df84c8d0376c2",
     "sample_rate": 22050,
     "num_speakers": 1,
     "gender": "female",
     "model_type": "piper",
-    "model_format": "vmodel"
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "",
+    "note": ""
   },
   {
     "id": "manhdung",
@@ -89,13 +107,16 @@
     "language": "vi-VN",
     "size_bytes": 31472582,
     "description": "Giọng đọc tiếng Việt: Mạnh Dũng",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/manhdung.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/manhdung.zip",
     "checksum": "c85b0325f76f4ce04322cd582845b3ed468155587f6c3bbe30048db3bbc16ce6",
     "sample_rate": 22050,
     "num_speakers": 1,
     "gender": "male",
     "model_type": "piper",
-    "model_format": "vmodel"
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "",
+    "note": ""
   },
   {
     "id": "ngocngan",
@@ -103,13 +124,16 @@
     "language": "vi-VN",
     "size_bytes": 31472528,
     "description": "Giọng đọc tiếng Việt: Ngọc Ngạn",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/ngocngan.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/ngocngan.zip",
     "checksum": "b81999ca75d4c2a98ad2f5336d32a9c72b7197843bd4061a1dae8e036fb0cffd",
     "sample_rate": 22050,
     "num_speakers": 1,
     "gender": "male",
     "model_type": "piper",
-    "model_format": "vmodel"
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "",
+    "note": ""
   },
   {
     "id": "adam",
@@ -117,13 +141,16 @@
     "language": "vi-VN",
     "size_bytes": 31472513,
     "description": "Giọng đọc tiếng Việt: Adam",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/adam.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/adam.zip",
     "checksum": "e22c819fa511bb3e0fe26a9e2ea6d5066bd882d7e80d9973473bc1f22778132d",
     "sample_rate": 22050,
     "num_speakers": 1,
     "gender": "male",
     "model_type": "piper",
-    "model_format": "vmodel"
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "",
+    "note": ""
   },
   {
     "id": "ly",
@@ -131,13 +158,16 @@
     "language": "vi-VN",
     "size_bytes": 31472517,
     "description": "Giọng đọc tiếng Việt: Phương Ly",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/ly.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/ly.zip",
     "checksum": "1cd4f94086bc8ec557c4a644f7b6c01f1d5d1b701a9423bbca728cfcca106e77",
     "sample_rate": 22050,
     "num_speakers": 1,
     "gender": "female",
     "model_type": "piper",
-    "model_format": "vmodel"
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "",
+    "note": ""
   },
   {
     "id": "lacphi",
@@ -145,13 +175,16 @@
     "language": "vi-VN",
     "size_bytes": 31472540,
     "description": "Giọng đọc tiếng Việt: Lạc Phi",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/lacphi.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/lacphi.zip",
     "checksum": "598797387eacc0be0eb66601ab196b13718fbb74c0eb9733e8520e42cf9d7144",
     "sample_rate": 22050,
     "num_speakers": 1,
     "gender": "female",
     "model_type": "piper",
-    "model_format": "vmodel"
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "",
+    "note": ""
   },
   {
     "id": "maiphuong",
@@ -159,13 +192,16 @@
     "language": "vi-VN",
     "size_bytes": 31472546,
     "description": "Giọng đọc tiếng Việt: Mai Phương",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/maiphuong.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/maiphuong.zip",
     "checksum": "235a72d875f2c673db0fd3512ecccb407d25cc363798d84408beafb8fdd3c744",
     "sample_rate": 22050,
     "num_speakers": 1,
     "gender": "female",
     "model_type": "piper",
-    "model_format": "vmodel"
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "",
+    "note": ""
   },
   {
     "id": "yannew",
@@ -173,13 +209,16 @@
     "language": "vi-VN",
     "size_bytes": 31472524,
     "description": "Giọng đọc tiếng Việt: Như Yến",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/yannew.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/yannew.zip",
     "checksum": "7c58191604bbb07492579aa95de31463e69770fd7c0a64be627b98198375ca1c",
     "sample_rate": 22050,
     "num_speakers": 1,
     "gender": "female",
     "model_type": "piper",
-    "model_format": "vmodel"
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "",
+    "note": ""
   },
   {
     "id": "lananh",
@@ -187,13 +226,16 @@
     "language": "vi-VN",
     "size_bytes": 31472520,
     "description": "Giọng đọc tiếng Việt: Lan Anh",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/lananh.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/lananh.zip",
     "checksum": "f5d1187023312c1db9ae0e025dee2bb9d67381e1614adeb1f24905cac478e77c",
     "sample_rate": 22050,
     "num_speakers": 1,
     "gender": "female",
     "model_type": "piper",
-    "model_format": "vmodel"
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "",
+    "note": ""
   },
   {
     "id": "phuonglinh",
@@ -201,12 +243,32 @@
     "language": "vi-VN",
     "size_bytes": 31472540,
     "description": "Giọng đọc tiếng Việt: Phương Linh",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models/phuonglinh.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/phuonglinh.zip",
     "checksum": "2562d816cc495e969111216c6d67f91bed6e911818e0e0d4b98fe0aa35c0cd5b",
     "sample_rate": 22050,
     "num_speakers": 1,
     "gender": "female",
     "model_type": "piper",
-    "model_format": "vmodel"
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "",
+    "note": ""
+  },
+  {
+    "id": "kokoro_vi",
+    "name": "Kokoro Tiếng Việt",
+    "language": "vi",
+    "size_bytes": 107785401,
+    "description": "Giọng Kokoro tiếng Việt chất lượng cao (14 giọng)",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/kokoro_vi.zip",
+    "checksum": "867bbc302733946e29093c0b9f6865d0cbd5e49d825d445e5ea9c3c8246c8df5",
+    "sample_rate": 24000,
+    "num_speakers": 14,
+    "gender": "multi",
+    "model_type": "kokoro",
+    "model_format": "vmodel",
+    "note": "Cần máy mạnh, có thể nóng máy",
+    "avatar_url": "",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/previews/kokoro_vi.m4a"
   }
 ]
