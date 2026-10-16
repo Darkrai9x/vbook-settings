@@ -255,20 +255,15 @@
     "note": ""
   },
   {
-    "id": "kokoro_vi",
-    "name": "Kokoro Tiếng Việt",
+    "id": "vieneu-v3-turbo",
+    "name": "VieNeu v3 Turbo",
     "language": "vi",
-    "size_bytes": 107785401,
-    "description": "Giọng Kokoro tiếng Việt chất lượng cao (14 giọng)",
-    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/kokoro_vi.zip",
-    "checksum": "867bbc302733946e29093c0b9f6865d0cbd5e49d825d445e5ea9c3c8246c8df5",
-    "sample_rate": 24000,
-    "num_speakers": 14,
-    "gender": "multi",
-    "model_type": "kokoro",
-    "model_format": "vmodel",
-    "note": "Cần máy mạnh, có thể nóng máy",
-    "avatar_url": "",
-    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/previews/kokoro_vi.m4a"
+    "size_bytes": 187993859,
+    "checksum": "cf29fcf43ceea672a9078c1eee21497fd1bd14e552bac866a88216ff2c9c578c",
+    "sample_rate": 48000,
+    "num_speakers": 25,
+    "model_type": "vieneu",
+    "model_format": "gguf",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vieneu-v3-turbo.zip"
   }
 ]
