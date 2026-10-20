@@ -1,56 +1,56 @@
 {
   "targets": {
     "android": {
-      "version_name": "1.0.9",
-      "version_code": "10",
+      "version_name": "1.1.0",
+      "version_code": "12",
       "mandatory": false,
-      "changelog": "- Dịch vụ web (Premium): đọc, quản lý kệ sách, tải lên / tải về, khám phá, dịch QT và xuất ebook ngay trên trình duyệt\n- Video: phụ đề tự dịch và lồng tiếng tự động bằng TTS (chỉnh tốc độ, cao độ, giọng riêng); chế độ chỉ nghe âm thanh\n- Phim ngắn: trình phát mới với chọn tập, tự ẩn điều khiển\n- Nhập thêm định dạng: ODT, RTF, Markdown, CHM, FB2 nén; nhập MOBI/AZW và TXT lớn không còn tốn bộ nhớ\n- Truyện tranh cuộn dọc: màn hình đứng yên khi dữ liệu cập nhật; hết đường kẻ tối giữa các mảnh ảnh\n- Extension: dán nhiều mục danh sách cùng lúc\n- Sửa mất chữ khi gõ tiếng Việt; sửa quay lại từ PiP; video đóng xong giải phóng hẳn, đỡ nóng máy\n- Sửa lỗi và cải thiện độ ổn định",
-      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/android/vBook_1.0.9.apk",
-      "sha256": "bda8f57e5b2d50d4f24037ae2fa9d90c76bf22190b406f795f5d51e49303e9fc",
-      "size": 43435081
+      "changelog": "- Giọng đọc AI VieNeu-TTS: tiếng Việt tự nhiên hơn, chạy offline\n- Xuất chương thành file âm thanh bằng TTS\n- Truyện tranh: cắt viền trang (\"Tối ưu hóa kích thước trang\")\n- Truyện chữ: hiển thị HTML đầy đủ hơn, giữ hình ảnh khi dịch\n- Phim ngắn: danmaku, tắt tiếng, hình trong hình (PiP)\n- Sửa lỗi và cải thiện độ ổn định",
+      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/android/vBook_1.1.0.apk",
+      "sha256": "5f0072513c47221a15c8a7a138666b1ebc1640e6e2317068ba6619d9e7db6c25",
+      "size": 38157654
     },
     "ios": {
-      "version_name": "1.0.8",
-      "version_code": "20",
+      "version_name": "1.1.0",
+      "version_code": "23",
       "mandatory": false,
-      "changelog": "- Chế độ đọc mới \"Hỗn hợp\": cuộn dọc trong chương, vuốt để sang chương\n- Đọc truyện tranh: tải ảnh nhanh hơn, ưu tiên trang đang xem; sửa trang đứng mãi ở \"đang tải\"\n- Video: thanh điều khiển gọn hơn (mục phụ gom vào nút \"Thêm\"); sửa tua bị treo, thanh thời gian nhảy về 0 và kẹt tải khi mở video khác\n- Nhạc nền TTS: nút bật/tắt chuyển vào danh sách; sửa đoạn đọc bị dính dấu câu của câu trước\n- Dấu trang: bấm là đổi trạng thái ngay; highlight liền mạch giữa các dòng\n- Giao diện Liquid Glass gần iOS hơn: thanh tab, nút nổi, segmented control, hộp thoại mờ nền\n- Giao diện E-ink: viền mảnh hơn, ảnh bìa không bị che\n- Kệ sách cuộn mượt hơn\n- Sửa lỗi và cải thiện độ ổn định",
+      "changelog": "- Giọng đọc AI VieNeu-TTS: tiếng Việt tự nhiên hơn, chạy offline\n- Xuất chương thành file âm thanh bằng TTS\n- Truyện chữ: hiển thị HTML đầy đủ hơn, giữ hình ảnh khi dịch\n- Sửa lỗi và cải thiện độ ổn định",
       "store_url": "https://apps.apple.com/app/id6808265499"
     },
     "windows": {
-      "version_name": "1.0.6",
-      "version_code": "7",
+      "version_name": "1.0.9",
+      "version_code": "10",
       "mandatory": false,
-      "changelog": "- Trình duyệt có tab, dấu trang, lịch sử\n- Video: danmaku, giao diện mới\n- Windows: thêm bản portable, sửa lỗi không mở được\n- Gói cài nhỏ hơn\n- Sửa lỗi dịch, TTS và crash",
-      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/desktop/vbook-1.0.6-win-x64.msi",
-      "sha256": "328eb7c3bfafa1e7bac83b2ccdd7fcb133bb6a65ebcadde62bf2edf6fa32a671",
-      "size": 130363392
+      "changelog": "- Dịch vụ web (Premium): đọc, quản lý kệ sách, tải lên / tải về, khám phá, dịch QT và xuất ebook ngay trên trình duyệt\n- Video: phụ đề tự dịch và lồng tiếng tự động bằng TTS (chỉnh tốc độ, cao độ, giọng riêng); chế độ chỉ nghe âm thanh\n- Phim ngắn: trình phát mới với chọn tập, tự ẩn điều khiển\n- Nhập thêm định dạng: ODT, RTF, Markdown, CHM, FB2 nén; nhập MOBI/AZW và TXT lớn không còn tốn bộ nhớ\n- Truyện tranh cuộn dọc: màn hình đứng yên khi dữ liệu cập nhật; hết đường kẻ tối giữa các mảnh ảnh\n- Extension: dán nhiều mục danh sách cùng lúc\n- Sửa mất chữ khi gõ tiếng Việt; video đóng xong giải phóng hẳn trình phát\n- Sửa lỗi và cải thiện độ ổn định",
+      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/desktop/vbook-1.0.9-win-x64.msi",
+      "sha256": "ea0cd982d88c53025db7ff15621bea2796fd4d8947de3ef77b9f376ecaa35822",
+      "size": 152248320
     },
     "macos": {
-      "version_name": "1.0.6",
-      "version_code": "7",
+      "version_name": "1.0.7",
+      "version_code": "8",
       "mandatory": false,
-      "changelog": "- Trình duyệt có tab, dấu trang, lịch sử\n- Video: danmaku, giao diện mới\n- Gói cài nhỏ hơn\n- Sửa lỗi dịch, TTS và crash",
-      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/desktop/vbook-1.0.6-mac-arm64.dmg",
-      "sha256": "f4e2110f9ef60094616c97b373f16451f095a2927ed3339339d8eb98a89a0be5",
-      "size": 133891843
+      "changelog": "- Cất giữ truyện để đọc sau (Danh mục → Cất giữ); tìm kiếm trong danh mục\n- Xem phim ngắn dạng lướt dọc\n- Quản lý bộ nhớ đệm trong Cài đặt và theo từng truyện\n- Trình duyệt: chặn quảng cáo theo danh sách lọc\n- Khôi phục bản sao lưu nhanh hơn, hiện tiến trình\n- Giao diện Liquid Glass và E-ink hoàn thiện hơn\n- Khởi động nhanh hơn\n- Sửa lỗi và cải thiện độ ổn định",
+      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/desktop/vbook-1.0.7-mac-arm64.dmg",
+      "sha256": "2d89af0f9271c937e19f950560ff999772f3808c0d8948f73abd1cde5bd4a3e9",
+      "size": 134227056
     },
     "linux_deb": {
-      "version_name": "1.0.6",
-      "version_code": "7",
+      "version_name": "1.0.7",
+      "version_code": "8",
       "mandatory": false,
-      "changelog": "- Trình duyệt có tab, dấu trang, lịch sử\n- Video: danmaku, giao diện mới\n- Gói cài nhỏ hơn\n- Sửa lỗi dịch, TTS và crash",
-      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/desktop/vbook-1.0.6-linux-amd64.deb",
-      "sha256": "77446f8d383d109553be01ff906deec2cb909c03a4ca471b96d39630efb0b23e",
-      "size": 130571348
+      "changelog": "- Cất giữ truyện để đọc sau (Danh mục → Cất giữ); tìm kiếm trong danh mục\n- Xem phim ngắn dạng lướt dọc\n- Quản lý bộ nhớ đệm trong Cài đặt và theo từng truyện\n- Trình duyệt: chặn quảng cáo theo danh sách lọc\n- Khôi phục bản sao lưu nhanh hơn, hiện tiến trình\n- Giao diện Liquid Glass và E-ink hoàn thiện hơn\n- Khởi động nhanh hơn\n- Sửa lỗi và cải thiện độ ổn định",
+      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/desktop/vbook-1.0.7-linux-amd64.deb",
+      "sha256": "57106d7c894771bf367766a256eee5243d881d261f488d4d65025ffad3732434",
+      "size": 131013480
     },
     "linux_rpm": {
-      "version_name": "1.0.6",
-      "version_code": "7",
+      "version_name": "1.0.7",
+      "version_code": "8",
       "mandatory": false,
-      "changelog": "- Trình duyệt có tab, dấu trang, lịch sử\n- Video: danmaku, giao diện mới\n- Gói cài nhỏ hơn\n- Sửa lỗi dịch, TTS và crash",
-      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/desktop/vbook-1.0.6-linux-x86_64.rpm",
-      "sha256": "8aed6f6b51cd582f77116e13ea78feed810ab1095d0574ad45a05aa0c2d08634",
-      "size": 125694033
+      "changelog": "- Cất giữ truyện để đọc sau (Danh mục → Cất giữ); tìm kiếm trong danh mục\n- Xem phim ngắn dạng lướt dọc\n- Quản lý bộ nhớ đệm trong Cài đặt và theo từng truyện\n- Trình duyệt: chặn quảng cáo theo danh sách lọc\n- Khôi phục bản sao lưu nhanh hơn, hiện tiến trình\n- Giao diện Liquid Glass và E-ink hoàn thiện hơn\n- Khởi động nhanh hơn\n- Sửa lỗi và cải thiện độ ổn định",
+      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/desktop/vbook-1.0.7-linux-x86_64.rpm",
+      "sha256": "40331789eb6f538e34a480f96d0fc232dea74e36ab8369d30fa6c9d56fc5d2a2",
+      "size": 126134241
     }
   }
 }
