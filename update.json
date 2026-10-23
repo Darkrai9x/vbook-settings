@@ -1,13 +1,13 @@
 {
   "targets": {
     "android": {
-      "version_name": "1.1.0",
-      "version_code": "12",
+      "version_name": "1.1.1",
+      "version_code": "13",
       "mandatory": false,
-      "changelog": "- Giọng đọc AI VieNeu-TTS: tiếng Việt tự nhiên hơn, chạy offline\n- Xuất chương thành file âm thanh bằng TTS\n- Truyện tranh: cắt viền trang (\"Tối ưu hóa kích thước trang\")\n- Truyện chữ: hiển thị HTML đầy đủ hơn, giữ hình ảnh khi dịch\n- Phim ngắn: danmaku, tắt tiếng, hình trong hình (PiP)\n- Sửa lỗi và cải thiện độ ổn định",
-      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/android/vBook_1.1.0.apk",
-      "sha256": "5f0072513c47221a15c8a7a138666b1ebc1640e6e2317068ba6619d9e7db6c25",
-      "size": 38157654
+      "changelog": "- Giọng đọc AI: chọn trực tiếp từng giọng, nghe thử, lọc theo nặng/nhẹ, giới tính, vùng miền; các giọng cùng model chỉ tải một lần\n- Video: phụ đề AI từ nhận dạng giọng nói ngay trên máy\n- Giao diện Liquid Glass mới theo iOS 27: menu, hộp thoại, bảng chọn\n- Lật trang kiểu sách cho trang đôi, hiệu ứng lật Play Books\n- Sửa lỗi và cải thiện độ ổn định",
+      "url": "https://github.com/Darkrai9x/vbook-settings/releases/download/android/vBook_1.1.1.apk",
+      "sha256": "0e881f167e45322bd9239ec071e750a5fc940eca218b6334c4dff166bc1f0e96",
+      "size": 38455945
     },
     "ios": {
       "version_name": "1.1.0",
