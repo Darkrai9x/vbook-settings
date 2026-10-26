@@ -1,12 +1,12 @@
 [
   {
-    "id": "sensevoice-small-v2",
+    "id": "sensevoice-small-v3",
     "name": "SenseVoice Small",
     "model_type": "sense_voice",
     "language": "zh,yue,en,ja,ko",
-    "size_bytes": 242452031,
+    "size_bytes": 242463237,
     "description": "Nhận dạng giọng nói Trung, Quảng Đông, Anh, Nhật, Hàn",
-    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-asr/sensevoice-small-v2.zip",
-    "checksum": "ec426e3a8f8c8d4d1ede62399055644624f2200eebb7c5568028652b968cfcf7"
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-asr/sensevoice-small-v3.zip",
+    "checksum": "ca6b2e269b1cac96aa87b658e70ff1c59464c043f046c71aab8cc143c78db6db"
   }
 ]
