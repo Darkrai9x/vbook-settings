@@ -1,0 +1,12 @@
+[
+  {
+    "id": "sensevoice-small-v2",
+    "name": "SenseVoice Small",
+    "model_type": "sense_voice",
+    "language": "zh,yue,en,ja,ko",
+    "size_bytes": 242452031,
+    "description": "Nhận dạng giọng nói Trung, Quảng Đông, Anh, Nhật, Hàn",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-asr/sensevoice-small-v2.zip",
+    "checksum": "ec426e3a8f8c8d4d1ede62399055644624f2200eebb7c5568028652b968cfcf7"
+  }
+]
