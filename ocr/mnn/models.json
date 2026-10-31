@@ -5,7 +5,7 @@
     "language": "zh,ja,en,fr,de,es,pt,it,nl,pl,cs,tr,id,ms",
     "size_bytes": 6621019,
     "description": "PP-OCRv6: chữ Trung (giản thể + phồn thể), Nhật, Anh và 46 ngôn ngữ chữ Latin",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ocr/mnn/models/ppocr-default.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-default.zip",
     "checksum": "771e5041b3129bdc65b175500ab88b1f166816b97a8492741f5f82ba485f3405"
   },
   {
@@ -14,7 +14,7 @@
     "language": "ko",
     "size_bytes": 3851818,
     "description": "Nhận dạng chữ Hàn",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ocr/mnn/models/ppocr-korean.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-korean.zip",
     "checksum": "0f6112f74d30989f1f5fd691d47e814ae40f7f00ab7aa4723d3701d201cde197"
   },
   {
@@ -23,7 +23,7 @@
     "language": "ru,uk,be,bg,sr,kk,mn",
     "size_bytes": 3575142,
     "description": "Nhận dạng chữ Kirin: Nga, Ukraina, Belarus, Bulgaria, Serbia…",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ocr/mnn/models/ppocr-cyrillic.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-cyrillic.zip",
     "checksum": "f4da26b4a9dfea8b6677a4af5a08c5062cc592b6c72a00fd0658c876b913c800"
   },
   {
@@ -32,7 +32,7 @@
     "language": "th",
     "size_bytes": 3575570,
     "description": "Nhận dạng chữ Thái",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ocr/mnn/models/ppocr-thai.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-thai.zip",
     "checksum": "b7b995d71e8499e543628405252cd3b7859dcf2152adfbd307ea5c8235151783"
   },
   {
@@ -41,7 +41,7 @@
     "language": "el",
     "size_bytes": 3556437,
     "description": "Nhận dạng chữ Hy Lạp",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ocr/mnn/models/ppocr-greek.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-greek.zip",
     "checksum": "121ff984e48ecc8cf4c82411b0e1e82aed4fdeb4c43bc351efb89db60643f5b3"
   },
   {
@@ -50,7 +50,7 @@
     "language": "ar,fa,ur",
     "size_bytes": 3512203,
     "description": "Nhận dạng chữ Ả Rập, Ba Tư, Urdu",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ocr/mnn/models/ppocr-arabic.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-arabic.zip",
     "checksum": "574092d2b477afab844ea7350a96f743a1edf6b3472299dd84807350645cf7c0"
   },
   {
@@ -59,7 +59,7 @@
     "language": "hi,mr,ne",
     "size_bytes": 3599974,
     "description": "Nhận dạng chữ Devanagari: Hindi, Marathi, Nepal…",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ocr/mnn/models/ppocr-devanagari.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-devanagari.zip",
     "checksum": "d9d6724762933dc52613fe67148d049f3267501ebaccd0e3da9603abf184d540"
   },
   {
@@ -68,7 +68,7 @@
     "language": "ta",
     "size_bytes": 3572488,
     "description": "Nhận dạng chữ Tamil",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ocr/mnn/models/ppocr-tamil.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-tamil.zip",
     "checksum": "b5044b01799f29f5f3534d6ce40e92724cd9dda3146aa9b0a7f9a3187ce9eeac"
   },
   {
@@ -77,7 +77,7 @@
     "language": "te",
     "size_bytes": 3592613,
     "description": "Nhận dạng chữ Telugu",
-    "download_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ocr/mnn/models/ppocr-telugu.zip",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-telugu.zip",
     "checksum": "1f5403c5918bc7b3a788b58d6276709af55b6158cab3f967bbefccc23fe7f276"
   }
 ]
