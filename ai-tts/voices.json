@@ -272,6 +272,19 @@
       "model_format": "vmodel",
       "tier": "light",
       "note": ""
+    },
+    {
+      "id": "vifast-mai_anh",
+      "name": "Mai Anh",
+      "language": "vi",
+      "size_bytes": 26707851,
+      "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-mai_anh.zip",
+      "checksum": "70439ad3f420e4581bec06c8d1feecf940662311dcc0b32ff9913998d7308fe5",
+      "sample_rate": 24000,
+      "model_type": "vifast",
+      "model_format": "vmodel",
+      "tier": "light",
+      "note": ""
     }
   ],
   "voices": [
@@ -1413,6 +1426,18 @@
       "language": "vi",
       "avatar_url": "",
       "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_anh_khoi.m4a?v=2",
+      "description": ""
+    },
+    {
+      "id": "vifast-mai_anh/mai_anh",
+      "model_id": "vifast-mai_anh",
+      "speaker_id": 0,
+      "name": "Mai Anh",
+      "gender": "female",
+      "region": "north",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_mai_anh.m4a",
       "description": ""
     }
   ]
