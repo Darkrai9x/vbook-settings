@@ -280,7 +280,7 @@
     "model_type": "vifast",
     "model_format": "vmodel",
     "avatar_url": "",
-    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_minh_quan_pro.m4a",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_minh_quan_pro.m4a?v=2",
     "note": ""
   },
   {
@@ -297,7 +297,7 @@
     "model_type": "vifast",
     "model_format": "vmodel",
     "avatar_url": "",
-    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_truc_ly.m4a",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_truc_ly.m4a?v=2",
     "note": ""
   },
   {
@@ -314,7 +314,7 @@
     "model_type": "vifast",
     "model_format": "vmodel",
     "avatar_url": "",
-    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_adam_bua.m4a",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_adam_bua.m4a?v=2",
     "note": ""
   },
   {
@@ -331,7 +331,7 @@
     "model_type": "vifast",
     "model_format": "vmodel",
     "avatar_url": "",
-    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_anh_khoi.m4a",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_anh_khoi.m4a?v=2",
     "note": ""
   }
 ]
