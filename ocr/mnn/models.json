@@ -3,81 +3,81 @@
     "id": "default",
     "name": "Trung / Nhật / Anh / Latin",
     "language": "zh,ja,en,fr,de,es,pt,it,nl,pl,cs,tr,id,ms",
-    "size_bytes": 6621019,
+    "size_bytes": 26216402,
     "description": "PP-OCRv6: chữ Trung (giản thể + phồn thể), Nhật, Anh và 46 ngôn ngữ chữ Latin",
-    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-default.zip",
-    "checksum": "771e5041b3129bdc65b175500ab88b1f166816b97a8492741f5f82ba485f3405"
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-default-layout.zip",
+    "checksum": "b203c4f8028b72928a62b59c298e3d98b31fb779d083bf209573ecad2f6a670e"
   },
   {
     "id": "korean",
     "name": "Hàn",
     "language": "ko",
-    "size_bytes": 3851818,
+    "size_bytes": 23447201,
     "description": "Nhận dạng chữ Hàn",
-    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-korean.zip",
-    "checksum": "0f6112f74d30989f1f5fd691d47e814ae40f7f00ab7aa4723d3701d201cde197"
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-korean-layout.zip",
+    "checksum": "57f79d2946efc68d3a232bbdb65686a97605738e7b1137815c52c57c59cefdb1"
   },
   {
     "id": "cyrillic",
     "name": "Kirin (Nga, Ukraina…)",
     "language": "ru,uk,be,bg,sr,kk,mn",
-    "size_bytes": 3575142,
+    "size_bytes": 23170525,
     "description": "Nhận dạng chữ Kirin: Nga, Ukraina, Belarus, Bulgaria, Serbia…",
-    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-cyrillic.zip",
-    "checksum": "f4da26b4a9dfea8b6677a4af5a08c5062cc592b6c72a00fd0658c876b913c800"
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-cyrillic-layout.zip",
+    "checksum": "1fa5d9768a77275782d4243364619c598fd9961bb5583d9de8d3cc1b3e5b9d92"
   },
   {
     "id": "thai",
     "name": "Thái",
     "language": "th",
-    "size_bytes": 3575570,
+    "size_bytes": 23170953,
     "description": "Nhận dạng chữ Thái",
-    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-thai.zip",
-    "checksum": "b7b995d71e8499e543628405252cd3b7859dcf2152adfbd307ea5c8235151783"
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-thai-layout.zip",
+    "checksum": "a9bc64d054eb0eeb0d2c2bff2eff36ca3c1edff04ec9226e24e9d7eb4c352ca2"
   },
   {
     "id": "greek",
     "name": "Hy Lạp",
     "language": "el",
-    "size_bytes": 3556437,
+    "size_bytes": 23151820,
     "description": "Nhận dạng chữ Hy Lạp",
-    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-greek.zip",
-    "checksum": "121ff984e48ecc8cf4c82411b0e1e82aed4fdeb4c43bc351efb89db60643f5b3"
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-greek-layout.zip",
+    "checksum": "ac1c57559c395247850878ee3d12d49898244c2d9b2fc51cb9cfb95763151ab3"
   },
   {
     "id": "arabic",
     "name": "Ả Rập",
     "language": "ar,fa,ur",
-    "size_bytes": 3512203,
+    "size_bytes": 23107586,
     "description": "Nhận dạng chữ Ả Rập, Ba Tư, Urdu",
-    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-arabic.zip",
-    "checksum": "574092d2b477afab844ea7350a96f743a1edf6b3472299dd84807350645cf7c0"
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-arabic-layout.zip",
+    "checksum": "f027e1fa37ecc6da799a111c06afd5b00d367e5ae1c3dc1a72f05d972cbf9e80"
   },
   {
     "id": "devanagari",
     "name": "Devanagari (Hindi…)",
     "language": "hi,mr,ne",
-    "size_bytes": 3599974,
+    "size_bytes": 23195357,
     "description": "Nhận dạng chữ Devanagari: Hindi, Marathi, Nepal…",
-    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-devanagari.zip",
-    "checksum": "d9d6724762933dc52613fe67148d049f3267501ebaccd0e3da9603abf184d540"
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-devanagari-layout.zip",
+    "checksum": "804940f30ac4d98bd1a74dfd8f905464fb9e349dcc101825fcda86c083a04269"
   },
   {
     "id": "tamil",
     "name": "Tamil",
     "language": "ta",
-    "size_bytes": 3572488,
+    "size_bytes": 23167871,
     "description": "Nhận dạng chữ Tamil",
-    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-tamil.zip",
-    "checksum": "b5044b01799f29f5f3534d6ce40e92724cd9dda3146aa9b0a7f9a3187ce9eeac"
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-tamil-layout.zip",
+    "checksum": "5acc180e7628f92cc06abfab6507e309b315b7dd42b9bcddaea2c27a43608a84"
   },
   {
     "id": "telugu",
     "name": "Telugu",
     "language": "te",
-    "size_bytes": 3592613,
+    "size_bytes": 23187996,
     "description": "Nhận dạng chữ Telugu",
-    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-telugu.zip",
-    "checksum": "1f5403c5918bc7b3a788b58d6276709af55b6158cab3f967bbefccc23fe7f276"
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-ocr/ppocr-telugu-layout.zip",
+    "checksum": "72b14b340837987bb27395960185858de8846126b688e4b5e9bedbda165afdd3"
   }
 ]
