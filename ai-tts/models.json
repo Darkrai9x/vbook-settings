@@ -367,5 +367,22 @@
     "avatar_url": "",
     "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_thuy_dung.m4a",
     "note": ""
+  },
+  {
+    "id": "vifast-thien_tam_duc",
+    "name": "Thiền Tâm Đức",
+    "language": "vi",
+    "size_bytes": 26707908,
+    "description": "",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-thien_tam_duc.zip",
+    "checksum": "923d547017450cafc412507302de101513b0467a789c5e450fa29a2003b60394",
+    "sample_rate": 24000,
+    "num_speakers": 1,
+    "gender": "male",
+    "model_type": "vifast",
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_thien_tam_duc.m4a",
+    "note": ""
   }
 ]
