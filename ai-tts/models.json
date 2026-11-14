@@ -384,5 +384,22 @@
     "avatar_url": "",
     "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_thien_tam_duc.m4a",
     "note": ""
+  },
+  {
+    "id": "vifast-ngoc_huyen",
+    "name": "Ngọc Huyền",
+    "language": "vi",
+    "size_bytes": 26707884,
+    "description": "",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-ngoc_huyen.zip",
+    "checksum": "f59a1df03fb82be65d750ae9c531ef1d8a00aac4de36b377dc48dd34744caab7",
+    "sample_rate": 24000,
+    "num_speakers": 1,
+    "gender": "female",
+    "model_type": "vifast",
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_ngoc_huyen.m4a",
+    "note": ""
   }
 ]

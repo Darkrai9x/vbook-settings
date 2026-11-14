@@ -311,6 +311,19 @@
       "model_format": "vmodel",
       "tier": "light",
       "note": ""
+    },
+    {
+      "id": "vifast-ngoc_huyen",
+      "name": "Ngọc Huyền",
+      "language": "vi",
+      "size_bytes": 26707884,
+      "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-ngoc_huyen.zip",
+      "checksum": "f59a1df03fb82be65d750ae9c531ef1d8a00aac4de36b377dc48dd34744caab7",
+      "sample_rate": 24000,
+      "model_type": "vifast",
+      "model_format": "vmodel",
+      "tier": "light",
+      "note": ""
     }
   ],
   "voices": [
@@ -846,7 +859,7 @@
       "id": "vieneu-v3-turbo/ngoc_huyen",
       "model_id": "vieneu-v3-turbo",
       "speaker_id": 7,
-      "name": "Ngọc Huyền (VieNeu)",
+      "name": "Ngọc Huyền",
       "gender": "female",
       "region": "north",
       "language": "vi",
@@ -1038,7 +1051,7 @@
       "id": "vieneu-v3-turbo/adam",
       "model_id": "vieneu-v3-turbo",
       "speaker_id": 23,
-      "name": "Adam (VieNeu)",
+      "name": "Adam",
       "gender": "male",
       "region": "south",
       "language": "vi",
@@ -1050,7 +1063,7 @@
       "id": "vieneu-v3-turbo/manh_dung",
       "model_id": "vieneu-v3-turbo",
       "speaker_id": 24,
-      "name": "Mạnh Dũng (VieNeu)",
+      "name": "Mạnh Dũng",
       "gender": "male",
       "region": "north",
       "language": "vi",
@@ -1158,7 +1171,7 @@
       "id": "vieneu-v3-nano/ngoc_huyen",
       "model_id": "vieneu-v3-nano",
       "speaker_id": 8,
-      "name": "Ngọc Huyền (VieNeu)",
+      "name": "Ngọc Huyền",
       "gender": "female",
       "region": "north",
       "language": "vi",
@@ -1350,7 +1363,7 @@
       "id": "vieneu-v3-nano/adam",
       "model_id": "vieneu-v3-nano",
       "speaker_id": 24,
-      "name": "Adam (VieNeu)",
+      "name": "Adam",
       "gender": "male",
       "region": "south",
       "language": "vi",
@@ -1362,7 +1375,7 @@
       "id": "vieneu-v3-nano/manh_dung",
       "model_id": "vieneu-v3-nano",
       "speaker_id": 25,
-      "name": "Mạnh Dũng (VieNeu)",
+      "name": "Mạnh Dũng",
       "gender": "male",
       "region": "north",
       "language": "vi",
@@ -1488,6 +1501,18 @@
       "language": "vi",
       "avatar_url": "",
       "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_thien_tam_duc.m4a",
+      "description": ""
+    },
+    {
+      "id": "vifast-ngoc_huyen/ngoc_huyen",
+      "model_id": "vifast-ngoc_huyen",
+      "speaker_id": 0,
+      "name": "Ngọc Huyền",
+      "gender": "female",
+      "region": "north",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_ngoc_huyen.m4a",
       "description": ""
     }
   ]
