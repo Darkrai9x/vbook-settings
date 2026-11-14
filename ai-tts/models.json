@@ -350,5 +350,22 @@
     "avatar_url": "",
     "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_mai_anh.m4a",
     "note": ""
+  },
+  {
+    "id": "vifast-thuy_dung",
+    "name": "Thùy Dung",
+    "language": "vi",
+    "size_bytes": 26707874,
+    "description": "",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-thuy_dung.zip",
+    "checksum": "2c2e7d192d123db1b39a9b4bfe192859005df0d52044a42fbd8bdf412cfc2c2c",
+    "sample_rate": 24000,
+    "num_speakers": 1,
+    "gender": "female",
+    "model_type": "vifast",
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_thuy_dung.m4a",
+    "note": ""
   }
 ]
