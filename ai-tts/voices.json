@@ -324,6 +324,32 @@
       "model_format": "vmodel",
       "tier": "light",
       "note": ""
+    },
+    {
+      "id": "vifast-quang_son",
+      "name": "Quang Sơn",
+      "language": "vi",
+      "size_bytes": 26707873,
+      "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-quang_son.zip",
+      "checksum": "25f2d145a4d2078f538a1fa3a4cc3196dde6b86a9f710b5eafb310654dd4181a",
+      "sample_rate": 24000,
+      "model_type": "vifast",
+      "model_format": "vmodel",
+      "tier": "light",
+      "note": ""
+    },
+    {
+      "id": "vifast-ngoc_tran",
+      "name": "Ngọc Trân",
+      "language": "vi",
+      "size_bytes": 26707878,
+      "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-ngoc_tran.zip",
+      "checksum": "e29284786a7e9182400d1ab045e7262721d128f84abd3c351f8cad22215a292c",
+      "sample_rate": 24000,
+      "model_type": "vifast",
+      "model_format": "vmodel",
+      "tier": "light",
+      "note": ""
     }
   ],
   "voices": [
@@ -1513,6 +1539,30 @@
       "language": "vi",
       "avatar_url": "",
       "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_ngoc_huyen.m4a",
+      "description": ""
+    },
+    {
+      "id": "vifast-quang_son/quang_son",
+      "model_id": "vifast-quang_son",
+      "speaker_id": 0,
+      "name": "Quang Sơn",
+      "gender": "male",
+      "region": "central",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_quang_son.m4a",
+      "description": ""
+    },
+    {
+      "id": "vifast-ngoc_tran/ngoc_tran",
+      "model_id": "vifast-ngoc_tran",
+      "speaker_id": 0,
+      "name": "Ngọc Trân",
+      "gender": "female",
+      "region": "central",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_ngoc_tran.m4a",
       "description": ""
     }
   ]
