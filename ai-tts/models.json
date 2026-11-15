@@ -452,5 +452,22 @@
     "avatar_url": "",
     "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_minh_duc.m4a",
     "note": ""
+  },
+  {
+    "id": "vifast-pham_tuyen",
+    "name": "Phạm Tuyên",
+    "language": "vi",
+    "size_bytes": 26707885,
+    "description": "",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-pham_tuyen.zip",
+    "checksum": "5fb22fb28a18a7b719cd36ce624cf34e448a01c8388db9fc60c2c271b66bcf93",
+    "sample_rate": 24000,
+    "num_speakers": 1,
+    "gender": "male",
+    "model_type": "vifast",
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_pham_tuyen.m4a",
+    "note": ""
   }
 ]
