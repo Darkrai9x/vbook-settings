@@ -486,5 +486,22 @@
     "avatar_url": "",
     "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_thai_son.m4a",
     "note": ""
+  },
+  {
+    "id": "vifast-xuan_vinh",
+    "name": "Xuân Vĩnh",
+    "language": "vi",
+    "size_bytes": 26707876,
+    "description": "",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-xuan_vinh.zip",
+    "checksum": "10bb1347765c644b73b0a2f7a9cc07178d47d537201e3652d458c71620f5d6b8",
+    "sample_rate": 24000,
+    "num_speakers": 1,
+    "gender": "male",
+    "model_type": "vifast",
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_xuan_vinh.m4a",
+    "note": ""
   }
 ]

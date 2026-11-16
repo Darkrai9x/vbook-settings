@@ -434,6 +434,19 @@
       "model_format": "vmodel",
       "tier": "light",
       "note": ""
+    },
+    {
+      "id": "vifast-xuan_vinh",
+      "name": "Xuân Vĩnh",
+      "language": "vi",
+      "size_bytes": 26707876,
+      "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-xuan_vinh.zip",
+      "checksum": "10bb1347765c644b73b0a2f7a9cc07178d47d537201e3652d458c71620f5d6b8",
+      "sample_rate": 24000,
+      "model_type": "vifast",
+      "model_format": "vmodel",
+      "tier": "light",
+      "note": ""
     }
   ],
   "voices": [
@@ -2123,6 +2136,18 @@
       "language": "vi",
       "avatar_url": "",
       "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_thai_son.m4a",
+      "description": ""
+    },
+    {
+      "id": "vifast-xuan_vinh/xuan_vinh",
+      "model_id": "vifast-xuan_vinh",
+      "speaker_id": 0,
+      "name": "Xuân Vĩnh",
+      "gender": "male",
+      "region": "north",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_xuan_vinh.m4a",
       "description": ""
     }
   ]
