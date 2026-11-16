@@ -447,6 +447,19 @@
       "model_format": "vmodel",
       "tier": "light",
       "note": ""
+    },
+    {
+      "id": "vifast-thanh_binh",
+      "name": "Thanh Bình",
+      "language": "vi",
+      "size_bytes": 26707876,
+      "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-thanh_binh.zip",
+      "checksum": "6770f596132cddd35feb8805ce1e3562654917b8af8992777b5ccc577c5d7aca",
+      "sample_rate": 24000,
+      "model_type": "vifast",
+      "model_format": "vmodel",
+      "tier": "light",
+      "note": ""
     }
   ],
   "voices": [
@@ -2148,6 +2161,18 @@
       "language": "vi",
       "avatar_url": "",
       "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_xuan_vinh.m4a",
+      "description": ""
+    },
+    {
+      "id": "vifast-thanh_binh/thanh_binh",
+      "model_id": "vifast-thanh_binh",
+      "speaker_id": 0,
+      "name": "Thanh Bình",
+      "gender": "male",
+      "region": "north",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_thanh_binh.m4a",
       "description": ""
     }
   ]
