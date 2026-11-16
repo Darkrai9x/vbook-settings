@@ -460,6 +460,19 @@
       "model_format": "vmodel",
       "tier": "light",
       "note": ""
+    },
+    {
+      "id": "vifast-ngoc_linh",
+      "name": "Ngọc Linh",
+      "language": "vi",
+      "size_bytes": 26707872,
+      "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-ngoc_linh.zip",
+      "checksum": "8aaff030ecb9dc6301c1770bc3f682f52200cd95c245451a4e9d5a7558414cad",
+      "sample_rate": 24000,
+      "model_type": "vifast",
+      "model_format": "vmodel",
+      "tier": "light",
+      "note": ""
     }
   ],
   "voices": [
@@ -2173,6 +2186,18 @@
       "language": "vi",
       "avatar_url": "",
       "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_thanh_binh.m4a",
+      "description": ""
+    },
+    {
+      "id": "vifast-ngoc_linh/ngoc_linh",
+      "model_id": "vifast-ngoc_linh",
+      "speaker_id": 0,
+      "name": "Ngọc Linh",
+      "gender": "female",
+      "region": "north",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_ngoc_linh.m4a",
       "description": ""
     }
   ]
