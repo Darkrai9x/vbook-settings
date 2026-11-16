@@ -421,6 +421,19 @@
       "model_format": "vmodel",
       "tier": "light",
       "note": ""
+    },
+    {
+      "id": "vifast-thai_son",
+      "name": "Thái Sơn",
+      "language": "vi",
+      "size_bytes": 26707865,
+      "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-thai_son.zip",
+      "checksum": "bcbe2a037497d6b8fba571601ecc39315ab0e2fe7dffb54540360e5321aaabd2",
+      "sample_rate": 24000,
+      "model_type": "vifast",
+      "model_format": "vmodel",
+      "tier": "light",
+      "note": ""
     }
   ],
   "voices": [
@@ -2098,6 +2111,18 @@
       "language": "vi",
       "avatar_url": "",
       "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_pham_tuyen.m4a",
+      "description": ""
+    },
+    {
+      "id": "vifast-thai_son/thai_son",
+      "model_id": "vifast-thai_son",
+      "speaker_id": 0,
+      "name": "Thái Sơn",
+      "gender": "male",
+      "region": "south",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_thai_son.m4a",
       "description": ""
     }
   ]

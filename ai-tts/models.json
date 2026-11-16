@@ -469,5 +469,22 @@
     "avatar_url": "",
     "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_pham_tuyen.m4a",
     "note": ""
+  },
+  {
+    "id": "vifast-thai_son",
+    "name": "Thái Sơn",
+    "language": "vi",
+    "size_bytes": 26707865,
+    "description": "",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-thai_son.zip",
+    "checksum": "bcbe2a037497d6b8fba571601ecc39315ab0e2fe7dffb54540360e5321aaabd2",
+    "sample_rate": 24000,
+    "num_speakers": 1,
+    "gender": "male",
+    "model_type": "vifast",
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_thai_son.m4a",
+    "note": ""
   }
 ]
