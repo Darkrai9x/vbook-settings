@@ -537,5 +537,22 @@
     "avatar_url": "",
     "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_ngoc_linh.m4a",
     "note": ""
+  },
+  {
+    "id": "vifast-doan_trang",
+    "name": "Đoan Trang",
+    "language": "vi",
+    "size_bytes": 26707875,
+    "description": "",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-doan_trang.zip",
+    "checksum": "a7161f20e6ff8145df057c13b2c02fff994abe94b70dd245b6815e423deaafba",
+    "sample_rate": 24000,
+    "num_speakers": 1,
+    "gender": "female",
+    "model_type": "vifast",
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_doan_trang.m4a",
+    "note": ""
   }
 ]
