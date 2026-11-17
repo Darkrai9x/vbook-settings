@@ -554,5 +554,22 @@
     "avatar_url": "",
     "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_doan_trang.m4a",
     "note": ""
+  },
+  {
+    "id": "vifast-thuc_doan",
+    "name": "Thục Đoan",
+    "language": "vi",
+    "size_bytes": 26707880,
+    "description": "",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-thuc_doan.zip",
+    "checksum": "157a2139d11d4745967b51bd0ff860062ca80e08d0c889b9266fe274e5910272",
+    "sample_rate": 24000,
+    "num_speakers": 1,
+    "gender": "female",
+    "model_type": "vifast",
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_thuc_doan.m4a",
+    "note": ""
   }
 ]
