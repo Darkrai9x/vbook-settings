@@ -588,5 +588,22 @@
     "avatar_url": "",
     "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_minh_triet.m4a",
     "note": ""
+  },
+  {
+    "id": "vifast-my_duyen",
+    "name": "Mỹ Duyên",
+    "language": "vi",
+    "size_bytes": 26707870,
+    "description": "",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-my_duyen.zip",
+    "checksum": "82805db141455ca700689d7b86583b08630c883ef48a25a29d50523b15db5a40",
+    "sample_rate": 24000,
+    "num_speakers": 1,
+    "gender": "female",
+    "model_type": "vifast",
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_my_duyen.m4a",
+    "note": ""
   }
 ]
