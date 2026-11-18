@@ -571,5 +571,22 @@
     "avatar_url": "",
     "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_thuc_doan.m4a",
     "note": ""
+  },
+  {
+    "id": "vifast-minh_triet",
+    "name": "Minh Triết",
+    "language": "vi",
+    "size_bytes": 26707875,
+    "description": "",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-minh_triet.zip",
+    "checksum": "afdd88e466f131191d6030d77409cfe9e02ba77d1455f5d11042946559987b2d",
+    "sample_rate": 24000,
+    "num_speakers": 1,
+    "gender": "male",
+    "model_type": "vifast",
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_minh_triet.m4a",
+    "note": ""
   }
 ]
