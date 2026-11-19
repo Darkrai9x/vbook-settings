@@ -622,5 +622,22 @@
     "avatar_url": "",
     "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_quynh_anh.m4a",
     "note": ""
+  },
+  {
+    "id": "vifast-duc_tri",
+    "name": "Đức Trí",
+    "language": "vi",
+    "size_bytes": 26707866,
+    "description": "",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-duc_tri.zip",
+    "checksum": "745b871fdcdc9ccae1f442bb1485a20f12961841f402ec56b939513389c418e9",
+    "sample_rate": 24000,
+    "num_speakers": 1,
+    "gender": "male",
+    "model_type": "vifast",
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_duc_tri.m4a",
+    "note": ""
   }
 ]
