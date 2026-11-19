@@ -525,6 +525,19 @@
       "model_format": "vmodel",
       "tier": "light",
       "note": ""
+    },
+    {
+      "id": "vifast-quynh_anh",
+      "name": "Quỳnh Anh",
+      "language": "vi",
+      "size_bytes": 26707872,
+      "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-quynh_anh.zip",
+      "checksum": "851ce3ad51ead63f41252851efabda497a12fa1013978703f5b6b528ce7d1a59",
+      "sample_rate": 24000,
+      "model_type": "vifast",
+      "model_format": "vmodel",
+      "tier": "light",
+      "note": ""
     }
   ],
   "voices": [
@@ -2298,6 +2311,18 @@
       "language": "vi",
       "avatar_url": "",
       "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_my_duyen.m4a",
+      "description": ""
+    },
+    {
+      "id": "vifast-quynh_anh/quynh_anh",
+      "model_id": "vifast-quynh_anh",
+      "speaker_id": 0,
+      "name": "Quỳnh Anh",
+      "gender": "female",
+      "region": "north",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_quynh_anh.m4a",
       "description": ""
     }
   ]
