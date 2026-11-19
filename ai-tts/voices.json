@@ -551,6 +551,23 @@
       "model_format": "vmodel",
       "tier": "light",
       "note": ""
+    },
+    {
+      "id": "korva",
+      "name": "Korva",
+      "language": "vi",
+      "size_bytes": 149605512,
+      "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/korva.zip",
+      "checksum": "788b4b40c426ddbb0c46b6f549fac23ac4ecf9bde0bd8e1c305a0403038dd205",
+      "sample_rate": 44100,
+      "model_type": "korva",
+      "model_format": "mnn",
+      "tier": "medium",
+      "note": "",
+      "languages": [
+        "vi",
+        "en"
+      ]
     }
   ],
   "voices": [
@@ -2349,6 +2366,166 @@
       "avatar_url": "",
       "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_duc_tri.m4a",
       "description": ""
+    },
+    {
+      "id": "korva/bao_kim",
+      "model_id": "korva",
+      "speaker_id": 0,
+      "name": "Bảo Kim",
+      "gender": "female",
+      "region": "",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/korva_bao_kim.m4a",
+      "description": "",
+      "languages": [
+        "vi",
+        "en"
+      ]
+    },
+    {
+      "id": "korva/gia_bao",
+      "model_id": "korva",
+      "speaker_id": 1,
+      "name": "Gia Bảo",
+      "gender": "male",
+      "region": "",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/korva_gia_bao.m4a",
+      "description": "",
+      "languages": [
+        "vi",
+        "en"
+      ]
+    },
+    {
+      "id": "korva/hoang_nam",
+      "model_id": "korva",
+      "speaker_id": 2,
+      "name": "Hoàng Nam",
+      "gender": "male",
+      "region": "",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/korva_hoang_nam.m4a",
+      "description": "",
+      "languages": [
+        "vi",
+        "en"
+      ]
+    },
+    {
+      "id": "korva/huu_dat",
+      "model_id": "korva",
+      "speaker_id": 3,
+      "name": "Hữu Đạt",
+      "gender": "male",
+      "region": "",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/korva_huu_dat.m4a",
+      "description": "",
+      "languages": [
+        "vi",
+        "en"
+      ]
+    },
+    {
+      "id": "korva/khanh_vy",
+      "model_id": "korva",
+      "speaker_id": 4,
+      "name": "Khánh Vy",
+      "gender": "female",
+      "region": "",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/korva_khanh_vy.m4a",
+      "description": "",
+      "languages": [
+        "vi",
+        "en"
+      ]
+    },
+    {
+      "id": "korva/ngoc_huyen",
+      "model_id": "korva",
+      "speaker_id": 5,
+      "name": "Ngọc Diệp",
+      "gender": "female",
+      "region": "",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/korva_ngoc_huyen.m4a",
+      "description": "",
+      "languages": [
+        "vi",
+        "en"
+      ]
+    },
+    {
+      "id": "korva/phuong_linh",
+      "model_id": "korva",
+      "speaker_id": 6,
+      "name": "Phương Linh",
+      "gender": "female",
+      "region": "",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/korva_phuong_linh.m4a",
+      "description": "",
+      "languages": [
+        "vi",
+        "en"
+      ]
+    },
+    {
+      "id": "korva/quang_huy",
+      "model_id": "korva",
+      "speaker_id": 7,
+      "name": "Quang Huy",
+      "gender": "male",
+      "region": "",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/korva_quang_huy.m4a",
+      "description": "",
+      "languages": [
+        "vi",
+        "en"
+      ]
+    },
+    {
+      "id": "korva/quynh_nhu",
+      "model_id": "korva",
+      "speaker_id": 8,
+      "name": "Quỳnh Như",
+      "gender": "female",
+      "region": "",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/korva_quynh_nhu.m4a",
+      "description": "",
+      "languages": [
+        "vi",
+        "en"
+      ]
+    },
+    {
+      "id": "korva/thanh_phong",
+      "model_id": "korva",
+      "speaker_id": 9,
+      "name": "Thanh Phong",
+      "gender": "male",
+      "region": "",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/korva_thanh_phong.m4a",
+      "description": "",
+      "languages": [
+        "vi",
+        "en"
+      ]
     }
   ]
 }
