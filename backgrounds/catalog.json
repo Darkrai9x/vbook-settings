@@ -1,0 +1,1232 @@
+{
+  "groups": [
+    {
+      "id": "paper",
+      "name": {
+        "vi": "Giấy & vân",
+        "en": "Paper & textures"
+      }
+    },
+    {
+      "id": "ink",
+      "name": {
+        "vi": "Thủy mặc · cổ trang",
+        "en": "Ink wash · classical"
+      }
+    },
+    {
+      "id": "nature",
+      "name": {
+        "vi": "Thiên nhiên",
+        "en": "Nature"
+      }
+    },
+    {
+      "id": "night",
+      "name": {
+        "vi": "Đêm & vũ trụ",
+        "en": "Night & space"
+      }
+    },
+    {
+      "id": "pattern",
+      "name": {
+        "vi": "Hoa văn",
+        "en": "Patterns"
+      }
+    },
+    {
+      "id": "minimal",
+      "name": {
+        "vi": "Tối giản",
+        "en": "Minimal"
+      }
+    }
+  ],
+  "images": [
+    {
+      "id": "white-paper",
+      "group": "paper",
+      "name": {
+        "vi": "Giấy trắng",
+        "en": "White paper"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/white-paper.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/white-paper.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#F4F3F2",
+      "textColor": "#292623",
+      "size": 93702
+    },
+    {
+      "id": "rice-paper",
+      "group": "paper",
+      "name": {
+        "vi": "Giấy dó",
+        "en": "Rice paper"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/rice-paper.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/rice-paper.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#ECE9E3",
+      "textColor": "#2E291F",
+      "size": 10528
+    },
+    {
+      "id": "recycled-paper",
+      "group": "paper",
+      "name": {
+        "vi": "Giấy tái chế",
+        "en": "Recycled paper"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/recycled-paper.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/recycled-paper.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#C3B9B3",
+      "textColor": "#2B2522",
+      "size": 264112
+    },
+    {
+      "id": "old-paper",
+      "group": "paper",
+      "name": {
+        "vi": "Giấy cũ",
+        "en": "Old paper"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/old-paper.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/old-paper.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#C9B292",
+      "textColor": "#332819",
+      "size": 131322
+    },
+    {
+      "id": "kraft-paper",
+      "group": "paper",
+      "name": {
+        "vi": "Giấy kraft",
+        "en": "Kraft paper"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/kraft-paper.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/kraft-paper.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#BEA07F",
+      "textColor": "#33271A",
+      "size": 323194
+    },
+    {
+      "id": "cardboard",
+      "group": "paper",
+      "name": {
+        "vi": "Bìa giấy",
+        "en": "Cardboard"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/cardboard.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/cardboard.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#B39D7B",
+      "textColor": "#31281C",
+      "size": 243540
+    },
+    {
+      "id": "parchment",
+      "group": "paper",
+      "name": {
+        "vi": "Giấy da",
+        "en": "Parchment"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/parchment.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/parchment.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#D3BB8D",
+      "textColor": "#372C15",
+      "size": 14744
+    },
+    {
+      "id": "linen",
+      "group": "paper",
+      "name": {
+        "vi": "Vải lanh",
+        "en": "Linen"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/linen.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/linen.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#CCC0A9",
+      "textColor": "#30291C",
+      "size": 311956
+    },
+    {
+      "id": "burlap",
+      "group": "paper",
+      "name": {
+        "vi": "Vải bố",
+        "en": "Burlap"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/burlap.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/burlap.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#B2AA9C",
+      "textColor": "#2B2821",
+      "size": 328736
+    },
+    {
+      "id": "silk",
+      "group": "paper",
+      "name": {
+        "vi": "Lụa",
+        "en": "Silk"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/silk.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/silk.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#EBE2D1",
+      "textColor": "#352B17",
+      "size": 202320
+    },
+    {
+      "id": "maple-wood",
+      "group": "paper",
+      "name": {
+        "vi": "Gỗ phong",
+        "en": "Maple wood"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/maple-wood.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/maple-wood.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#E3D4B8",
+      "textColor": "#372B16",
+      "size": 112006
+    },
+    {
+      "id": "bamboo-wood",
+      "group": "paper",
+      "name": {
+        "vi": "Gỗ tre",
+        "en": "Bamboo wood"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/bamboo-wood.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/bamboo-wood.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#D6BC9E",
+      "textColor": "#362717",
+      "size": 143924
+    },
+    {
+      "id": "plaster",
+      "group": "paper",
+      "name": {
+        "vi": "Tường vữa",
+        "en": "Plaster"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/plaster.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/plaster.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#B8AEA2",
+      "textColor": "#2B2721",
+      "size": 56498
+    },
+    {
+      "id": "white-stucco",
+      "group": "paper",
+      "name": {
+        "vi": "Vữa trắng",
+        "en": "White stucco"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/white-stucco.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/white-stucco.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#D7D2CF",
+      "textColor": "#2A2523",
+      "size": 221240
+    },
+    {
+      "id": "grey-plaster",
+      "group": "paper",
+      "name": {
+        "vi": "Vữa xám",
+        "en": "Grey plaster"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/grey-plaster.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/grey-plaster.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#CAC5BE",
+      "textColor": "#2A2722",
+      "size": 286616
+    },
+    {
+      "id": "cream-grain",
+      "group": "paper",
+      "name": {
+        "vi": "Hạt kem",
+        "en": "Cream grain"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/cream-grain.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/cream-grain.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#EDE4D3",
+      "textColor": "#362B16",
+      "size": 31602
+    },
+    {
+      "id": "misty-peaks",
+      "group": "ink",
+      "name": {
+        "vi": "Núi mờ sương",
+        "en": "Misty peaks"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/misty-peaks.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/misty-peaks.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#C7C0B3",
+      "textColor": "#2C2820",
+      "size": 110468
+    },
+    {
+      "id": "lake-mountain",
+      "group": "ink",
+      "name": {
+        "vi": "Hồ và núi",
+        "en": "Lake and mountain"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/lake-mountain.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/lake-mountain.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#D0C4B4",
+      "textColor": "#2F281D",
+      "size": 121040
+    },
+    {
+      "id": "mountain-hut",
+      "group": "ink",
+      "name": {
+        "vi": "Am tranh dưới núi",
+        "en": "Hut below the hills"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/mountain-hut.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/mountain-hut.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#BEB6A5",
+      "textColor": "#2C2820",
+      "size": 112080
+    },
+    {
+      "id": "plum-bird",
+      "group": "ink",
+      "name": {
+        "vi": "Chim và hoa mai",
+        "en": "Bird on plum branch"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/plum-bird.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/plum-bird.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#BFAA8E",
+      "textColor": "#31281C",
+      "size": 138082
+    },
+    {
+      "id": "mandarin-ducks",
+      "group": "ink",
+      "name": {
+        "vi": "Uyên ương",
+        "en": "Ducks by the shore"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/mandarin-ducks.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/mandarin-ducks.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#DAC6A9",
+      "textColor": "#352917",
+      "size": 57868
+    },
+    {
+      "id": "cloud-river",
+      "group": "ink",
+      "name": {
+        "vi": "Mây trên sông",
+        "en": "Clouds over the river"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/cloud-river.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/cloud-river.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#F1E6D7",
+      "textColor": "#372915",
+      "size": 45838
+    },
+    {
+      "id": "bamboo-grove",
+      "group": "ink",
+      "name": {
+        "vi": "Rừng trúc",
+        "en": "Bamboo grove"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/bamboo-grove.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/bamboo-grove.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#E3D0B7",
+      "textColor": "#372915",
+      "size": 161868
+    },
+    {
+      "id": "reeds-geese",
+      "group": "ink",
+      "name": {
+        "vi": "Lau sậy và nhạn",
+        "en": "Reeds and geese"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/reeds-geese.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/reeds-geese.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#E3D3C2",
+      "textColor": "#342718",
+      "size": 53282
+    },
+    {
+      "id": "ink-bamboo",
+      "group": "ink",
+      "name": {
+        "vi": "Trúc mực",
+        "en": "Ink bamboo"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/ink-bamboo.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/ink-bamboo.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#D5C6AB",
+      "textColor": "#332A19",
+      "size": 52832
+    },
+    {
+      "id": "bamboo-moon",
+      "group": "ink",
+      "name": {
+        "vi": "Trúc dưới trăng",
+        "en": "Bamboo in moonlight"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/bamboo-moon.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/bamboo-moon.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#A89B8A",
+      "textColor": "#2C2721",
+      "size": 74782
+    },
+    {
+      "id": "silk-stream",
+      "group": "ink",
+      "name": {
+        "vi": "Suối núi trên lụa",
+        "en": "Stream on silk"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/silk-stream.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/silk-stream.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#AF9778",
+      "textColor": "#30271C",
+      "size": 22812
+    },
+    {
+      "id": "misty-pavilions",
+      "group": "ink",
+      "name": {
+        "vi": "Lầu gác trong sương",
+        "en": "Pavilions in mist"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/misty-pavilions.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/misty-pavilions.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#AEA297",
+      "textColor": "#2B2621",
+      "size": 85064
+    },
+    {
+      "id": "willow-boat",
+      "group": "ink",
+      "name": {
+        "vi": "Liễu và thuyền",
+        "en": "Willow and boat"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/willow-boat.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/willow-boat.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#BDB39D",
+      "textColor": "#2E291F",
+      "size": 100016
+    },
+    {
+      "id": "summer-night",
+      "group": "ink",
+      "name": {
+        "vi": "Đêm hè",
+        "en": "Summer night"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/summer-night.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/summer-night.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#B5A188",
+      "textColor": "#2F271D",
+      "size": 27878
+    },
+    {
+      "id": "plum-blossoms",
+      "group": "ink",
+      "name": {
+        "vi": "Hoa mai",
+        "en": "Plum blossoms"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/plum-blossoms.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/plum-blossoms.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#DED0C4",
+      "textColor": "#31251B",
+      "size": 171108
+    },
+    {
+      "id": "lake-hills",
+      "group": "ink",
+      "name": {
+        "vi": "Hồ và đồi",
+        "en": "Lake and hills"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/lake-hills.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/lake-hills.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#BCAFA0",
+      "textColor": "#2D2720",
+      "size": 64082
+    },
+    {
+      "id": "snow-pines",
+      "group": "ink",
+      "name": {
+        "vi": "Tùng trong tuyết",
+        "en": "Pines in snow"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/snow-pines.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/snow-pines.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#A99D92",
+      "textColor": "#2B2622",
+      "size": 87880
+    },
+    {
+      "id": "crane",
+      "group": "ink",
+      "name": {
+        "vi": "Hạc",
+        "en": "Crane"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/crane.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/crane.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#D8CCB8",
+      "textColor": "#31291B",
+      "size": 16808
+    },
+    {
+      "id": "two-cranes",
+      "group": "ink",
+      "name": {
+        "vi": "Đôi hạc",
+        "en": "Two cranes"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/two-cranes.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/two-cranes.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#AD9475",
+      "textColor": "#30271D",
+      "size": 32832
+    },
+    {
+      "id": "moonlit-hills",
+      "group": "ink",
+      "name": {
+        "vi": "Non nước dưới trăng",
+        "en": "Landscape in moonlight"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/moonlit-hills.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/moonlit-hills.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#B69B7D",
+      "textColor": "#31271C",
+      "size": 27626
+    },
+    {
+      "id": "misty-temple",
+      "group": "ink",
+      "name": {
+        "vi": "Chuông chùa trong sương",
+        "en": "Temple bell in mist"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/misty-temple.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/misty-temple.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#D9C8AC",
+      "textColor": "#342A18",
+      "size": 213744
+    },
+    {
+      "id": "white-mountains",
+      "group": "nature",
+      "name": {
+        "vi": "Núi thu",
+        "en": "October mountains"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/white-mountains.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/white-mountains.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#C0B7AC",
+      "textColor": "#2B2721",
+      "size": 17780
+    },
+    {
+      "id": "pale-bay",
+      "group": "nature",
+      "name": {
+        "vi": "Vịnh sớm",
+        "en": "Pale bay"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/pale-bay.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/pale-bay.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#B1A99F",
+      "textColor": "#2A2722",
+      "size": 77212
+    },
+    {
+      "id": "dawn-river",
+      "group": "nature",
+      "name": {
+        "vi": "Bình minh bên sông",
+        "en": "River at dawn"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/dawn-river.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/dawn-river.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#BEBBB6",
+      "textColor": "#282724",
+      "size": 382122
+    },
+    {
+      "id": "road-to-sea",
+      "group": "nature",
+      "name": {
+        "vi": "Đường ra biển",
+        "en": "Road to the sea"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/road-to-sea.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/road-to-sea.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.1,
+      "color": "#ADB2A0",
+      "textColor": "#282923",
+      "size": 118686
+    },
+    {
+      "id": "low-tide",
+      "group": "nature",
+      "name": {
+        "vi": "Biển lúc triều xuống",
+        "en": "Low tide"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/low-tide.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/low-tide.webp?v=1",
+      "tile": false,
+      "dark": true,
+      "dim": 0.2,
+      "color": "#64828B",
+      "textColor": "#E1E8EA",
+      "size": 188052
+    },
+    {
+      "id": "cloudy-sky",
+      "group": "nature",
+      "name": {
+        "vi": "Trời mây",
+        "en": "Cloudy sky"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/cloudy-sky.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/cloudy-sky.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#AFADA0",
+      "textColor": "#2A2923",
+      "size": 37750
+    },
+    {
+      "id": "storm-clouds",
+      "group": "nature",
+      "name": {
+        "vi": "Mây giông",
+        "en": "Storm clouds"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/storm-clouds.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/storm-clouds.webp?v=1",
+      "tile": false,
+      "dark": true,
+      "dim": 0.3,
+      "color": "#4E5359",
+      "textColor": "#E4E5E7",
+      "size": 119140
+    },
+    {
+      "id": "autumn-canal",
+      "group": "nature",
+      "name": {
+        "vi": "Kênh mùa thu",
+        "en": "Autumn canal"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/autumn-canal.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/autumn-canal.webp?v=1",
+      "tile": false,
+      "dark": true,
+      "dim": 0.4,
+      "color": "#7E7142",
+      "textColor": "#ECE9DF",
+      "size": 369910
+    },
+    {
+      "id": "river-blossoms",
+      "group": "nature",
+      "name": {
+        "vi": "Hoa bên sông",
+        "en": "Blossoms by a river"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/river-blossoms.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/river-blossoms.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#B7ADA1",
+      "textColor": "#2B2721",
+      "size": 77378
+    },
+    {
+      "id": "autumn-landscape",
+      "group": "nature",
+      "name": {
+        "vi": "Cảnh thu",
+        "en": "Autumn landscape"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/autumn-landscape.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/autumn-landscape.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#BFAD91",
+      "textColor": "#30281C",
+      "size": 46742
+    },
+    {
+      "id": "rough-waves",
+      "group": "nature",
+      "name": {
+        "vi": "Sóng dữ",
+        "en": "Rough waves"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/rough-waves.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/rough-waves.webp?v=1",
+      "tile": false,
+      "dark": true,
+      "dim": 0.35,
+      "color": "#767053",
+      "textColor": "#EAE8E1",
+      "size": 164034
+    },
+    {
+      "id": "full-moon",
+      "group": "night",
+      "name": {
+        "vi": "Trăng tròn",
+        "en": "Full moon"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/full-moon.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/full-moon.webp?v=1",
+      "tile": false,
+      "dark": true,
+      "dim": 0.0,
+      "color": "#13151B",
+      "textColor": "#E1E3EA",
+      "size": 32052
+    },
+    {
+      "id": "earth-at-night",
+      "group": "night",
+      "name": {
+        "vi": "Trái Đất về đêm",
+        "en": "Earth at night"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/earth-at-night.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/earth-at-night.webp?v=1",
+      "tile": false,
+      "dark": true,
+      "dim": 0.0,
+      "color": "#060A14",
+      "textColor": "#DFE3EC",
+      "size": 29750
+    },
+    {
+      "id": "milky-way",
+      "group": "night",
+      "name": {
+        "vi": "Dải Ngân Hà",
+        "en": "Milky Way"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/milky-way.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/milky-way.webp?v=1",
+      "tile": false,
+      "dark": true,
+      "dim": 0.2,
+      "color": "#262930",
+      "textColor": "#E3E4E8",
+      "size": 363846
+    },
+    {
+      "id": "aurora-orbit",
+      "group": "night",
+      "name": {
+        "vi": "Cực quang từ quỹ đạo",
+        "en": "Aurora from orbit"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/aurora-orbit.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/aurora-orbit.webp?v=1",
+      "tile": false,
+      "dark": true,
+      "dim": 0.0,
+      "color": "#0F090A",
+      "textColor": "#ECDFE1",
+      "size": 49506
+    },
+    {
+      "id": "galaxy-limb",
+      "group": "night",
+      "name": {
+        "vi": "Ngân Hà trên đường chân trời",
+        "en": "Milky Way over Earth"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/galaxy-limb.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/galaxy-limb.webp?v=1",
+      "tile": false,
+      "dark": true,
+      "dim": 0.2,
+      "color": "#574F50",
+      "textColor": "#E7E4E5",
+      "size": 281910
+    },
+    {
+      "id": "star-trails",
+      "group": "night",
+      "name": {
+        "vi": "Vệt sao",
+        "en": "Star trails"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/star-trails.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/star-trails.webp?v=1",
+      "tile": false,
+      "dark": true,
+      "dim": 0.3,
+      "color": "#433847",
+      "textColor": "#E7E2E9",
+      "size": 150460
+    },
+    {
+      "id": "moonlit-sea",
+      "group": "night",
+      "name": {
+        "vi": "Biển đêm trăng",
+        "en": "Moonlit sea"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/moonlit-sea.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/moonlit-sea.webp?v=1",
+      "tile": false,
+      "dark": true,
+      "dim": 0.2,
+      "color": "#43413B",
+      "textColor": "#E7E6E4",
+      "size": 46384
+    },
+    {
+      "id": "fireflies",
+      "group": "night",
+      "name": {
+        "vi": "Đom đóm trên sông",
+        "en": "Fireflies by moonlight"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/fireflies.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/fireflies.webp?v=1",
+      "tile": false,
+      "dark": true,
+      "dim": 0.15,
+      "color": "#5F5648",
+      "textColor": "#E9E6E2",
+      "size": 54124
+    },
+    {
+      "id": "starfield",
+      "group": "night",
+      "name": {
+        "vi": "Trời sao",
+        "en": "Starfield"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/starfield.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/starfield.webp?v=1",
+      "tile": false,
+      "dark": true,
+      "dim": 0.0,
+      "color": "#0A0E19",
+      "textColor": "#DFE3EC",
+      "size": 83640
+    },
+    {
+      "id": "dusk",
+      "group": "night",
+      "name": {
+        "vi": "Hoàng hôn tím",
+        "en": "Violet dusk"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/dusk.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/dusk.webp?v=1",
+      "tile": false,
+      "dark": true,
+      "dim": 0.0,
+      "color": "#1C1F2E",
+      "textColor": "#DFE1EC",
+      "size": 6522
+    },
+    {
+      "id": "morris-tulip",
+      "group": "pattern",
+      "name": {
+        "vi": "Hoa tulip (Morris)",
+        "en": "Tulip (Morris)"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/morris-tulip.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/morris-tulip.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#B7BAAA",
+      "textColor": "#292A22",
+      "size": 332328
+    },
+    {
+      "id": "morris-damask",
+      "group": "pattern",
+      "name": {
+        "vi": "Gấm Morris",
+        "en": "Morris damask"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/morris-damask.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/morris-damask.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#B2A892",
+      "textColor": "#2D2920",
+      "size": 107308
+    },
+    {
+      "id": "honeysuckle",
+      "group": "pattern",
+      "name": {
+        "vi": "Kim ngân (Morris)",
+        "en": "Honeysuckle (Morris)"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/honeysuckle.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/honeysuckle.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#BEB3AF",
+      "textColor": "#2A2422",
+      "size": 318504
+    },
+    {
+      "id": "strawberry-thief",
+      "group": "pattern",
+      "name": {
+        "vi": "Chim trộm dâu (Morris)",
+        "en": "Strawberry Thief (Morris)"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/strawberry-thief.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/strawberry-thief.webp?v=1",
+      "tile": false,
+      "dark": true,
+      "dim": 0.5,
+      "color": "#64645E",
+      "textColor": "#E6E6E5",
+      "size": 360794
+    },
+    {
+      "id": "chintz",
+      "group": "pattern",
+      "name": {
+        "vi": "Vải hoa in",
+        "en": "Printed chintz"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/chintz.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/chintz.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#D3C7B3",
+      "textColor": "#30291C",
+      "size": 216304
+    },
+    {
+      "id": "crane-textile",
+      "group": "pattern",
+      "name": {
+        "vi": "Gấm hạc",
+        "en": "Crane textile"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/crane-textile.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/crane-textile.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#BEB19F",
+      "textColor": "#2E271F",
+      "size": 399280
+    },
+    {
+      "id": "stencil-waves",
+      "group": "pattern",
+      "name": {
+        "vi": "Sóng (khuôn in)",
+        "en": "Waves stencil"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/stencil-waves.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/stencil-waves.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#E1D5BE",
+      "textColor": "#342B18",
+      "size": 42808
+    },
+    {
+      "id": "stencil-wine-waves",
+      "group": "pattern",
+      "name": {
+        "vi": "Chén rượu trên sóng",
+        "en": "Wine cups on waves"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/stencil-wine-waves.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/stencil-wine-waves.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#E7DCC8",
+      "textColor": "#352B17",
+      "size": 54466
+    },
+    {
+      "id": "stencil-bamboo",
+      "group": "pattern",
+      "name": {
+        "vi": "Trúc và tuyết (khuôn in)",
+        "en": "Bamboo stencil"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/stencil-bamboo.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/stencil-bamboo.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#E1D6BF",
+      "textColor": "#342B18",
+      "size": 31298
+    },
+    {
+      "id": "stencil-plum",
+      "group": "pattern",
+      "name": {
+        "vi": "Hoa mai (khuôn in)",
+        "en": "Plum stencil"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/stencil-plum.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/stencil-plum.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#E5DBC5",
+      "textColor": "#352C18",
+      "size": 26306
+    },
+    {
+      "id": "stencil-pine",
+      "group": "pattern",
+      "name": {
+        "vi": "Lá thông (khuôn in)",
+        "en": "Pine stencil"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/stencil-pine.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/stencil-pine.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#E4D9C3",
+      "textColor": "#352B18",
+      "size": 45458
+    },
+    {
+      "id": "mist",
+      "group": "minimal",
+      "name": {
+        "vi": "Sương sớm",
+        "en": "Morning mist"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/mist.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/mist.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#ECEEED",
+      "textColor": "#242826",
+      "size": 4486
+    },
+    {
+      "id": "sakura",
+      "group": "minimal",
+      "name": {
+        "vi": "Hồng anh đào",
+        "en": "Sakura blush"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/sakura.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/sakura.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#F2DFDC",
+      "textColor": "#371A15",
+      "size": 6278
+    },
+    {
+      "id": "sepia-glow",
+      "group": "minimal",
+      "name": {
+        "vi": "Nắng chiều",
+        "en": "Sepia glow"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/sepia-glow.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/sepia-glow.webp?v=1",
+      "tile": false,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#E2D1AF",
+      "textColor": "#372C15",
+      "size": 8778
+    },
+    {
+      "id": "sage-grain",
+      "group": "minimal",
+      "name": {
+        "vi": "Xanh rêu nhạt",
+        "en": "Sage grain"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/sage-grain.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/sage-grain.webp?v=1",
+      "tile": true,
+      "dark": false,
+      "dim": 0.0,
+      "color": "#DCE3D2",
+      "textColor": "#282F1D",
+      "size": 32104
+    },
+    {
+      "id": "charcoal-grain",
+      "group": "minimal",
+      "name": {
+        "vi": "Than chì",
+        "en": "Charcoal grain"
+      },
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/charcoal-grain.webp?v=1",
+      "thumb": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/thumbs/charcoal-grain.webp?v=1",
+      "tile": true,
+      "dark": true,
+      "dim": 0.0,
+      "color": "#222326",
+      "textColor": "#E4E5E7",
+      "size": 24860
+    }
+  ]
+}
