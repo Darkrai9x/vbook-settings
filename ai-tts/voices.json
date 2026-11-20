@@ -568,6 +568,19 @@
         "vi",
         "en"
       ]
+    },
+    {
+      "id": "vifast-kim_thanh",
+      "name": "Kim Thanh",
+      "language": "vi",
+      "size_bytes": 26707868,
+      "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-kim_thanh.zip",
+      "checksum": "f8f26beb7cf698375596531e4da29a5ed92cc3bfc8bb591e870ffac3cf2d4949",
+      "sample_rate": 24000,
+      "model_type": "vifast",
+      "model_format": "vmodel",
+      "tier": "light",
+      "note": ""
     }
   ],
   "voices": [
@@ -2526,6 +2539,18 @@
         "vi",
         "en"
       ]
+    },
+    {
+      "id": "vifast-kim_thanh/kim_thanh",
+      "model_id": "vifast-kim_thanh",
+      "speaker_id": 0,
+      "name": "Kim Thanh",
+      "gender": "female",
+      "region": "south",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_kim_thanh.m4a",
+      "description": ""
     }
   ]
 }
