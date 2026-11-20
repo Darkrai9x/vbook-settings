@@ -673,5 +673,22 @@
     "avatar_url": "",
     "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_adam.m4a",
     "note": ""
+  },
+  {
+    "id": "vifast-manh_dung",
+    "name": "Mạnh Dũng",
+    "language": "vi",
+    "size_bytes": 26707881,
+    "description": "",
+    "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-manh_dung.zip",
+    "checksum": "c882772c0b04d1ad825d4dc278121ce68f58be056317ac8e06fe089029c721b2",
+    "sample_rate": 24000,
+    "num_speakers": 1,
+    "gender": "male",
+    "model_type": "vifast",
+    "model_format": "vmodel",
+    "avatar_url": "",
+    "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_manh_dung.m4a",
+    "note": ""
   }
 ]
