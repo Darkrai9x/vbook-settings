@@ -581,6 +581,19 @@
       "model_format": "vmodel",
       "tier": "light",
       "note": ""
+    },
+    {
+      "id": "vifast-adam",
+      "name": "Adam",
+      "language": "vi",
+      "size_bytes": 26707832,
+      "download_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vifast-adam.zip",
+      "checksum": "f330429489bd8986f130560c33ec76215db5771d82ace5d5733e1925351f85fd",
+      "sample_rate": 24000,
+      "model_type": "vifast",
+      "model_format": "vmodel",
+      "tier": "light",
+      "note": ""
     }
   ],
   "voices": [
@@ -2550,6 +2563,18 @@
       "language": "vi",
       "avatar_url": "",
       "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_kim_thanh.m4a",
+      "description": ""
+    },
+    {
+      "id": "vifast-adam/adam",
+      "model_id": "vifast-adam",
+      "speaker_id": 0,
+      "name": "Adam",
+      "gender": "male",
+      "region": "south",
+      "language": "vi",
+      "avatar_url": "",
+      "preview_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/tts/sample/vifast_adam.m4a",
       "description": ""
     }
   ]
