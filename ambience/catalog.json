@@ -1,0 +1,1014 @@
+{
+  "groups": [
+    {
+      "id": "east",
+      "kind": "music",
+      "name": {
+        "vi": "Nhạc · châu Á, cổ trang",
+        "en": "Music · Eastern, period"
+      }
+    },
+    {
+      "id": "west",
+      "kind": "music",
+      "name": {
+        "vi": "Nhạc · phương Tây, hiện đại",
+        "en": "Music · Western, modern"
+      }
+    },
+    {
+      "id": "mood",
+      "kind": "music",
+      "name": {
+        "vi": "Nhạc · cảm xúc",
+        "en": "Music · Moods"
+      }
+    },
+    {
+      "id": "nature",
+      "kind": "sound",
+      "name": {
+        "vi": "Âm thanh môi trường",
+        "en": "Ambient sounds"
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "id": "co-phong",
+      "group": "east",
+      "name": {
+        "vi": "Cổ phong",
+        "en": "Ancient"
+      },
+      "hint": {
+        "vi": "tiên hiệp, cổ trang",
+        "en": "xianxia, period"
+      },
+      "genres": [
+        "tiên hiệp",
+        "tu tiên",
+        "tu chân",
+        "cổ đại",
+        "cổ trang",
+        "cổ phong",
+        "xianxia",
+        "cultivation"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/co-phong.m4a?v=1",
+      "size": 717541
+    },
+    {
+      "id": "kiem-hiep",
+      "group": "east",
+      "name": {
+        "vi": "Giang hồ",
+        "en": "Martial world"
+      },
+      "hint": {
+        "vi": "kiếm hiệp, võ hiệp",
+        "en": "wuxia, martial arts"
+      },
+      "genres": [
+        "kiếm hiệp",
+        "võ hiệp",
+        "giang hồ",
+        "võ thuật",
+        "wuxia",
+        "martial arts"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/kiem-hiep.m4a?v=1",
+      "size": 586335
+    },
+    {
+      "id": "sa-truong",
+      "group": "east",
+      "name": {
+        "vi": "Sa trường",
+        "en": "Battlefield"
+      },
+      "hint": {
+        "vi": "chiến trận cổ đại, tranh bá",
+        "en": "ancient battles, conquest"
+      },
+      "genres": [
+        "quân sự",
+        "chiến tranh",
+        "tranh bá",
+        "lịch sử quân sự",
+        "military",
+        "warfare"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/sa-truong.m4a?v=1",
+      "size": 685543
+    },
+    {
+      "id": "son-thuy",
+      "group": "east",
+      "name": {
+        "vi": "Sơn thủy",
+        "en": "Mountains, rivers"
+      },
+      "hint": {
+        "vi": "tiên hiệp nhàn, du ngoạn",
+        "en": "gentle xianxia, wandering"
+      },
+      "genres": [
+        "tu tiên",
+        "tiên hiệp",
+        "tiên hiệp nhàn",
+        "sơn thủy",
+        "cultivation"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/son-thuy.m4a?v=1",
+      "size": 572083
+    },
+    {
+      "id": "suoi-dan",
+      "group": "east",
+      "name": {
+        "vi": "Suối đàn",
+        "en": "Rippling strings"
+      },
+      "hint": {
+        "vi": "cung đình, cổ đại tĩnh lặng",
+        "en": "palace, quiet period"
+      },
+      "genres": [
+        "cung đấu",
+        "trạch đấu",
+        "cung đình",
+        "cổ đại",
+        "palace intrigue"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/suoi-dan.m4a?v=1",
+      "size": 617192
+    },
+    {
+      "id": "tra-lau",
+      "group": "east",
+      "name": {
+        "vi": "Trà lâu",
+        "en": "Teahouse"
+      },
+      "hint": {
+        "vi": "phố thị cổ, điền văn",
+        "en": "old town, slice of life"
+      },
+      "genres": [
+        "điền văn",
+        "chủng điền",
+        "gia đấu",
+        "xuyên không",
+        "slice of life"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/tra-lau.m4a?v=1",
+      "size": 721144
+    },
+    {
+      "id": "tieng-sao",
+      "group": "east",
+      "name": {
+        "vi": "Tiếng sáo",
+        "en": "Bamboo flute"
+      },
+      "hint": {
+        "vi": "sáo trúc, cổ trang man mác",
+        "en": "dizi flute, wistful period"
+      },
+      "genres": [
+        "cổ trang",
+        "cổ đại ngôn tình",
+        "historical romance"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/tieng-sao.m4a?v=1",
+      "size": 586699
+    },
+    {
+      "id": "que-nha",
+      "group": "east",
+      "name": {
+        "vi": "Quê nhà",
+        "en": "Homeland"
+      },
+      "hint": {
+        "vi": "làng quê, làm ruộng",
+        "en": "countryside, farming"
+      },
+      "genres": [
+        "điền văn",
+        "chủng điền",
+        "nông thôn",
+        "làm ruộng",
+        "farming",
+        "rural"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/que-nha.m4a?v=1",
+      "size": 609267
+    },
+    {
+      "id": "tinh-tam",
+      "group": "east",
+      "name": {
+        "vi": "Tĩnh tâm",
+        "en": "Zen"
+      },
+      "hint": {
+        "vi": "thiền, tu luyện, đọc khuya",
+        "en": "meditation, late reading"
+      },
+      "genres": [
+        "tu luyện",
+        "thiền định",
+        "phật giáo",
+        "meditation",
+        "buddhism"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/tinh-tam.m4a?v=1",
+      "size": 634637
+    },
+    {
+      "id": "tay-vuc",
+      "group": "east",
+      "name": {
+        "vi": "Tây Vực",
+        "en": "Silk Road"
+      },
+      "hint": {
+        "vi": "sa mạc, Tây Vực, viễn chinh",
+        "en": "desert, Silk Road"
+      },
+      "genres": [
+        "tây vực",
+        "sa mạc",
+        "viễn chinh",
+        "silk road",
+        "desert"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/tay-vuc.m4a?v=1",
+      "size": 562812
+    },
+    {
+      "id": "oc-dao",
+      "group": "east",
+      "name": {
+        "vi": "Ốc đảo",
+        "en": "Oasis"
+      },
+      "hint": {
+        "vi": "chợ phiên dị vực",
+        "en": "desert town, bazaar"
+      },
+      "genres": [
+        "dị vực",
+        "ả rập",
+        "arabian",
+        "bazaar"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/oc-dao.m4a?v=1",
+      "size": 545040
+    },
+    {
+      "id": "anh-dao",
+      "group": "east",
+      "name": {
+        "vi": "Anh đào",
+        "en": "Sakura"
+      },
+      "hint": {
+        "vi": "Nhật Bản, light novel",
+        "en": "Japan, light novels"
+      },
+      "genres": [
+        "light novel",
+        "nhật bản",
+        "japanese",
+        "anime"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/anh-dao.m4a?v=1",
+      "size": 732729
+    },
+    {
+      "id": "ma-phap",
+      "group": "west",
+      "name": {
+        "vi": "Ma pháp",
+        "en": "Magic"
+      },
+      "hint": {
+        "vi": "huyền huyễn, ma pháp",
+        "en": "fantasy, magic"
+      },
+      "genres": [
+        "huyền huyễn",
+        "ma pháp",
+        "kỳ huyễn",
+        "dị giới",
+        "fantasy",
+        "magic"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/ma-phap.m4a?v=1",
+      "size": 593372
+    },
+    {
+      "id": "tinh-linh",
+      "group": "west",
+      "name": {
+        "vi": "Tinh linh",
+        "en": "Elvenlight"
+      },
+      "hint": {
+        "vi": "kỳ ảo dịu, tây huyễn",
+        "en": "gentle high fantasy"
+      },
+      "genres": [
+        "tây huyễn",
+        "kỳ ảo",
+        "tinh linh",
+        "high fantasy",
+        "elves"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/tinh-linh.m4a?v=1",
+      "size": 665727
+    },
+    {
+      "id": "ngan-ha",
+      "group": "west",
+      "name": {
+        "vi": "Ngân hà",
+        "en": "Galaxy"
+      },
+      "hint": {
+        "vi": "khoa huyễn, vũ trụ",
+        "en": "sci-fi, space"
+      },
+      "genres": [
+        "khoa huyễn",
+        "khoa học viễn tưởng",
+        "tinh tế",
+        "vũ trụ",
+        "sci-fi",
+        "science fiction",
+        "space opera"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/ngan-ha.m4a?v=1",
+      "size": 567086
+    },
+    {
+      "id": "u-am",
+      "group": "west",
+      "name": {
+        "vi": "U ám",
+        "en": "Unseen"
+      },
+      "hint": {
+        "vi": "kinh dị, linh dị",
+        "en": "horror, supernatural"
+      },
+      "genres": [
+        "kinh dị",
+        "linh dị",
+        "vô hạn lưu",
+        "ma quỷ",
+        "horror",
+        "supernatural"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/u-am.m4a?v=1",
+      "size": 635252
+    },
+    {
+      "id": "nha-hoang",
+      "group": "west",
+      "name": {
+        "vi": "Nhà hoang",
+        "en": "Haunted house"
+      },
+      "hint": {
+        "vi": "rùng rợn, quỷ dị",
+        "en": "creepy, haunted"
+      },
+      "genres": [
+        "kinh dị",
+        "quỷ dị",
+        "nhà ma",
+        "ghost story",
+        "haunted"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/nha-hoang.m4a?v=1",
+      "size": 633224
+    },
+    {
+      "id": "trinh-tham",
+      "group": "west",
+      "name": {
+        "vi": "Trinh thám",
+        "en": "Investigation"
+      },
+      "hint": {
+        "vi": "trinh thám, phá án",
+        "en": "mystery, detective"
+      },
+      "genres": [
+        "trinh thám",
+        "phá án",
+        "huyền nghi",
+        "suy luận",
+        "mystery",
+        "detective"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/trinh-tham.m4a?v=1",
+      "size": 651346
+    },
+    {
+      "id": "jazz-dem",
+      "group": "west",
+      "name": {
+        "vi": "Jazz đêm",
+        "en": "Night jazz"
+      },
+      "hint": {
+        "vi": "noir, thám tử, phố đêm",
+        "en": "noir, gumshoe, city night"
+      },
+      "genres": [
+        "xã hội đen",
+        "hắc đạo",
+        "thám tử",
+        "noir",
+        "gangster",
+        "crime"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/jazz-dem.m4a?v=1",
+      "size": 676258
+    },
+    {
+      "id": "do-thi",
+      "group": "west",
+      "name": {
+        "vi": "Đô thị",
+        "en": "City life"
+      },
+      "hint": {
+        "vi": "đô thị, hiện đại, tổng tài",
+        "en": "urban, modern"
+      },
+      "genres": [
+        "đô thị",
+        "hiện đại",
+        "tổng tài",
+        "hào môn",
+        "giải trí",
+        "urban",
+        "modern"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/do-thi.m4a?v=1",
+      "size": 586142
+    },
+    {
+      "id": "pho-chieu",
+      "group": "west",
+      "name": {
+        "vi": "Phố chiều",
+        "en": "Sidewalk"
+      },
+      "hint": {
+        "vi": "đời thường, học đường",
+        "en": "slice of life, school"
+      },
+      "genres": [
+        "học đường",
+        "vườn trường",
+        "đời thường",
+        "thanh xuân",
+        "school life"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/pho-chieu.m4a?v=1",
+      "size": 639347
+    },
+    {
+      "id": "su-thi",
+      "group": "west",
+      "name": {
+        "vi": "Sử thi",
+        "en": "Saga"
+      },
+      "hint": {
+        "vi": "lịch sử, bi tráng",
+        "en": "history, epic"
+      },
+      "genres": [
+        "lịch sử",
+        "sử thi",
+        "giá không",
+        "history",
+        "epic"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/su-thi.m4a?v=1",
+      "size": 633224
+    },
+    {
+      "id": "chien-tran",
+      "group": "west",
+      "name": {
+        "vi": "Chiến trường",
+        "en": "Battle"
+      },
+      "hint": {
+        "vi": "mạt thế, quân sự, chiến đấu",
+        "en": "apocalypse, military, battle"
+      },
+      "genres": [
+        "mạt thế",
+        "tận thế",
+        "quân sự",
+        "chiến tranh",
+        "apocalypse",
+        "zombie"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/chien-tran.m4a?v=1",
+      "size": 689535
+    },
+    {
+      "id": "tinh-yeu",
+      "group": "mood",
+      "name": {
+        "vi": "Tình yêu",
+        "en": "Tender love"
+      },
+      "hint": {
+        "vi": "ngôn tình, lãng mạn",
+        "en": "romance"
+      },
+      "genres": [
+        "ngôn tình",
+        "lãng mạn",
+        "tình cảm",
+        "sủng văn",
+        "romance",
+        "love story"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/tinh-yeu.m4a?v=1",
+      "size": 627602
+    },
+    {
+      "id": "song-cam",
+      "group": "mood",
+      "name": {
+        "vi": "Song cầm",
+        "en": "Twin harps"
+      },
+      "hint": {
+        "vi": "ngọt ngào, hôn nhân",
+        "en": "sweet, marriage"
+      },
+      "genres": [
+        "hôn nhân",
+        "cưới trước yêu sau",
+        "điềm văn",
+        "wedding"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/song-cam.m4a?v=1",
+      "size": 565420
+    },
+    {
+      "id": "hoi-uc",
+      "group": "mood",
+      "name": {
+        "vi": "Hồi ức",
+        "en": "Remembrance"
+      },
+      "hint": {
+        "vi": "bi kịch, chia ly",
+        "en": "tragedy, farewell"
+      },
+      "genres": [
+        "bi kịch",
+        "ngược tâm",
+        "ngược luyến",
+        "tragedy",
+        "sad ending"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/hoi-uc.m4a?v=1",
+      "size": 651105
+    },
+    {
+      "id": "hoai-niem",
+      "group": "mood",
+      "name": {
+        "vi": "Hoài niệm",
+        "en": "Nostalgia"
+      },
+      "hint": {
+        "vi": "trọng sinh, chữa lành",
+        "en": "rebirth, healing"
+      },
+      "genres": [
+        "trọng sinh",
+        "hồi ức",
+        "chữa lành",
+        "healing",
+        "nostalgia"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/hoai-niem.m4a?v=1",
+      "size": 669402
+    },
+    {
+      "id": "thu-thai",
+      "group": "mood",
+      "name": {
+        "vi": "Thư thái",
+        "en": "Easy reading"
+      },
+      "hint": {
+        "vi": "nhẹ nhàng, ấm áp",
+        "en": "easy, warm"
+      },
+      "genres": [
+        "nhẹ nhàng",
+        "ấm áp",
+        "feel good",
+        "cozy"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/thu-thai.m4a?v=1",
+      "size": 689238
+    },
+    {
+      "id": "hai-huoc",
+      "group": "mood",
+      "name": {
+        "vi": "Hài hước",
+        "en": "Playful"
+      },
+      "hint": {
+        "vi": "hài hước, nhẹ nhõm",
+        "en": "comedy, light"
+      },
+      "genres": [
+        "hài hước",
+        "khôi hài",
+        "comedy",
+        "humor"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/hai-huoc.m4a?v=1",
+      "size": 563139
+    },
+    {
+      "id": "co-tich",
+      "group": "mood",
+      "name": {
+        "vi": "Cổ tích",
+        "en": "Fairy tale"
+      },
+      "hint": {
+        "vi": "thiếu nhi, cổ tích",
+        "en": "children, fairy tale"
+      },
+      "genres": [
+        "thiếu nhi",
+        "cổ tích",
+        "đồng thoại",
+        "fairy tale",
+        "children"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/co-tich.m4a?v=1",
+      "size": 658096
+    },
+    {
+      "id": "phieu-luu",
+      "group": "mood",
+      "name": {
+        "vi": "Phiêu lưu",
+        "en": "Adventure"
+      },
+      "hint": {
+        "vi": "phiêu lưu, thám hiểm, võng du",
+        "en": "adventure, exploration, games"
+      },
+      "genres": [
+        "phiêu lưu",
+        "thám hiểm",
+        "võng du",
+        "du hí",
+        "adventure",
+        "litrpg"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/phieu-luu.m4a?v=1",
+      "size": 694051
+    },
+    {
+      "id": "co-dien",
+      "group": "mood",
+      "name": {
+        "vi": "Cổ điển",
+        "en": "Classic"
+      },
+      "hint": {
+        "vi": "văn học kinh điển, piano",
+        "en": "classic literature, piano"
+      },
+      "genres": [
+        "kinh điển",
+        "văn học",
+        "văn học nước ngoài",
+        "classic",
+        "literature"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/co-dien.m4a?v=1",
+      "size": 684664
+    },
+    {
+      "id": "bach",
+      "group": "mood",
+      "name": {
+        "vi": "Dạo khúc",
+        "en": "Prelude"
+      },
+      "hint": {
+        "vi": "đọc tập trung, cổ điển",
+        "en": "focus, classical"
+      },
+      "genres": [
+        "tản văn",
+        "tùy bút",
+        "classical",
+        "essay"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/bach.m4a?v=1",
+      "size": 717277
+    },
+    {
+      "id": "lo-fi",
+      "group": "mood",
+      "name": {
+        "vi": "Lo-fi đêm",
+        "en": "Lo-fi night"
+      },
+      "hint": {
+        "vi": "lo-fi, đọc khuya",
+        "en": "lo-fi, late night"
+      },
+      "genres": [
+        "đêm khuya",
+        "lofi",
+        "chill"
+      ],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/lo-fi.m4a?v=1",
+      "size": 651374
+    },
+    {
+      "id": "rain",
+      "group": "nature",
+      "name": {
+        "vi": "Mưa rơi",
+        "en": "Rain"
+      },
+      "hint": {
+        "vi": "đêm mưa, mọi thể loại",
+        "en": "rainy night, anything"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/rain.m4a?v=1",
+      "size": 610330
+    },
+    {
+      "id": "rain-roof",
+      "group": "nature",
+      "name": {
+        "vi": "Mưa mái hiên",
+        "en": "Rain on roof"
+      },
+      "hint": {
+        "vi": "mưa hiên nhà, cổ trang",
+        "en": "rain on the eaves, period"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/rain-roof.m4a?v=1",
+      "size": 610330
+    },
+    {
+      "id": "thunderstorm",
+      "group": "nature",
+      "name": {
+        "vi": "Mưa giông",
+        "en": "Thunderstorm"
+      },
+      "hint": {
+        "vi": "giông bão, kinh dị",
+        "en": "storm, horror"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/thunderstorm.m4a?v=1",
+      "size": 610330
+    },
+    {
+      "id": "mountain-wind",
+      "group": "nature",
+      "name": {
+        "vi": "Gió núi",
+        "en": "Mountain wind"
+      },
+      "hint": {
+        "vi": "đỉnh núi, tu tiên",
+        "en": "peaks, cultivation"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/mountain-wind.m4a?v=1",
+      "size": 610742
+    },
+    {
+      "id": "forest-birds",
+      "group": "nature",
+      "name": {
+        "vi": "Chim rừng",
+        "en": "Forest birds"
+      },
+      "hint": {
+        "vi": "rừng sớm, điền văn",
+        "en": "morning woods, rural"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/forest-birds.m4a?v=1",
+      "size": 610330
+    },
+    {
+      "id": "stream",
+      "group": "nature",
+      "name": {
+        "vi": "Suối chảy",
+        "en": "Stream"
+      },
+      "hint": {
+        "vi": "suối núi, thư thái",
+        "en": "mountain brook, calm"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/stream.m4a?v=1",
+      "size": 610330
+    },
+    {
+      "id": "river",
+      "group": "nature",
+      "name": {
+        "vi": "Sông nước",
+        "en": "River"
+      },
+      "hint": {
+        "vi": "bến sông, giang hồ",
+        "en": "riverside, wanderers"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/river.m4a?v=1",
+      "size": 611033
+    },
+    {
+      "id": "ocean",
+      "group": "nature",
+      "name": {
+        "vi": "Sóng biển",
+        "en": "Ocean waves"
+      },
+      "hint": {
+        "vi": "bờ biển, thư giãn",
+        "en": "seashore, relaxing"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/ocean.m4a?v=1",
+      "size": 610330
+    },
+    {
+      "id": "campfire",
+      "group": "nature",
+      "name": {
+        "vi": "Lửa trại",
+        "en": "Campfire"
+      },
+      "hint": {
+        "vi": "đêm dã ngoại, phiêu lưu",
+        "en": "night camp, adventure"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/campfire.m4a?v=1",
+      "size": 610797
+    },
+    {
+      "id": "fireplace",
+      "group": "nature",
+      "name": {
+        "vi": "Lò sưởi",
+        "en": "Fireplace"
+      },
+      "hint": {
+        "vi": "đêm đông ấm áp",
+        "en": "warm winter night"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/fireplace.m4a?v=1",
+      "size": 610745
+    },
+    {
+      "id": "crickets",
+      "group": "nature",
+      "name": {
+        "vi": "Đêm dế",
+        "en": "Crickets"
+      },
+      "hint": {
+        "vi": "đêm hè, làng quê",
+        "en": "summer night, countryside"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/crickets.m4a?v=1",
+      "size": 611005
+    },
+    {
+      "id": "cave",
+      "group": "nature",
+      "name": {
+        "vi": "Hang động",
+        "en": "Cave drips"
+      },
+      "hint": {
+        "vi": "hang sâu, bí cảnh",
+        "en": "deep cave, secret realm"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/cave.m4a?v=1",
+      "size": 611088
+    },
+    {
+      "id": "city-street",
+      "group": "nature",
+      "name": {
+        "vi": "Phố xá",
+        "en": "City street"
+      },
+      "hint": {
+        "vi": "đô thị ban ngày",
+        "en": "city by day"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/city-street.m4a?v=1",
+      "size": 610904
+    },
+    {
+      "id": "cafe",
+      "group": "nature",
+      "name": {
+        "vi": "Quán cà phê",
+        "en": "Café"
+      },
+      "hint": {
+        "vi": "quán quen, đô thị",
+        "en": "coffee shop, urban"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/cafe.m4a?v=1",
+      "size": 610330
+    },
+    {
+      "id": "train",
+      "group": "nature",
+      "name": {
+        "vi": "Tàu hỏa",
+        "en": "Train ride"
+      },
+      "hint": {
+        "vi": "hành trình, đọc đường xa",
+        "en": "journey, long ride"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/train.m4a?v=1",
+      "size": 610624
+    },
+    {
+      "id": "brown-noise",
+      "group": "nature",
+      "name": {
+        "vi": "Tiếng ồn nâu",
+        "en": "Brown noise"
+      },
+      "hint": {
+        "vi": "tập trung, dễ ngủ",
+        "en": "focus, sleep"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/brown-noise.m4a?v=1",
+      "size": 610855
+    },
+    {
+      "id": "pink-noise",
+      "group": "nature",
+      "name": {
+        "vi": "Tiếng ồn hồng",
+        "en": "Pink noise"
+      },
+      "hint": {
+        "vi": "tập trung, át tạp âm",
+        "en": "focus, masking"
+      },
+      "genres": [],
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/pink-noise.m4a?v=1",
+      "size": 610330
+    }
+  ]
+}
