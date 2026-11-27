@@ -1,0 +1,479 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "dong_bo",
+ "version": 1,
+ "name": {
+  "en": "Red Sync",
+  "vi": "Đồng bộ đỏ"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "A crimson cockpit HUD: hazard stripes, an orbit dial, a sync gauge that fills with the chapter and a nine-bar signal that changes each page. Inspired by Archive's 赤色同步; no characters.",
+  "vi": "Buồng lái HUD đỏ thẫm: vạch cảnh báo, vòng quỹ đạo, thanh đồng bộ đầy dần theo chương và sóng 9 cột đổi mỗi trang. Cảm hứng từ 赤色同步 của Archive; không dùng nhân vật."
+ },
+ "tokens": {
+  "background": "#b42d2d",
+  "paper": "#f5f0e7",
+  "text": "#292928",
+  "ink": "#272829",
+  "gold": "#d8ba7e",
+  "hud": "#f5f0e7",
+  "hudDim": "hud@62%",
+  "track": "hud@22%"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "background": "#4a1214",
+    "paper": "#1d1c1b",
+    "text": "#e6dfd2",
+    "ink": "#e6dfd2"
+   }
+  },
+  {
+   "at": "05:15",
+   "tokens": {
+    "background": "#4a1214",
+    "paper": "#1d1c1b",
+    "text": "#e6dfd2",
+    "ink": "#e6dfd2"
+   }
+  },
+  {
+   "at": "05:30",
+   "tokens": {
+    "background": "#b42d2d",
+    "paper": "#f5f0e7",
+    "text": "#292928",
+    "ink": "#272829"
+   }
+  },
+  {
+   "at": "09:00",
+   "tokens": {
+    "background": "#b42d2d",
+    "paper": "#f5f0e7",
+    "text": "#292928",
+    "ink": "#272829"
+   }
+  },
+  {
+   "at": "17:00",
+   "tokens": {
+    "background": "#b42d2d",
+    "paper": "#f5f0e7",
+    "text": "#292928",
+    "ink": "#272829"
+   }
+  },
+  {
+   "at": "18:30",
+   "tokens": {
+    "background": "#b42d2d",
+    "paper": "#f5f0e7",
+    "text": "#292928",
+    "ink": "#272829"
+   }
+  },
+  {
+   "at": "19:45",
+   "tokens": {
+    "background": "#b42d2d",
+    "paper": "#f5f0e7",
+    "text": "#292928",
+    "ink": "#272829"
+   }
+  },
+  {
+   "at": "20:00",
+   "tokens": {
+    "background": "#4a1214",
+    "paper": "#1d1c1b",
+    "text": "#e6dfd2",
+    "ink": "#e6dfd2"
+   }
+  }
+ ],
+ "palettes": [
+  {
+   "when": {
+    "dark": true
+   },
+   "tokens": {
+    "background": "#4a1214",
+    "paper": "#1d1c1b",
+    "text": "#e6dfd2",
+    "ink": "#e6dfd2"
+   }
+  }
+ ],
+ "imageSets": {
+  "wave": {
+   "pattern": "wave/wave-{i}.png",
+   "count": 9
+  }
+ },
+ "body": {
+  "top": 116,
+  "bottom": 96,
+  "left": 26,
+  "right": 26
+ },
+ "layers": [
+  {
+   "type": "image",
+   "src": "images/orbit.png",
+   "fit": "contain",
+   "anchor": "page",
+   "rect": {
+    "right": -70,
+    "top": -40,
+    "width": 230,
+    "height": 230
+   },
+   "z": -3,
+   "opacity": 0.3
+  },
+  {
+   "type": "image",
+   "src": "images/stripes.png",
+   "fit": "crop",
+   "anchor": "page",
+   "rect": {
+    "left": 0,
+    "right": 0,
+    "top": 0,
+    "height": 10
+   },
+   "z": -3,
+   "opacity": 0.22
+  },
+  {
+   "type": "text",
+   "value": "{pad(chapter.index, 2)}",
+   "anchor": "top",
+   "rect": {
+    "left": 20,
+    "top": 14,
+    "width": 96,
+    "height": 58
+   },
+   "size": 46,
+   "color": "hud",
+   "align": "start",
+   "z": 1,
+   "font": "sans",
+   "weight": 800,
+   "when": {
+    "pages": "first"
+   }
+  },
+  {
+   "type": "text",
+   "value": "READING UNIT · ARCHIVE",
+   "anchor": "top",
+   "rect": {
+    "left": 122,
+    "right": 24,
+    "top": 22,
+    "height": 12
+   },
+   "size": 7.5,
+   "color": "hudDim",
+   "align": "start",
+   "z": 1,
+   "font": "sans",
+   "weight": 700,
+   "letterSpacing": 2,
+   "when": {
+    "pages": "first"
+   }
+  },
+  {
+   "type": "text",
+   "value": "{upper(chapter.title)}",
+   "anchor": "top",
+   "rect": {
+    "left": 122,
+    "right": 24,
+    "top": 36,
+    "height": 40
+   },
+   "size": 15,
+   "color": "hud",
+   "align": "start",
+   "z": 1,
+   "font": "sans",
+   "weight": 800,
+   "maxLines": 2,
+   "when": {
+    "pages": "first"
+   }
+  },
+  {
+   "type": "text",
+   "value": "● THE PAGE IS YOURS.",
+   "anchor": "top",
+   "rect": {
+    "left": 22,
+    "right": 24,
+    "top": 84,
+    "height": 12
+   },
+   "size": 8,
+   "color": "gold",
+   "align": "start",
+   "z": 1,
+   "font": "sans",
+   "weight": 700,
+   "letterSpacing": 1.5,
+   "when": {
+    "pages": "first"
+   }
+  },
+  {
+   "type": "text",
+   "value": "A / {pad(chapter.index, 2)}",
+   "anchor": "top",
+   "rect": {
+    "left": 22,
+    "top": 30,
+    "width": 60,
+    "height": 14
+   },
+   "size": 9,
+   "color": "gold",
+   "align": "start",
+   "z": 1,
+   "font": "sans",
+   "weight": 800,
+   "letterSpacing": 1,
+   "when": {
+    "pages": "other"
+   }
+  },
+  {
+   "type": "text",
+   "value": "{upper(chapter.title)}",
+   "anchor": "top",
+   "rect": {
+    "left": 84,
+    "right": 24,
+    "top": 28,
+    "height": 18
+   },
+   "size": 13,
+   "color": "hud",
+   "align": "start",
+   "z": 1,
+   "font": "sans",
+   "weight": 800,
+   "when": {
+    "pages": "other"
+   }
+  },
+  {
+   "type": "text",
+   "value": "{book.name}",
+   "anchor": "top",
+   "rect": {
+    "left": 22,
+    "right": 24,
+    "top": 56,
+    "height": 14
+   },
+   "size": 9.5,
+   "color": "hudDim",
+   "align": "start",
+   "z": 1,
+   "font": "sans",
+   "when": {
+    "pages": "other"
+   }
+  },
+  {
+   "type": "shape",
+   "anchor": "top",
+   "rect": {
+    "left": 22,
+    "right": 24,
+    "top": 100,
+    "height": 1
+   },
+   "z": 1,
+   "fill": "hud@30%"
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -12,
+    "right": -12,
+    "top": -12,
+    "bottom": -12
+   },
+   "z": -2,
+   "fill": "paper",
+   "radius": 2
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -12,
+    "top": -12,
+    "bottom": -12,
+    "width": 4
+   },
+   "z": -1,
+   "fill": "gold"
+  },
+  {
+   "type": "text",
+   "value": "CHAPTER SYNC",
+   "anchor": "bottom",
+   "rect": {
+    "left": 22,
+    "top": 16,
+    "width": 110,
+    "height": 12
+   },
+   "size": 8,
+   "color": "hudDim",
+   "align": "start",
+   "z": 1,
+   "font": "sans",
+   "weight": 700,
+   "letterSpacing": 2
+  },
+  {
+   "type": "text",
+   "value": "{percent(chapter.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "left": 122,
+    "top": 11,
+    "width": 90,
+    "height": 20
+   },
+   "size": 15,
+   "color": "hud",
+   "align": "start",
+   "z": 1,
+   "font": "sans",
+   "weight": 800
+  },
+  {
+   "type": "text",
+   "value": "BOOK {percent(book.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 22,
+    "top": 16,
+    "width": 120,
+    "height": 12
+   },
+   "size": 8,
+   "color": "hudDim",
+   "align": "end",
+   "z": 1,
+   "font": "sans",
+   "weight": 700,
+   "letterSpacing": 1
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 22,
+    "right": 22,
+    "top": 34,
+    "height": 5
+   },
+   "z": 1,
+   "fill": "track"
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 22,
+    "right": 22,
+    "top": 34,
+    "height": 5
+   },
+   "z": 1,
+   "fill": "gold",
+   "progress": "chapter.progress"
+  },
+  {
+   "type": "set",
+   "set": "wave",
+   "pick": "page.index - 1",
+   "count": 1,
+   "radius": 0,
+   "anchor": "bottom",
+   "rect": {
+    "left": 22,
+    "top": 50,
+    "width": 60,
+    "height": 32
+   },
+   "z": 1
+  },
+  {
+   "type": "text",
+   "value": "PAGE",
+   "anchor": "bottom",
+   "rect": {
+    "top": 50,
+    "width": 100,
+    "height": 10
+   },
+   "size": 7,
+   "color": "hudDim",
+   "align": "center",
+   "z": 1,
+   "font": "sans",
+   "weight": 700,
+   "letterSpacing": 2
+  },
+  {
+   "type": "text",
+   "value": "{pad(page.index, 2)} / {pad(page.count, 2)}",
+   "anchor": "bottom",
+   "rect": {
+    "top": 61,
+    "width": 120,
+    "height": 20
+   },
+   "size": 15,
+   "color": "hud",
+   "align": "center",
+   "z": 1,
+   "font": "sans",
+   "weight": 800
+  },
+  {
+   "type": "text",
+   "value": "● READ\nCONNECTED",
+   "anchor": "bottom",
+   "rect": {
+    "right": 22,
+    "top": 54,
+    "width": 90,
+    "height": 26
+   },
+   "size": 8,
+   "color": "gold",
+   "align": "end",
+   "z": 1,
+   "font": "sans",
+   "weight": 700,
+   "maxLines": 2
+  }
+ ]
+}

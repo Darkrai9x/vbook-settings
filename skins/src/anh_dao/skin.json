@@ -1,0 +1,275 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "anh_dao",
+ "version": 1,
+ "name": {
+  "en": "Sakura",
+  "vi": "Anh đào"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "Cherry blossom season: a flowering branch over the title, petals drifting down the page; pale pink by day, plum-dark yozakura by night.",
+  "vi": "Mùa hoa anh đào: cành hoa trên tiêu đề, cánh hoa rơi khắp trang; hồng phấn ban ngày, đêm ngắm hoa tím mận ban đêm."
+ },
+ "tokens": {
+  "background": "#fbf1f3",
+  "paperEnd": "#f8e3e8",
+  "text": "#3b2a30",
+  "ink": "#3b2a30",
+  "petal": "#e78ea6",
+  "muted": "ink@55%",
+  "faint": "petal@35%"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "background": "#2a1a2a",
+    "paperEnd": "#1d1220",
+    "text": "#f4dfe6",
+    "ink": "#f4dfe6",
+    "petal": "#f0a8bf"
+   }
+  },
+  {
+   "at": "05:15",
+   "tokens": {
+    "background": "#2a1a2a",
+    "paperEnd": "#1d1220",
+    "text": "#f4dfe6",
+    "ink": "#f4dfe6",
+    "petal": "#f0a8bf"
+   }
+  },
+  {
+   "at": "05:30",
+   "tokens": {
+    "background": "#fbf1f3",
+    "paperEnd": "#f8e3e8",
+    "text": "#3b2a30",
+    "ink": "#3b2a30",
+    "petal": "#e78ea6"
+   }
+  },
+  {
+   "at": "09:00",
+   "tokens": {
+    "background": "#fbf1f3",
+    "paperEnd": "#f8e3e8",
+    "text": "#3b2a30",
+    "ink": "#3b2a30",
+    "petal": "#e78ea6"
+   }
+  },
+  {
+   "at": "17:00",
+   "tokens": {
+    "background": "#fbf1f3",
+    "paperEnd": "#f8e3e8",
+    "text": "#3b2a30",
+    "ink": "#3b2a30",
+    "petal": "#e78ea6"
+   }
+  },
+  {
+   "at": "18:30",
+   "tokens": {
+    "background": "#fbf1f3",
+    "paperEnd": "#f8e3e8",
+    "text": "#3b2a30",
+    "ink": "#3b2a30",
+    "petal": "#e78ea6"
+   }
+  },
+  {
+   "at": "19:45",
+   "tokens": {
+    "background": "#fbf1f3",
+    "paperEnd": "#f8e3e8",
+    "text": "#3b2a30",
+    "ink": "#3b2a30",
+    "petal": "#e78ea6"
+   }
+  },
+  {
+   "at": "20:00",
+   "tokens": {
+    "background": "#2a1a2a",
+    "paperEnd": "#1d1220",
+    "text": "#f4dfe6",
+    "ink": "#f4dfe6",
+    "petal": "#f0a8bf"
+   }
+  }
+ ],
+ "palettes": [
+  {
+   "when": {
+    "dark": true
+   },
+   "tokens": {
+    "background": "#2a1a2a",
+    "paperEnd": "#1d1220",
+    "text": "#f4dfe6",
+    "ink": "#f4dfe6",
+    "petal": "#f0a8bf"
+   }
+  }
+ ],
+ "body": {
+  "top": 116,
+  "bottom": 72,
+  "left": 32,
+  "right": 32
+ },
+ "layers": [
+  {
+   "type": "shape",
+   "anchor": "page",
+   "rect": {},
+   "z": -4,
+   "fill": "background",
+   "fillEnd": "paperEnd"
+  },
+  {
+   "type": "image",
+   "src": "images/petals.png",
+   "fit": "crop",
+   "anchor": "page",
+   "rect": {},
+   "z": -3,
+   "opacity": 0.8
+  },
+  {
+   "type": "image",
+   "src": "images/branch.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "right": -6,
+    "top": -20,
+    "width": 230,
+    "height": 164
+   },
+   "z": -2
+  },
+  {
+   "type": "text",
+   "value": "{chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 28,
+    "right": 150,
+    "top": 40,
+    "height": 26
+   },
+   "size": 17,
+   "color": "ink",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "weight": 600
+  },
+  {
+   "type": "text",
+   "value": "✿  {book.name}",
+   "anchor": "top",
+   "rect": {
+    "left": 28,
+    "right": 150,
+    "top": 68,
+    "height": 14
+   },
+   "size": 9.5,
+   "color": "petal",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 1
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -14,
+    "right": -14,
+    "top": -12,
+    "bottom": -12
+   },
+   "z": -2,
+   "fill": "background@55%",
+   "radius": 16
+  },
+  {
+   "type": "image",
+   "src": "images/flower.png",
+   "fit": "contain",
+   "anchor": "bottom",
+   "rect": {
+    "top": 18,
+    "width": 22,
+    "height": 22
+   },
+   "z": 1
+  },
+  {
+   "type": "text",
+   "value": "{page.index}",
+   "anchor": "bottom",
+   "rect": {
+    "left": 34,
+    "top": 22,
+    "width": 80,
+    "height": 16
+   },
+   "size": 10,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "text",
+   "value": "{percent(book.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 34,
+    "top": 22,
+    "width": 80,
+    "height": 16
+   },
+   "size": 10,
+   "color": "muted",
+   "align": "end",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 34,
+    "right": 34,
+    "top": 50,
+    "height": 1.5
+   },
+   "z": 1,
+   "fill": "faint"
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 34,
+    "right": 34,
+    "top": 50,
+    "height": 1.5
+   },
+   "z": 1,
+   "fill": "petal",
+   "progress": "chapter.progress"
+  }
+ ]
+}

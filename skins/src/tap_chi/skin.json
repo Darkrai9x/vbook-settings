@@ -1,0 +1,397 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "tap_chi",
+ "version": 1,
+ "name": {
+  "en": "Magazine",
+  "vi": "Tạp chí"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "An editorial layout: an opening spread with a geometric mark and a big headline, running heads and folios after. After Archive's 书刊.",
+  "vi": "Dàn trang kiểu tạp chí: trang mở đầu có hình hoạ hình học và tít lớn, các trang sau có running head và số trang. Port từ 书刊 của Archive."
+ },
+ "tokens": {
+  "background": "#f5f2ea",
+  "text": "#1d1d1f",
+  "ink": "#1d1d1f",
+  "accent": "#c8102e",
+  "muted": "ink@58%",
+  "rule": "ink@22%",
+  "paper": "background"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "background": "#17171a",
+    "text": "#e8e4da",
+    "ink": "#e8e4da",
+    "accent": "#ff5a67"
+   }
+  },
+  {
+   "at": "05:15",
+   "tokens": {
+    "background": "#17171a",
+    "text": "#e8e4da",
+    "ink": "#e8e4da",
+    "accent": "#ff5a67"
+   }
+  },
+  {
+   "at": "05:30",
+   "tokens": {
+    "background": "#f5f2ea",
+    "text": "#1d1d1f",
+    "ink": "#1d1d1f",
+    "accent": "#c8102e"
+   }
+  },
+  {
+   "at": "09:00",
+   "tokens": {
+    "background": "#f5f2ea",
+    "text": "#1d1d1f",
+    "ink": "#1d1d1f",
+    "accent": "#c8102e"
+   }
+  },
+  {
+   "at": "17:00",
+   "tokens": {
+    "background": "#f5f2ea",
+    "text": "#1d1d1f",
+    "ink": "#1d1d1f",
+    "accent": "#c8102e"
+   }
+  },
+  {
+   "at": "18:30",
+   "tokens": {
+    "background": "#f5f2ea",
+    "text": "#1d1d1f",
+    "ink": "#1d1d1f",
+    "accent": "#c8102e"
+   }
+  },
+  {
+   "at": "19:45",
+   "tokens": {
+    "background": "#f5f2ea",
+    "text": "#1d1d1f",
+    "ink": "#1d1d1f",
+    "accent": "#c8102e"
+   }
+  },
+  {
+   "at": "20:00",
+   "tokens": {
+    "background": "#17171a",
+    "text": "#e8e4da",
+    "ink": "#e8e4da",
+    "accent": "#ff5a67"
+   }
+  }
+ ],
+ "palettes": [
+  {
+   "when": {
+    "dark": true
+   },
+   "tokens": {
+    "background": "#17171a",
+    "text": "#e8e4da",
+    "ink": "#e8e4da",
+    "accent": "#ff5a67"
+   }
+  }
+ ],
+ "body": {
+  "top": 100,
+  "bottom": 58,
+  "left": 28,
+  "right": 28
+ },
+ "layers": [
+  {
+   "type": "texture",
+   "texture": "paper",
+   "anchor": "page",
+   "rect": {},
+   "radius": 0,
+   "z": -2,
+   "opacity": 0.25,
+   "when": {
+    "dark": false,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "texture",
+   "texture": "paper",
+   "anchor": "page",
+   "rect": {},
+   "radius": 0,
+   "z": -2,
+   "opacity": 0.08,
+   "when": {
+    "time": "20:00-05:30"
+   }
+  },
+  {
+   "type": "texture",
+   "texture": "paper",
+   "anchor": "page",
+   "rect": {},
+   "radius": 0,
+   "z": -2,
+   "opacity": 0.08,
+   "when": {
+    "dark": true,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "shape",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "right": 24,
+    "top": 14,
+    "height": 4
+   },
+   "z": 1,
+   "fill": "accent",
+   "when": {
+    "pages": "first"
+   }
+  },
+  {
+   "type": "shape",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "top": 28,
+    "width": 18,
+    "height": 18
+   },
+   "z": 1,
+   "fill": "accent",
+   "when": {
+    "pages": "first"
+   }
+  },
+  {
+   "type": "text",
+   "value": "篇",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "top": 28,
+    "width": 18,
+    "height": 18
+   },
+   "size": 10,
+   "color": "paper",
+   "align": "center",
+   "z": 1,
+   "font": "serif",
+   "weight": 700,
+   "when": {
+    "pages": "first"
+   }
+  },
+  {
+   "type": "text",
+   "value": "CHAPTER {pad(chapter.index, 2)}",
+   "anchor": "top",
+   "rect": {
+    "left": 50,
+    "top": 30,
+    "width": 200,
+    "height": 14
+   },
+   "size": 9,
+   "color": "accent",
+   "align": "start",
+   "z": 1,
+   "font": "sans",
+   "weight": 700,
+   "letterSpacing": 3,
+   "when": {
+    "pages": "first"
+   }
+  },
+  {
+   "type": "text",
+   "value": "{chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "right": 96,
+    "top": 48,
+    "height": 34
+   },
+   "size": 23,
+   "color": "ink",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "weight": 700,
+   "when": {
+    "pages": "first"
+   }
+  },
+  {
+   "type": "shape",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "top": 88,
+    "width": 56,
+    "height": 3
+   },
+   "z": 1,
+   "fill": "accent",
+   "when": {
+    "pages": "first"
+   }
+  },
+  {
+   "type": "image",
+   "src": "images/art.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "right": 22,
+    "top": 22,
+    "width": 66,
+    "height": 66
+   },
+   "z": 1,
+   "when": {
+    "pages": "first",
+    "dark": false
+   }
+  },
+  {
+   "type": "text",
+   "value": "{chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "right": 170,
+    "top": 62,
+    "height": 14
+   },
+   "size": 9,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "sans",
+   "when": {
+    "pages": "other"
+   }
+  },
+  {
+   "type": "text",
+   "value": "{upper(book.name)}",
+   "anchor": "top",
+   "rect": {
+    "right": 24,
+    "top": 62,
+    "width": 150,
+    "height": 14
+   },
+   "size": 8.5,
+   "color": "muted",
+   "align": "end",
+   "z": 1,
+   "font": "sans",
+   "letterSpacing": 1.5,
+   "when": {
+    "pages": "other"
+   }
+  },
+  {
+   "type": "shape",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "right": 24,
+    "top": 82,
+    "height": 1
+   },
+   "z": 1,
+   "fill": "rule",
+   "when": {
+    "pages": "other"
+   }
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 24,
+    "right": 24,
+    "top": 14,
+    "height": 1
+   },
+   "z": 1,
+   "fill": "rule"
+  },
+  {
+   "type": "text",
+   "value": "{percent(book.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "left": 24,
+    "top": 26,
+    "width": 100,
+    "height": 14
+   },
+   "size": 8.5,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "sans",
+   "letterSpacing": 1
+  },
+  {
+   "type": "text",
+   "value": "{page.index}",
+   "anchor": "bottom",
+   "rect": {
+    "top": 23,
+    "width": 80,
+    "height": 18
+   },
+   "size": 12,
+   "color": "ink",
+   "align": "center",
+   "z": 1,
+   "font": "serif",
+   "weight": 700
+  },
+  {
+   "type": "text",
+   "value": "{chapter.index} / {chapter.count}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 24,
+    "top": 26,
+    "width": 100,
+    "height": 14
+   },
+   "size": 8.5,
+   "color": "muted",
+   "align": "end",
+   "z": 1,
+   "font": "sans",
+   "letterSpacing": 1
+  }
+ ]
+}

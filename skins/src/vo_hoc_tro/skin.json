@@ -1,0 +1,361 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "vo_hoc_tro",
+ "version": 1,
+ "name": {
+  "en": "School Notebook",
+  "vi": "Vở học trò"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "A spiral-bound grid notebook with a red margin and pen doodles by day; at night it turns into a chalk blackboard.",
+  "vi": "Vở ô li gáy lò xo, lề đỏ và hình vẽ bút bi ban ngày; ban đêm hoá thành bảng đen phấn trắng."
+ },
+ "tokens": {
+  "background": "#fdfdf8",
+  "text": "#1f2a44",
+  "ink": "#1f2a44",
+  "margin": "#e35d5b",
+  "board": "#fdfdf8",
+  "muted": "ink@55%",
+  "faint": "ink@14%",
+  "label": "#fff7c2"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "background": "#23382e",
+    "text": "#f1eee4",
+    "ink": "#f1eee4",
+    "margin": "#f3a6a4",
+    "board": "#23382e"
+   }
+  },
+  {
+   "at": "05:15",
+   "tokens": {
+    "background": "#23382e",
+    "text": "#f1eee4",
+    "ink": "#f1eee4",
+    "margin": "#f3a6a4",
+    "board": "#23382e"
+   }
+  },
+  {
+   "at": "05:30",
+   "tokens": {
+    "background": "#fdfdf8",
+    "text": "#1f2a44",
+    "ink": "#1f2a44",
+    "margin": "#e35d5b",
+    "board": "#fdfdf8"
+   }
+  },
+  {
+   "at": "09:00",
+   "tokens": {
+    "background": "#fdfdf8",
+    "text": "#1f2a44",
+    "ink": "#1f2a44",
+    "margin": "#e35d5b",
+    "board": "#fdfdf8"
+   }
+  },
+  {
+   "at": "17:00",
+   "tokens": {
+    "background": "#fdfdf8",
+    "text": "#1f2a44",
+    "ink": "#1f2a44",
+    "margin": "#e35d5b",
+    "board": "#fdfdf8"
+   }
+  },
+  {
+   "at": "18:30",
+   "tokens": {
+    "background": "#fdfdf8",
+    "text": "#1f2a44",
+    "ink": "#1f2a44",
+    "margin": "#e35d5b",
+    "board": "#fdfdf8"
+   }
+  },
+  {
+   "at": "19:45",
+   "tokens": {
+    "background": "#fdfdf8",
+    "text": "#1f2a44",
+    "ink": "#1f2a44",
+    "margin": "#e35d5b",
+    "board": "#fdfdf8"
+   }
+  },
+  {
+   "at": "20:00",
+   "tokens": {
+    "background": "#23382e",
+    "text": "#f1eee4",
+    "ink": "#f1eee4",
+    "margin": "#f3a6a4",
+    "board": "#23382e"
+   }
+  }
+ ],
+ "palettes": [
+  {
+   "when": {
+    "dark": true
+   },
+   "tokens": {
+    "background": "#23382e",
+    "text": "#f1eee4",
+    "ink": "#f1eee4",
+    "margin": "#f3a6a4",
+    "board": "#23382e"
+   }
+  }
+ ],
+ "body": {
+  "top": 110,
+  "bottom": 66,
+  "left": 46,
+  "right": 26
+ },
+ "layers": [
+  {
+   "type": "image",
+   "src": "images/grid.png",
+   "fit": "crop",
+   "anchor": "page",
+   "rect": {},
+   "z": -3,
+   "when": {
+    "dark": false,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "texture",
+   "texture": "linen",
+   "anchor": "page",
+   "rect": {},
+   "radius": 0,
+   "z": -2,
+   "opacity": 0.0,
+   "when": {
+    "dark": false,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "texture",
+   "texture": "linen",
+   "anchor": "page",
+   "rect": {},
+   "radius": 0,
+   "z": -2,
+   "opacity": 0.25,
+   "when": {
+    "time": "20:00-05:30"
+   }
+  },
+  {
+   "type": "texture",
+   "texture": "linen",
+   "anchor": "page",
+   "rect": {},
+   "radius": 0,
+   "z": -2,
+   "opacity": 0.25,
+   "when": {
+    "dark": true,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "image",
+   "src": "images/spiral.png",
+   "fit": "crop",
+   "anchor": "top",
+   "rect": {
+    "left": 0,
+    "right": 0,
+    "top": -8,
+    "height": 46
+   },
+   "z": 1,
+   "when": {
+    "dark": false,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "shape",
+   "anchor": "page",
+   "rect": {
+    "left": 34,
+    "top": 0,
+    "bottom": 0,
+    "width": 1.5
+   },
+   "z": -2,
+   "fill": "margin"
+  },
+  {
+   "type": "shape",
+   "anchor": "top",
+   "rect": {
+    "left": 46,
+    "top": 48,
+    "width": 230,
+    "height": 40
+   },
+   "z": -1,
+   "fill": "label",
+   "stroke": "ink@40%",
+   "strokeWidth": 1,
+   "radius": 4,
+   "when": {
+    "dark": false,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "text",
+   "value": "{chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 56,
+    "top": 50,
+    "width": 214,
+    "height": 20
+   },
+   "size": 13,
+   "color": "ink",
+   "align": "start",
+   "z": 1,
+   "font": "sans",
+   "weight": 700
+  },
+  {
+   "type": "text",
+   "value": "Vở: {book.name}",
+   "anchor": "top",
+   "rect": {
+    "left": 56,
+    "top": 70,
+    "width": 214,
+    "height": 14
+   },
+   "size": 8.5,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "sans"
+  },
+  {
+   "type": "image",
+   "src": "images/sun.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "right": 22,
+    "top": 42,
+    "width": 44,
+    "height": 44
+   },
+   "z": 1,
+   "when": {
+    "dark": false,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "image",
+   "src": "images/sun-chalk.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "right": 22,
+    "top": 42,
+    "width": 44,
+    "height": 44
+   },
+   "z": 1,
+   "when": {
+    "time": "20:00-05:30"
+   }
+  },
+  {
+   "type": "image",
+   "src": "images/sun-chalk.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "right": 22,
+    "top": 42,
+    "width": 44,
+    "height": 44
+   },
+   "z": 1,
+   "when": {
+    "dark": true,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "image",
+   "src": "images/star.png",
+   "fit": "contain",
+   "anchor": "bottom",
+   "rect": {
+    "right": 26,
+    "top": 10,
+    "width": 26,
+    "height": 26
+   },
+   "z": 1,
+   "when": {
+    "dark": false,
+    "time": "05:30-20:00",
+    "pages": "first"
+   }
+  },
+  {
+   "type": "text",
+   "value": "Trang {page.index}/{page.count}",
+   "anchor": "bottom",
+   "rect": {
+    "left": 46,
+    "top": 24,
+    "width": 160,
+    "height": 16
+   },
+   "size": 10,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "sans"
+  },
+  {
+   "type": "text",
+   "value": "{percent(book.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 60,
+    "top": 24,
+    "width": 80,
+    "height": 16
+   },
+   "size": 10,
+   "color": "muted",
+   "align": "end",
+   "z": 1,
+   "font": "sans"
+  }
+ ]
+}

@@ -268,3 +268,8 @@ Kho là repo này: nguồn skin nằm trong `skins/src/<id>/`.
   - `dem_sao`: skin tối, bộ ảnh tuần trăng, ảnh sao đổi độ đậm theo giờ.
   - `hai_trinh`: biểu thức toạ độ theo `chapterSeed`, hải đồ mờ đi ban đêm.
   - `terminal`: font `mono`, màu chữ đổi xanh / hổ phách theo giờ, vạch quét vẽ trên chữ (`z` dương).
+  - `khoi`: bộ ảnh 24 khung trời (`pick: "time.hour"`) và 9 khung hotbar (`pick: "page.index - 1"`): đổi hình theo giờ / theo trang bằng `set`.
+  - `dong_bo`, `tap_chi`: header khác nhau giữa trang mở đầu chương và các trang sau (`when.pages`).
+  - `thuy_mac`, `anh_dao`, `mua_thu`, `halloween`, `noel`, `xuan`, `ha`, `dong`: một ảnh lớn ở dải `top` làm cảnh, ảnh phủ cả trang (`anchor: page`, `z` âm) làm hoa / lá / tuyết rơi.
+
+Ảnh rộng đặt ở dải `top` nên có tỷ lệ gần với dải đó (rộng gấp 6–7 lần cao): `crop` sẽ cắt hai bên chứ không cắt mất phần trời.

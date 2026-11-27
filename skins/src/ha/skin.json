@@ -1,0 +1,278 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "ha",
+ "version": 1,
+ "name": {
+  "en": "Summer",
+  "vi": "Hạ · Phượng vĩ"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "School's out: flame-tree blossoms over the title, a bright sun, sea waves along the foot of the page; a warm night breeze after dark.",
+  "vi": "Mùa hè học trò: cành phượng đỏ trên tiêu đề, nắng vàng rực, sóng biển dưới chân trang; ban đêm là gió biển mát."
+ },
+ "tokens": {
+  "sky": "#bfe9ff",
+  "skyEnd": "#fff8e7",
+  "background": "#fff8e7",
+  "text": "#20323d",
+  "ink": "#20323d",
+  "card": "#ffffff",
+  "red": "#d32f2f",
+  "sea": "#0288d1",
+  "muted": "ink@55%",
+  "faint": "sea@30%"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "sky": "#0d2238",
+    "skyEnd": "#12324a",
+    "background": "#0d2238",
+    "text": "#e6f2f8",
+    "ink": "#e6f2f8",
+    "card": "#0f2a40",
+    "red": "#ff7a6b"
+   }
+  },
+  {
+   "at": "05:15",
+   "tokens": {
+    "sky": "#0d2238",
+    "skyEnd": "#12324a",
+    "background": "#0d2238",
+    "text": "#e6f2f8",
+    "ink": "#e6f2f8",
+    "card": "#0f2a40",
+    "red": "#ff7a6b"
+   }
+  },
+  {
+   "at": "05:30",
+   "tokens": {
+    "sky": "#bfe9ff",
+    "skyEnd": "#fff8e7",
+    "background": "#fff8e7",
+    "text": "#20323d",
+    "ink": "#20323d",
+    "card": "#ffffff",
+    "red": "#d32f2f"
+   }
+  },
+  {
+   "at": "09:00",
+   "tokens": {
+    "sky": "#bfe9ff",
+    "skyEnd": "#fff8e7",
+    "background": "#fff8e7",
+    "text": "#20323d",
+    "ink": "#20323d",
+    "card": "#ffffff",
+    "red": "#d32f2f"
+   }
+  },
+  {
+   "at": "17:00",
+   "tokens": {
+    "sky": "#bfe9ff",
+    "skyEnd": "#fff8e7",
+    "background": "#fff8e7",
+    "text": "#20323d",
+    "ink": "#20323d",
+    "card": "#ffffff",
+    "red": "#d32f2f"
+   }
+  },
+  {
+   "at": "18:30",
+   "tokens": {
+    "sky": "#bfe9ff",
+    "skyEnd": "#fff8e7",
+    "background": "#fff8e7",
+    "text": "#20323d",
+    "ink": "#20323d",
+    "card": "#ffffff",
+    "red": "#d32f2f"
+   }
+  },
+  {
+   "at": "19:45",
+   "tokens": {
+    "sky": "#bfe9ff",
+    "skyEnd": "#fff8e7",
+    "background": "#fff8e7",
+    "text": "#20323d",
+    "ink": "#20323d",
+    "card": "#ffffff",
+    "red": "#d32f2f"
+   }
+  },
+  {
+   "at": "20:00",
+   "tokens": {
+    "sky": "#0d2238",
+    "skyEnd": "#12324a",
+    "background": "#0d2238",
+    "text": "#e6f2f8",
+    "ink": "#e6f2f8",
+    "card": "#0f2a40",
+    "red": "#ff7a6b"
+   }
+  }
+ ],
+ "palettes": [
+  {
+   "when": {
+    "dark": true
+   },
+   "tokens": {
+    "sky": "#0d2238",
+    "skyEnd": "#12324a",
+    "background": "#0d2238",
+    "text": "#e6f2f8",
+    "ink": "#e6f2f8",
+    "card": "#0f2a40",
+    "red": "#ff7a6b"
+   }
+  }
+ ],
+ "body": {
+  "top": 118,
+  "bottom": 84,
+  "left": 30,
+  "right": 30
+ },
+ "layers": [
+  {
+   "type": "shape",
+   "anchor": "page",
+   "rect": {},
+   "z": -4,
+   "fill": "sky",
+   "fillEnd": "skyEnd"
+  },
+  {
+   "type": "image",
+   "src": "images/sun.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "left": 18,
+    "top": -6,
+    "width": 78,
+    "height": 78
+   },
+   "z": -3,
+   "when": {
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "image",
+   "src": "images/phuong.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "right": -8,
+    "top": -14,
+    "width": 240,
+    "height": 114
+   },
+   "z": -2
+  },
+  {
+   "type": "text",
+   "value": "{chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 28,
+    "right": 150,
+    "top": 60,
+    "height": 26
+   },
+   "size": 17,
+   "color": "ink",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "weight": 700
+  },
+  {
+   "type": "text",
+   "value": "☀  {book.name}",
+   "anchor": "top",
+   "rect": {
+    "left": 28,
+    "right": 150,
+    "top": 88,
+    "height": 14
+   },
+   "size": 9.5,
+   "color": "red",
+   "align": "start",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -14,
+    "right": -14,
+    "top": -12,
+    "bottom": -12
+   },
+   "z": -2,
+   "fill": "card@72%",
+   "radius": 12
+  },
+  {
+   "type": "image",
+   "src": "images/waves.png",
+   "fit": "crop",
+   "anchor": "bottom",
+   "rect": {
+    "left": 0,
+    "right": 0,
+    "top": 26,
+    "bottom": -40
+   },
+   "z": -1
+  },
+  {
+   "type": "text",
+   "value": "{page.index} / {page.count}",
+   "anchor": "bottom",
+   "rect": {
+    "left": 30,
+    "top": 10,
+    "width": 120,
+    "height": 16
+   },
+   "size": 10,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "text",
+   "value": "{percent(book.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 30,
+    "top": 10,
+    "width": 80,
+    "height": 16
+   },
+   "size": 10,
+   "color": "muted",
+   "align": "end",
+   "z": 1,
+   "font": "serif"
+  }
+ ]
+}

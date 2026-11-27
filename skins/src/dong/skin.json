@@ -1,0 +1,294 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "dong",
+ "version": 1,
+ "name": {
+  "en": "Winter",
+  "vi": "Đông · Tuyết"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "A snowy pine forest along the head of the page, flakes falling past the text; frost blue by day, a still starlit cold by night.",
+  "vi": "Rừng thông phủ tuyết đầu trang, bông tuyết rơi qua trang chữ; xanh băng ban ngày, đêm đông lặng lẽ."
+ },
+ "tokens": {
+  "sky": "#dce9f5",
+  "skyEnd": "#f6fafd",
+  "background": "#f6fafd",
+  "text": "#1e2a36",
+  "ink": "#1e2a36",
+  "card": "#ffffff",
+  "ice": "#5f8fbf",
+  "muted": "ink@55%",
+  "faint": "ice@30%"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "sky": "#0e1a2b",
+    "skyEnd": "#1b2d45",
+    "background": "#0e1a2b",
+    "text": "#e5eef8",
+    "ink": "#e5eef8",
+    "card": "#132238",
+    "ice": "#9cc4ea"
+   }
+  },
+  {
+   "at": "05:15",
+   "tokens": {
+    "sky": "#0e1a2b",
+    "skyEnd": "#1b2d45",
+    "background": "#0e1a2b",
+    "text": "#e5eef8",
+    "ink": "#e5eef8",
+    "card": "#132238",
+    "ice": "#9cc4ea"
+   }
+  },
+  {
+   "at": "05:30",
+   "tokens": {
+    "sky": "#dce9f5",
+    "skyEnd": "#f6fafd",
+    "background": "#f6fafd",
+    "text": "#1e2a36",
+    "ink": "#1e2a36",
+    "card": "#ffffff",
+    "ice": "#5f8fbf"
+   }
+  },
+  {
+   "at": "09:00",
+   "tokens": {
+    "sky": "#dce9f5",
+    "skyEnd": "#f6fafd",
+    "background": "#f6fafd",
+    "text": "#1e2a36",
+    "ink": "#1e2a36",
+    "card": "#ffffff",
+    "ice": "#5f8fbf"
+   }
+  },
+  {
+   "at": "17:00",
+   "tokens": {
+    "sky": "#dce9f5",
+    "skyEnd": "#f6fafd",
+    "background": "#f6fafd",
+    "text": "#1e2a36",
+    "ink": "#1e2a36",
+    "card": "#ffffff",
+    "ice": "#5f8fbf"
+   }
+  },
+  {
+   "at": "18:30",
+   "tokens": {
+    "sky": "#dce9f5",
+    "skyEnd": "#f6fafd",
+    "background": "#f6fafd",
+    "text": "#1e2a36",
+    "ink": "#1e2a36",
+    "card": "#ffffff",
+    "ice": "#5f8fbf"
+   }
+  },
+  {
+   "at": "19:45",
+   "tokens": {
+    "sky": "#dce9f5",
+    "skyEnd": "#f6fafd",
+    "background": "#f6fafd",
+    "text": "#1e2a36",
+    "ink": "#1e2a36",
+    "card": "#ffffff",
+    "ice": "#5f8fbf"
+   }
+  },
+  {
+   "at": "20:00",
+   "tokens": {
+    "sky": "#0e1a2b",
+    "skyEnd": "#1b2d45",
+    "background": "#0e1a2b",
+    "text": "#e5eef8",
+    "ink": "#e5eef8",
+    "card": "#132238",
+    "ice": "#9cc4ea"
+   }
+  }
+ ],
+ "palettes": [
+  {
+   "when": {
+    "dark": true
+   },
+   "tokens": {
+    "sky": "#0e1a2b",
+    "skyEnd": "#1b2d45",
+    "background": "#0e1a2b",
+    "text": "#e5eef8",
+    "ink": "#e5eef8",
+    "card": "#132238",
+    "ice": "#9cc4ea"
+   }
+  }
+ ],
+ "body": {
+  "top": 118,
+  "bottom": 72,
+  "left": 30,
+  "right": 30
+ },
+ "layers": [
+  {
+   "type": "shape",
+   "anchor": "page",
+   "rect": {},
+   "z": -4,
+   "fill": "sky",
+   "fillEnd": "skyEnd"
+  },
+  {
+   "type": "image",
+   "src": "images/snow.png",
+   "fit": "crop",
+   "anchor": "page",
+   "rect": {},
+   "z": -3,
+   "opacity": 0.9
+  },
+  {
+   "type": "image",
+   "src": "images/forest.png",
+   "fit": "crop",
+   "anchor": "top",
+   "rect": {
+    "left": -4,
+    "right": -4,
+    "bottom": -6,
+    "height": 70
+   },
+   "z": -2
+  },
+  {
+   "type": "text",
+   "value": "{chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 26,
+    "right": 26,
+    "top": 6,
+    "height": 24
+   },
+   "size": 16,
+   "color": "ink",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "weight": 700
+  },
+  {
+   "type": "text",
+   "value": "❄  {book.name}",
+   "anchor": "top",
+   "rect": {
+    "left": 26,
+    "right": 26,
+    "top": 30,
+    "height": 14
+   },
+   "size": 9.5,
+   "color": "ice",
+   "align": "start",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -14,
+    "right": -14,
+    "top": -12,
+    "bottom": -12
+   },
+   "z": -2,
+   "fill": "card@78%",
+   "radius": 10
+  },
+  {
+   "type": "image",
+   "src": "images/flake.png",
+   "fit": "contain",
+   "anchor": "bottom",
+   "rect": {
+    "top": 14,
+    "width": 22,
+    "height": 22
+   },
+   "z": 1
+  },
+  {
+   "type": "text",
+   "value": "{page.index}",
+   "anchor": "bottom",
+   "rect": {
+    "left": 30,
+    "top": 18,
+    "width": 80,
+    "height": 16
+   },
+   "size": 10,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "text",
+   "value": "{percent(book.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 30,
+    "top": 18,
+    "width": 80,
+    "height": 16
+   },
+   "size": 10,
+   "color": "muted",
+   "align": "end",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 30,
+    "right": 30,
+    "top": 48,
+    "height": 1.5
+   },
+   "z": 1,
+   "fill": "faint"
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 30,
+    "right": 30,
+    "top": 48,
+    "height": 1.5
+   },
+   "z": 1,
+   "fill": "ice",
+   "progress": "chapter.progress"
+  }
+ ]
+}

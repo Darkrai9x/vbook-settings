@@ -1,0 +1,316 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "thuy_mac",
+ "version": 1,
+ "name": {
+  "en": "Ink Wash",
+  "vi": "Thủy mặc"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "A Chinese ink landscape: misty ridges and pines across the head of the page, a vermilion sun, a carved seal; rice paper by day, ink-dark by night.",
+  "vi": "Tranh thủy mặc: núi sương và rặng thông đầu trang, mặt trời son, triện khắc; giấy dó ban ngày, mực đêm ban đêm."
+ },
+ "tokens": {
+  "background": "#f3eee2",
+  "text": "#24221f",
+  "ink": "#24221f",
+  "mountain": "#000000",
+  "seal": "#b8312a",
+  "muted": "ink@55%",
+  "faint": "ink@14%"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "background": "#1b1a18",
+    "text": "#e4ddcf",
+    "ink": "#e4ddcf"
+   }
+  },
+  {
+   "at": "05:15",
+   "tokens": {
+    "background": "#1b1a18",
+    "text": "#e4ddcf",
+    "ink": "#e4ddcf"
+   }
+  },
+  {
+   "at": "05:30",
+   "tokens": {
+    "background": "#f3eee2",
+    "text": "#24221f",
+    "ink": "#24221f",
+    "mountain": "#000000"
+   }
+  },
+  {
+   "at": "09:00",
+   "tokens": {
+    "background": "#f3eee2",
+    "text": "#24221f",
+    "ink": "#24221f",
+    "mountain": "#000000"
+   }
+  },
+  {
+   "at": "17:00",
+   "tokens": {
+    "background": "#f3eee2",
+    "text": "#24221f",
+    "ink": "#24221f",
+    "mountain": "#000000"
+   }
+  },
+  {
+   "at": "18:30",
+   "tokens": {
+    "background": "#f3eee2",
+    "text": "#24221f",
+    "ink": "#24221f",
+    "mountain": "#000000"
+   }
+  },
+  {
+   "at": "19:45",
+   "tokens": {
+    "background": "#f3eee2",
+    "text": "#24221f",
+    "ink": "#24221f",
+    "mountain": "#000000"
+   }
+  },
+  {
+   "at": "20:00",
+   "tokens": {
+    "background": "#1b1a18",
+    "text": "#e4ddcf",
+    "ink": "#e4ddcf"
+   }
+  }
+ ],
+ "palettes": [
+  {
+   "when": {
+    "dark": true
+   },
+   "tokens": {
+    "background": "#1b1a18",
+    "text": "#e4ddcf",
+    "ink": "#e4ddcf"
+   }
+  }
+ ],
+ "body": {
+  "top": 122,
+  "bottom": 70,
+  "left": 34,
+  "right": 34
+ },
+ "layers": [
+  {
+   "type": "texture",
+   "texture": "do",
+   "anchor": "page",
+   "rect": {},
+   "radius": 0,
+   "z": -2,
+   "opacity": 0.55,
+   "when": {
+    "dark": false,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "texture",
+   "texture": "do",
+   "anchor": "page",
+   "rect": {},
+   "radius": 0,
+   "z": -2,
+   "opacity": 0.12,
+   "when": {
+    "time": "20:00-05:30"
+   }
+  },
+  {
+   "type": "texture",
+   "texture": "do",
+   "anchor": "page",
+   "rect": {},
+   "radius": 0,
+   "z": -2,
+   "opacity": 0.12,
+   "when": {
+    "dark": true,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "image",
+   "src": "images/sun.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "right": 70,
+    "top": 10,
+    "width": 40,
+    "height": 40
+   },
+   "z": -3,
+   "opacity": 0.85
+  },
+  {
+   "type": "image",
+   "src": "images/mountains.webp",
+   "fit": "crop",
+   "anchor": "top",
+   "rect": {
+    "left": 0,
+    "right": 0,
+    "top": 0,
+    "bottom": -6
+   },
+   "z": -2,
+   "opacity": 0.9,
+   "when": {
+    "dark": false,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "image",
+   "src": "images/mountains.webp",
+   "fit": "crop",
+   "anchor": "top",
+   "rect": {
+    "left": 0,
+    "right": 0,
+    "top": 0,
+    "bottom": -6
+   },
+   "z": -2,
+   "opacity": 0.22,
+   "when": {
+    "time": "20:00-05:30"
+   }
+  },
+  {
+   "type": "image",
+   "src": "images/mountains.webp",
+   "fit": "crop",
+   "anchor": "top",
+   "rect": {
+    "left": 0,
+    "right": 0,
+    "top": 0,
+    "bottom": -6
+   },
+   "z": -2,
+   "opacity": 0.22,
+   "when": {
+    "dark": true,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "text",
+   "value": "{chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 28,
+    "right": 120,
+    "top": 16,
+    "height": 24
+   },
+   "size": 16,
+   "color": "ink",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "weight": 600
+  },
+  {
+   "type": "text",
+   "value": "{book.name}",
+   "anchor": "top",
+   "rect": {
+    "left": 28,
+    "right": 120,
+    "top": 42,
+    "height": 14
+   },
+   "size": 9,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 2
+  },
+  {
+   "type": "image",
+   "src": "images/seal.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "left": 28,
+    "top": 60,
+    "width": 28,
+    "height": 28
+   },
+   "z": 1,
+   "opacity": 0.9,
+   "when": {
+    "pages": "first"
+   }
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 34,
+    "right": 34,
+    "top": 14,
+    "height": 1
+   },
+   "z": 1,
+   "fill": "faint"
+  },
+  {
+   "type": "text",
+   "value": "{chapter.index} · {page.index}",
+   "anchor": "bottom",
+   "rect": {
+    "top": 24,
+    "width": 140,
+    "height": 16
+   },
+   "size": 10,
+   "color": "muted",
+   "align": "center",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 3
+  },
+  {
+   "type": "text",
+   "value": "{percent(book.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 34,
+    "top": 26,
+    "width": 90,
+    "height": 14
+   },
+   "size": 8.5,
+   "color": "muted",
+   "align": "end",
+   "z": 1,
+   "font": "serif"
+  }
+ ]
+}

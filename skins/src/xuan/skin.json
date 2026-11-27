@@ -1,0 +1,329 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "xuan",
+ "version": 1,
+ "name": {
+  "en": "Spring Festival",
+  "vi": "Xuân · Tết"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "Lunar New Year: yellow apricot blossoms (mai), red lanterns with 福, gold trim; warm cream by day, lacquer red by night.",
+  "vi": "Tết Nguyên Đán: cành mai vàng, đèn lồng đỏ chữ 福, viền vàng; kem ấm ban ngày, đỏ sơn mài ban đêm."
+ },
+ "tokens": {
+  "background": "#fff6e5",
+  "paperEnd": "#fde7c3",
+  "text": "#3a1c10",
+  "ink": "#3a1c10",
+  "red": "#c62828",
+  "gold": "#d4a017",
+  "card": "#fffaf0",
+  "muted": "ink@55%",
+  "faint": "gold@40%"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "background": "#4a0f10",
+    "paperEnd": "#2e0809",
+    "text": "#fbe8c8",
+    "ink": "#fbe8c8",
+    "red": "#ff6b5a",
+    "gold": "#f0c24b",
+    "card": "#3a0c0d"
+   }
+  },
+  {
+   "at": "05:15",
+   "tokens": {
+    "background": "#4a0f10",
+    "paperEnd": "#2e0809",
+    "text": "#fbe8c8",
+    "ink": "#fbe8c8",
+    "red": "#ff6b5a",
+    "gold": "#f0c24b",
+    "card": "#3a0c0d"
+   }
+  },
+  {
+   "at": "05:30",
+   "tokens": {
+    "background": "#fff6e5",
+    "paperEnd": "#fde7c3",
+    "text": "#3a1c10",
+    "ink": "#3a1c10",
+    "red": "#c62828",
+    "gold": "#d4a017",
+    "card": "#fffaf0"
+   }
+  },
+  {
+   "at": "09:00",
+   "tokens": {
+    "background": "#fff6e5",
+    "paperEnd": "#fde7c3",
+    "text": "#3a1c10",
+    "ink": "#3a1c10",
+    "red": "#c62828",
+    "gold": "#d4a017",
+    "card": "#fffaf0"
+   }
+  },
+  {
+   "at": "17:00",
+   "tokens": {
+    "background": "#fff6e5",
+    "paperEnd": "#fde7c3",
+    "text": "#3a1c10",
+    "ink": "#3a1c10",
+    "red": "#c62828",
+    "gold": "#d4a017",
+    "card": "#fffaf0"
+   }
+  },
+  {
+   "at": "18:30",
+   "tokens": {
+    "background": "#fff6e5",
+    "paperEnd": "#fde7c3",
+    "text": "#3a1c10",
+    "ink": "#3a1c10",
+    "red": "#c62828",
+    "gold": "#d4a017",
+    "card": "#fffaf0"
+   }
+  },
+  {
+   "at": "19:45",
+   "tokens": {
+    "background": "#fff6e5",
+    "paperEnd": "#fde7c3",
+    "text": "#3a1c10",
+    "ink": "#3a1c10",
+    "red": "#c62828",
+    "gold": "#d4a017",
+    "card": "#fffaf0"
+   }
+  },
+  {
+   "at": "20:00",
+   "tokens": {
+    "background": "#4a0f10",
+    "paperEnd": "#2e0809",
+    "text": "#fbe8c8",
+    "ink": "#fbe8c8",
+    "red": "#ff6b5a",
+    "gold": "#f0c24b",
+    "card": "#3a0c0d"
+   }
+  }
+ ],
+ "palettes": [
+  {
+   "when": {
+    "dark": true
+   },
+   "tokens": {
+    "background": "#4a0f10",
+    "paperEnd": "#2e0809",
+    "text": "#fbe8c8",
+    "ink": "#fbe8c8",
+    "red": "#ff6b5a",
+    "gold": "#f0c24b",
+    "card": "#3a0c0d"
+   }
+  }
+ ],
+ "body": {
+  "top": 124,
+  "bottom": 74,
+  "left": 32,
+  "right": 32
+ },
+ "layers": [
+  {
+   "type": "shape",
+   "anchor": "page",
+   "rect": {},
+   "z": -4,
+   "fill": "background",
+   "fillEnd": "paperEnd"
+  },
+  {
+   "type": "image",
+   "src": "images/petals.png",
+   "fit": "crop",
+   "anchor": "page",
+   "rect": {},
+   "z": -3,
+   "opacity": 0.7
+  },
+  {
+   "type": "image",
+   "src": "images/mai.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "right": -10,
+    "top": -12,
+    "width": 240,
+    "height": 140
+   },
+   "z": -2
+  },
+  {
+   "type": "image",
+   "src": "images/lanterns.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "left": 8,
+    "top": -10,
+    "width": 96,
+    "height": 96
+   },
+   "z": 1
+  },
+  {
+   "type": "text",
+   "value": "CUNG CHÚC TÂN XUÂN",
+   "anchor": "top",
+   "rect": {
+    "left": 100,
+    "right": 150,
+    "top": 22,
+    "height": 12
+   },
+   "size": 8,
+   "color": "red",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "weight": 700,
+   "letterSpacing": 2.5
+  },
+  {
+   "type": "text",
+   "value": "{chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 100,
+    "right": 120,
+    "top": 38,
+    "height": 26
+   },
+   "size": 16,
+   "color": "ink",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "weight": 700
+  },
+  {
+   "type": "text",
+   "value": "{book.name}",
+   "anchor": "top",
+   "rect": {
+    "left": 100,
+    "right": 120,
+    "top": 66,
+    "height": 14
+   },
+   "size": 9.5,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -16,
+    "right": -16,
+    "top": -14,
+    "bottom": -14
+   },
+   "z": -2,
+   "fill": "card@65%",
+   "stroke": "gold",
+   "strokeWidth": 1.4,
+   "radius": 4
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -12,
+    "right": -12,
+    "top": -10,
+    "bottom": -10
+   },
+   "z": -1,
+   "stroke": "red@60%",
+   "strokeWidth": 0.8,
+   "radius": 2
+  },
+  {
+   "type": "text",
+   "value": "✿  {page.index}  ✿",
+   "anchor": "bottom",
+   "rect": {
+    "top": 22,
+    "width": 120,
+    "height": 18
+   },
+   "size": 11,
+   "color": "red",
+   "align": "center",
+   "z": 1,
+   "font": "serif",
+   "weight": 700
+  },
+  {
+   "type": "text",
+   "value": "{percent(book.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 32,
+    "top": 24,
+    "width": 80,
+    "height": 14
+   },
+   "size": 9,
+   "color": "muted",
+   "align": "end",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 32,
+    "right": 32,
+    "top": 50,
+    "height": 1.5
+   },
+   "z": 1,
+   "fill": "faint"
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 32,
+    "right": 32,
+    "top": 50,
+    "height": 1.5
+   },
+   "z": 1,
+   "fill": "red",
+   "progress": "chapter.progress"
+  }
+ ]
+}

@@ -1,14 +1,12 @@
-"""Draws the pictures of co_thu, dem_sao, hai_trinh and terminal (own work, CC0): python3 skins/tools/gen_assets.py skins/src. Big ones were then re-encoded to WebP by hand."""
+"""Draws the pictures of co_thu, dem_sao, hai_trinh and terminal (own work, CC0): python3 skins/tools/gen_assets.py skins/src"""
 import math, random, subprocess, sys, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+from chrome_render import chrome_render
 
 OUT = pathlib.Path(sys.argv[1])
 
 def render(svg: str, target: pathlib.Path, fmt_args=()):
-    target.parent.mkdir(parents=True, exist_ok=True)
-    tmp = target.with_suffix(".svg")
-    tmp.write_text(svg)
-    subprocess.run(["magick", "-font", "/System/Library/Fonts/Supplemental/Times New Roman Bold.ttf", "-background", "none", str(tmp), *fmt_args, str(target)], check=True)
-    tmp.unlink()
+    chrome_render(svg, target)
 
 # --- Starry sky: a starfield and 8 moon phases -------------------------------------------
 def stars():

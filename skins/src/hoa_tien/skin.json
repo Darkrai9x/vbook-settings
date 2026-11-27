@@ -1,0 +1,466 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "hoa_tien",
+ "version": 1,
+ "name": {
+  "en": "Gilded Letter",
+  "vi": "Hoa tiên dát vàng"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "Gold-edged letter paper: scrolled corners, a peony cameo from an 1868 botanical plate and a florilegium masthead. After Archive's 鎏金花笺.",
+  "vi": "Giấy viết thư viền vàng: góc hoa văn cuộn, huy hiệu mẫu đơn từ tranh thực vật 1868 và tiêu đề kiểu sổ hoa. Port từ 鎏金花笺 của Archive."
+ },
+ "tokens": {
+  "background": "#f4edde",
+  "paperEnd": "#ecdfb9",
+  "text": "#183b32",
+  "ink": "#183b32",
+  "gold": "#bc984f",
+  "ribbon": "#9e2b2b",
+  "muted": "ink@62%",
+  "faint": "gold@35%"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "background": "#10231d",
+    "paperEnd": "#0b1914",
+    "text": "#ecdfb9",
+    "ink": "#ecdfb9",
+    "gold": "#c9a75e"
+   }
+  },
+  {
+   "at": "05:15",
+   "tokens": {
+    "background": "#10231d",
+    "paperEnd": "#0b1914",
+    "text": "#ecdfb9",
+    "ink": "#ecdfb9",
+    "gold": "#c9a75e"
+   }
+  },
+  {
+   "at": "05:30",
+   "tokens": {
+    "background": "#f4edde",
+    "paperEnd": "#ecdfb9",
+    "text": "#183b32",
+    "ink": "#183b32",
+    "gold": "#bc984f"
+   }
+  },
+  {
+   "at": "09:00",
+   "tokens": {
+    "background": "#f4edde",
+    "paperEnd": "#ecdfb9",
+    "text": "#183b32",
+    "ink": "#183b32",
+    "gold": "#bc984f"
+   }
+  },
+  {
+   "at": "17:00",
+   "tokens": {
+    "background": "#f4edde",
+    "paperEnd": "#ecdfb9",
+    "text": "#183b32",
+    "ink": "#183b32",
+    "gold": "#bc984f"
+   }
+  },
+  {
+   "at": "18:30",
+   "tokens": {
+    "background": "#f4edde",
+    "paperEnd": "#ecdfb9",
+    "text": "#183b32",
+    "ink": "#183b32",
+    "gold": "#bc984f"
+   }
+  },
+  {
+   "at": "19:45",
+   "tokens": {
+    "background": "#f4edde",
+    "paperEnd": "#ecdfb9",
+    "text": "#183b32",
+    "ink": "#183b32",
+    "gold": "#bc984f"
+   }
+  },
+  {
+   "at": "20:00",
+   "tokens": {
+    "background": "#10231d",
+    "paperEnd": "#0b1914",
+    "text": "#ecdfb9",
+    "ink": "#ecdfb9",
+    "gold": "#c9a75e"
+   }
+  }
+ ],
+ "palettes": [
+  {
+   "when": {
+    "dark": true
+   },
+   "tokens": {
+    "background": "#10231d",
+    "paperEnd": "#0b1914",
+    "text": "#ecdfb9",
+    "ink": "#ecdfb9",
+    "gold": "#c9a75e"
+   }
+  }
+ ],
+ "body": {
+  "top": 116,
+  "bottom": 82,
+  "left": 38,
+  "right": 38
+ },
+ "layers": [
+  {
+   "type": "shape",
+   "anchor": "page",
+   "rect": {},
+   "z": -4,
+   "fill": "background",
+   "fillEnd": "paperEnd"
+  },
+  {
+   "type": "texture",
+   "texture": "paper",
+   "anchor": "page",
+   "rect": {},
+   "radius": 0,
+   "z": -2,
+   "opacity": 0.35,
+   "when": {
+    "dark": false,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "texture",
+   "texture": "paper",
+   "anchor": "page",
+   "rect": {},
+   "radius": 0,
+   "z": -2,
+   "opacity": 0.1,
+   "when": {
+    "time": "20:00-05:30"
+   }
+  },
+  {
+   "type": "texture",
+   "texture": "paper",
+   "anchor": "page",
+   "rect": {},
+   "radius": 0,
+   "z": -2,
+   "opacity": 0.1,
+   "when": {
+    "dark": true,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -24,
+    "right": -24,
+    "top": -20,
+    "bottom": -20
+   },
+   "z": -1,
+   "stroke": "gold",
+   "strokeWidth": 1.4
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -19,
+    "right": -19,
+    "top": -15,
+    "bottom": -15
+   },
+   "z": -1,
+   "stroke": "gold@55%",
+   "strokeWidth": 0.6
+  },
+  {
+   "type": "image",
+   "src": "images/corner-nw.png",
+   "fit": "contain",
+   "anchor": "body",
+   "rect": {
+    "left": -30,
+    "top": -26,
+    "width": 58,
+    "height": 58
+   },
+   "z": -1
+  },
+  {
+   "type": "image",
+   "src": "images/corner-ne.png",
+   "fit": "contain",
+   "anchor": "body",
+   "rect": {
+    "right": -30,
+    "top": -26,
+    "width": 58,
+    "height": 58
+   },
+   "z": -1
+  },
+  {
+   "type": "image",
+   "src": "images/corner-sw.png",
+   "fit": "contain",
+   "anchor": "body",
+   "rect": {
+    "left": -30,
+    "bottom": -26,
+    "width": 58,
+    "height": 58
+   },
+   "z": -1
+  },
+  {
+   "type": "image",
+   "src": "images/corner-se.png",
+   "fit": "contain",
+   "anchor": "body",
+   "rect": {
+    "right": -30,
+    "bottom": -26,
+    "width": 58,
+    "height": 58
+   },
+   "z": -1
+  },
+  {
+   "type": "text",
+   "value": "F L O R I L E G I U M",
+   "anchor": "top",
+   "rect": {
+    "left": 32,
+    "right": 110,
+    "top": 18,
+    "height": 12
+   },
+   "size": 8,
+   "color": "gold",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 1.5
+  },
+  {
+   "type": "text",
+   "value": "{book.name}",
+   "anchor": "top",
+   "rect": {
+    "left": 32,
+    "right": 110,
+    "top": 33,
+    "height": 14
+   },
+   "size": 9.5,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "italic": true
+  },
+  {
+   "type": "text",
+   "value": "{chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 32,
+    "right": 110,
+    "top": 48,
+    "height": 26
+   },
+   "size": 17,
+   "color": "ink",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "weight": 600
+  },
+  {
+   "type": "shape",
+   "anchor": "top",
+   "rect": {
+    "left": 32,
+    "top": 82,
+    "width": 120,
+    "height": 2
+   },
+   "z": 1,
+   "shape": "line",
+   "stroke": "gold",
+   "strokeWidth": 0.8
+  },
+  {
+   "type": "text",
+   "value": "❦",
+   "anchor": "top",
+   "rect": {
+    "left": 154,
+    "top": 74,
+    "width": 18,
+    "height": 16
+   },
+   "size": 11,
+   "color": "gold",
+   "align": "center",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "shape",
+   "anchor": "page",
+   "rect": {
+    "right": 118,
+    "top": 0,
+    "width": 11,
+    "height": 46
+   },
+   "z": 1,
+   "fill": "ribbon"
+  },
+  {
+   "type": "text",
+   "value": "✧",
+   "anchor": "page",
+   "rect": {
+    "right": 116,
+    "top": 40,
+    "width": 15,
+    "height": 14
+   },
+   "size": 9,
+   "color": "gold",
+   "align": "center",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "image",
+   "src": "images/cameo.webp",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "right": 30,
+    "top": 14,
+    "width": 70,
+    "height": 70
+   },
+   "z": 1
+  },
+  {
+   "type": "text",
+   "value": "✦",
+   "anchor": "top",
+   "rect": {
+    "right": 24,
+    "top": 80,
+    "width": 12,
+    "height": 12
+   },
+   "size": 8,
+   "color": "gold",
+   "align": "center",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "text",
+   "value": "時 · 光   § {chapter.index}",
+   "anchor": "bottom",
+   "rect": {
+    "left": 34,
+    "top": 36,
+    "width": 140,
+    "height": 14
+   },
+   "size": 8.5,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 1
+  },
+  {
+   "type": "text",
+   "value": "❧  {page.index}  ☙",
+   "anchor": "bottom",
+   "rect": {
+    "top": 32,
+    "width": 120,
+    "height": 18
+   },
+   "size": 12,
+   "color": "ink",
+   "align": "center",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "text",
+   "value": "書 · 程   {percent(book.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 34,
+    "top": 36,
+    "width": 150,
+    "height": 14
+   },
+   "size": 8.5,
+   "color": "muted",
+   "align": "end",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 1
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 34,
+    "right": 34,
+    "top": 60,
+    "height": 1
+   },
+   "z": 1,
+   "fill": "faint"
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 34,
+    "right": 34,
+    "top": 60,
+    "height": 1
+   },
+   "z": 1,
+   "fill": "gold",
+   "progress": "chapter.progress"
+  }
+ ]
+}

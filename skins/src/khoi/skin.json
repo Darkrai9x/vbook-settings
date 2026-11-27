@@ -1,0 +1,308 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "khoi",
+ "version": 1,
+ "name": {
+  "en": "Pixel Realm",
+  "vi": "Thế giới khối"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "A blocky adventure: a pixel sky whose sun and moon cross with the hours, a hotbar that steps with the pages, a level bar for the chapter. Inspired by Archive's sandbox template; all art drawn anew.",
+  "vi": "Phiêu lưu thế giới khối: trời pixel có mặt trời, mặt trăng chạy theo giờ, hotbar đổi ô theo trang, thanh cấp độ theo chương. Lấy cảm hứng từ mẫu sandbox của Archive; toàn bộ hình vẽ mới."
+ },
+ "tokens": {
+  "background": "#2d2a26",
+  "sky": "#7ec0ee",
+  "skyEnd": "#cfe9ff",
+  "paper": "#eae2c7",
+  "text": "#303b32",
+  "ink": "#303b32",
+  "edge": "#5b4a33",
+  "edgeLight": "#c9b98f",
+  "xp": "#80ff20",
+  "xpTrack": "#1d2a12",
+  "label": "#ffffff",
+  "labelDim": "label@70%"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "sky": "#0b1030",
+    "skyEnd": "#1b2550"
+   }
+  },
+  {
+   "at": "05:00",
+   "tokens": {
+    "sky": "#2a2f5a",
+    "skyEnd": "#d98a6a"
+   }
+  },
+  {
+   "at": "06:30",
+   "tokens": {
+    "sky": "#f4a77a",
+    "skyEnd": "#ffd9a8"
+   }
+  },
+  {
+   "at": "08:30",
+   "tokens": {
+    "sky": "#7ec0ee",
+    "skyEnd": "#cfe9ff"
+   }
+  },
+  {
+   "at": "16:30",
+   "tokens": {
+    "sky": "#7ec0ee",
+    "skyEnd": "#cfe9ff"
+   }
+  },
+  {
+   "at": "18:00",
+   "tokens": {
+    "sky": "#f08a5d",
+    "skyEnd": "#ffcf8a"
+   }
+  },
+  {
+   "at": "19:30",
+   "tokens": {
+    "sky": "#3a2d5c",
+    "skyEnd": "#b06a7a"
+   }
+  },
+  {
+   "at": "21:00",
+   "tokens": {
+    "sky": "#0b1030",
+    "skyEnd": "#1b2550"
+   }
+  }
+ ],
+ "palettes": [
+  {
+   "when": {
+    "dark": true
+   },
+   "tokens": {
+    "paper": "#2b2924",
+    "text": "#e6dcc0",
+    "ink": "#e6dcc0",
+    "edgeLight": "#4a4235"
+   }
+  }
+ ],
+ "imageSets": {
+  "sky": {
+   "pattern": "sky/sky-{i:2}.png",
+   "count": 24
+  },
+  "hotbar": {
+   "pattern": "hotbar/hotbar-{i}.png",
+   "count": 9
+  }
+ },
+ "body": {
+  "top": 134,
+  "bottom": 86,
+  "left": 26,
+  "right": 26
+ },
+ "layers": [
+  {
+   "type": "shape",
+   "anchor": "top",
+   "rect": {
+    "top": -90
+   },
+   "z": -4,
+   "fill": "sky",
+   "fillEnd": "skyEnd"
+  },
+  {
+   "type": "set",
+   "set": "sky",
+   "pick": "time.hour",
+   "count": 1,
+   "radius": 0,
+   "anchor": "top",
+   "rect": {
+    "left": 0,
+    "right": 0,
+    "top": 4,
+    "height": 66
+   },
+   "z": -3
+  },
+  {
+   "type": "image",
+   "src": "images/land.png",
+   "fit": "crop",
+   "anchor": "top",
+   "rect": {
+    "left": 0,
+    "right": 0,
+    "bottom": 0,
+    "height": 64
+   },
+   "z": -3
+  },
+  {
+   "type": "text",
+   "value": "A READER'S ADVENTURE",
+   "anchor": "top",
+   "rect": {
+    "left": 18,
+    "right": 18,
+    "top": 14,
+    "height": 12
+   },
+   "size": 7.5,
+   "color": "labelDim",
+   "align": "start",
+   "z": 1,
+   "font": "mono",
+   "letterSpacing": 1
+  },
+  {
+   "type": "text",
+   "value": "{upper(book.name)}",
+   "anchor": "top",
+   "rect": {
+    "left": 18,
+    "right": 100,
+    "top": 27,
+    "height": 18
+   },
+   "size": 13,
+   "color": "label",
+   "align": "start",
+   "z": 1,
+   "font": "mono",
+   "weight": 700
+  },
+  {
+   "type": "text",
+   "value": "{upper(phase)} · DAY {chapter.index}",
+   "anchor": "top",
+   "rect": {
+    "left": 18,
+    "right": 18,
+    "top": 47,
+    "height": 12
+   },
+   "size": 7.5,
+   "color": "labelDim",
+   "align": "start",
+   "z": 1,
+   "font": "mono",
+   "letterSpacing": 1
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -14,
+    "right": -14,
+    "top": -12,
+    "bottom": -12
+   },
+   "z": -2,
+   "fill": "paper",
+   "stroke": "edge",
+   "strokeWidth": 3
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -10,
+    "right": -10,
+    "top": -8,
+    "bottom": -8
+   },
+   "z": -1,
+   "stroke": "edgeLight",
+   "strokeWidth": 1
+  },
+  {
+   "type": "text",
+   "value": "{chapter.index}",
+   "anchor": "bottom",
+   "rect": {
+    "top": 8,
+    "width": 60,
+    "height": 14
+   },
+   "size": 11,
+   "color": "xp",
+   "align": "center",
+   "z": 1,
+   "font": "mono",
+   "weight": 700
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 40,
+    "right": 40,
+    "top": 24,
+    "height": 6
+   },
+   "z": 1,
+   "fill": "xpTrack",
+   "stroke": "#000000",
+   "strokeWidth": 1
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 41,
+    "right": 41,
+    "top": 25,
+    "height": 4
+   },
+   "z": 1,
+   "fill": "xp",
+   "progress": "chapter.progress"
+  },
+  {
+   "type": "set",
+   "set": "hotbar",
+   "pick": "page.index - 1",
+   "count": 1,
+   "radius": 0,
+   "anchor": "bottom",
+   "rect": {
+    "top": 36,
+    "width": 300,
+    "height": 36
+   },
+   "z": 1
+  },
+  {
+   "type": "text",
+   "value": "{page.index}/{page.count}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 14,
+    "top": 72,
+    "width": 80,
+    "height": 10
+   },
+   "size": 7,
+   "color": "labelDim",
+   "align": "end",
+   "z": 1,
+   "font": "mono"
+  }
+ ]
+}

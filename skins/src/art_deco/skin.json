@@ -1,0 +1,347 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "art_deco",
+ "version": 1,
+ "name": {
+  "en": "Art Deco",
+  "vi": "Art Deco"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "Jazz-age glamour: a gold sunburst over a black masthead, stepped corners and chevron rules; ivory by day, onyx by night.",
+  "vi": "Phong cách thập niên 20: quạt nắng vàng trên tiêu đề đen, góc bậc thang và đường kẻ chevron; ngà voi ban ngày, đá onyx ban đêm."
+ },
+ "tokens": {
+  "background": "#f3ecdc",
+  "paper": "#f3ecdc",
+  "text": "#1b1a17",
+  "ink": "#1b1a17",
+  "panel": "#0f0f12",
+  "gold": "#d4af37",
+  "goldSoft": "gold@45%",
+  "muted": "ink@60%",
+  "cream": "#efe6cf"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "background": "#0f0f12",
+    "paper": "#15151a",
+    "text": "#efe6cf",
+    "ink": "#efe6cf",
+    "panel": "#0f0f12"
+   }
+  },
+  {
+   "at": "05:15",
+   "tokens": {
+    "background": "#0f0f12",
+    "paper": "#15151a",
+    "text": "#efe6cf",
+    "ink": "#efe6cf",
+    "panel": "#0f0f12"
+   }
+  },
+  {
+   "at": "05:30",
+   "tokens": {
+    "background": "#f3ecdc",
+    "paper": "#f3ecdc",
+    "text": "#1b1a17",
+    "ink": "#1b1a17",
+    "panel": "#0f0f12"
+   }
+  },
+  {
+   "at": "09:00",
+   "tokens": {
+    "background": "#f3ecdc",
+    "paper": "#f3ecdc",
+    "text": "#1b1a17",
+    "ink": "#1b1a17",
+    "panel": "#0f0f12"
+   }
+  },
+  {
+   "at": "17:00",
+   "tokens": {
+    "background": "#f3ecdc",
+    "paper": "#f3ecdc",
+    "text": "#1b1a17",
+    "ink": "#1b1a17",
+    "panel": "#0f0f12"
+   }
+  },
+  {
+   "at": "18:30",
+   "tokens": {
+    "background": "#f3ecdc",
+    "paper": "#f3ecdc",
+    "text": "#1b1a17",
+    "ink": "#1b1a17",
+    "panel": "#0f0f12"
+   }
+  },
+  {
+   "at": "19:45",
+   "tokens": {
+    "background": "#f3ecdc",
+    "paper": "#f3ecdc",
+    "text": "#1b1a17",
+    "ink": "#1b1a17",
+    "panel": "#0f0f12"
+   }
+  },
+  {
+   "at": "20:00",
+   "tokens": {
+    "background": "#0f0f12",
+    "paper": "#15151a",
+    "text": "#efe6cf",
+    "ink": "#efe6cf",
+    "panel": "#0f0f12"
+   }
+  }
+ ],
+ "palettes": [
+  {
+   "when": {
+    "dark": true
+   },
+   "tokens": {
+    "background": "#0f0f12",
+    "paper": "#15151a",
+    "text": "#efe6cf",
+    "ink": "#efe6cf",
+    "panel": "#0f0f12"
+   }
+  }
+ ],
+ "body": {
+  "top": 128,
+  "bottom": 80,
+  "left": 36,
+  "right": 36
+ },
+ "layers": [
+  {
+   "type": "image",
+   "src": "images/fan.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "top": 4,
+    "width": 180,
+    "height": 75
+   },
+   "z": -2
+  },
+  {
+   "type": "text",
+   "value": "{upper(book.name)}",
+   "anchor": "top",
+   "rect": {
+    "left": 28,
+    "top": 16,
+    "width": 120,
+    "height": 14
+   },
+   "size": 8,
+   "color": "gold",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 2
+  },
+  {
+   "type": "text",
+   "value": "№ {pad(chapter.index, 2)}",
+   "anchor": "top",
+   "rect": {
+    "right": 28,
+    "top": 16,
+    "width": 120,
+    "height": 14
+   },
+   "size": 8,
+   "color": "gold",
+   "align": "end",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 2
+  },
+  {
+   "type": "text",
+   "value": "{upper(chapter.title)}",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "right": 24,
+    "top": 84,
+    "height": 22
+   },
+   "size": 14,
+   "color": "ink",
+   "align": "center",
+   "z": 1,
+   "font": "serif",
+   "weight": 600,
+   "letterSpacing": 2
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -20,
+    "right": -20,
+    "top": -16,
+    "bottom": -16
+   },
+   "z": -1,
+   "stroke": "gold",
+   "strokeWidth": 1.2
+  },
+  {
+   "type": "image",
+   "src": "images/corner-nw.png",
+   "fit": "contain",
+   "anchor": "body",
+   "rect": {
+    "left": -26,
+    "top": -22,
+    "width": 62,
+    "height": 62
+   },
+   "z": -1
+  },
+  {
+   "type": "image",
+   "src": "images/corner-ne.png",
+   "fit": "contain",
+   "anchor": "body",
+   "rect": {
+    "right": -26,
+    "top": -22,
+    "width": 62,
+    "height": 62
+   },
+   "z": -1
+  },
+  {
+   "type": "image",
+   "src": "images/corner-sw.png",
+   "fit": "contain",
+   "anchor": "body",
+   "rect": {
+    "left": -26,
+    "bottom": -22,
+    "width": 62,
+    "height": 62
+   },
+   "z": -1
+  },
+  {
+   "type": "image",
+   "src": "images/corner-se.png",
+   "fit": "contain",
+   "anchor": "body",
+   "rect": {
+    "right": -26,
+    "bottom": -22,
+    "width": 62,
+    "height": 62
+   },
+   "z": -1
+  },
+  {
+   "type": "image",
+   "src": "images/divider.png",
+   "fit": "contain",
+   "anchor": "bottom",
+   "rect": {
+    "top": 14,
+    "width": 180,
+    "height": 20
+   },
+   "z": 1
+  },
+  {
+   "type": "text",
+   "value": "{roman(chapter.index)}",
+   "anchor": "bottom",
+   "rect": {
+    "left": 30,
+    "top": 40,
+    "width": 120,
+    "height": 14
+   },
+   "size": 9,
+   "color": "gold",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 2
+  },
+  {
+   "type": "text",
+   "value": "— {page.index} —",
+   "anchor": "bottom",
+   "rect": {
+    "top": 38,
+    "width": 120,
+    "height": 18
+   },
+   "size": 11,
+   "color": "ink",
+   "align": "center",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 2
+  },
+  {
+   "type": "text",
+   "value": "{percent(book.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 30,
+    "top": 40,
+    "width": 120,
+    "height": 14
+   },
+   "size": 9,
+   "color": "gold",
+   "align": "end",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 2
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 30,
+    "right": 30,
+    "top": 62,
+    "height": 1.5
+   },
+   "z": 1,
+   "fill": "goldSoft"
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 30,
+    "right": 30,
+    "top": 62,
+    "height": 1.5
+   },
+   "z": 1,
+   "fill": "gold",
+   "progress": "chapter.progress"
+  }
+ ]
+}

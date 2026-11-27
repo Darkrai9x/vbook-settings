@@ -1,0 +1,334 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "ngay_xanh",
+ "version": 1,
+ "name": {
+  "en": "Blue Day",
+  "vi": "Ngày xanh"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "A cartoon sky: round clouds, a big sun by day and a crescent among stars at night, a soft white card for the text. Inspired by Archive's 未来口袋; no characters.",
+  "vi": "Bầu trời hoạt hình: mây tròn, mặt trời to ban ngày, trăng khuyết giữa sao ban đêm, thẻ trắng mềm cho chữ. Cảm hứng từ 未来口袋 của Archive; không dùng nhân vật."
+ },
+ "tokens": {
+  "background": "#57b8ec",
+  "sky": "#57b8ec",
+  "skyEnd": "#c9eaf6",
+  "card": "#fffdf6",
+  "text": "#3a3226",
+  "ink": "#3a3226",
+  "yellow": "#ffda59",
+  "label": "#ffffff",
+  "muted": "ink@55%"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "card": "#1f2a48",
+    "text": "#e9eefb",
+    "ink": "#e9eefb",
+    "sky": "#14244f",
+    "skyEnd": "#2b3f7a"
+   }
+  },
+  {
+   "at": "05:15",
+   "tokens": {
+    "card": "#1f2a48",
+    "text": "#e9eefb",
+    "ink": "#e9eefb",
+    "sky": "#14244f",
+    "skyEnd": "#2b3f7a"
+   }
+  },
+  {
+   "at": "05:30",
+   "tokens": {
+    "sky": "#7fb7e6",
+    "skyEnd": "#ffd9c2",
+    "card": "#fffdf6",
+    "text": "#3a3226",
+    "ink": "#3a3226"
+   }
+  },
+  {
+   "at": "09:00",
+   "tokens": {
+    "sky": "#57b8ec",
+    "skyEnd": "#c9eaf6",
+    "card": "#fffdf6",
+    "text": "#3a3226",
+    "ink": "#3a3226"
+   }
+  },
+  {
+   "at": "17:00",
+   "tokens": {
+    "sky": "#57b8ec",
+    "skyEnd": "#c9eaf6",
+    "card": "#fffdf6",
+    "text": "#3a3226",
+    "ink": "#3a3226"
+   }
+  },
+  {
+   "at": "18:30",
+   "tokens": {
+    "sky": "#f39a6a",
+    "skyEnd": "#ffe0b8",
+    "card": "#fffaf2",
+    "text": "#3a3226",
+    "ink": "#3a3226"
+   }
+  },
+  {
+   "at": "19:45",
+   "tokens": {
+    "sky": "#f39a6a",
+    "skyEnd": "#ffe0b8",
+    "card": "#fffaf2",
+    "text": "#3a3226",
+    "ink": "#3a3226"
+   }
+  },
+  {
+   "at": "20:00",
+   "tokens": {
+    "card": "#1f2a48",
+    "text": "#e9eefb",
+    "ink": "#e9eefb",
+    "sky": "#14244f",
+    "skyEnd": "#2b3f7a"
+   }
+  }
+ ],
+ "palettes": [
+  {
+   "when": {
+    "dark": true
+   },
+   "tokens": {
+    "card": "#1f2a48",
+    "text": "#e9eefb",
+    "ink": "#e9eefb",
+    "sky": "#14244f",
+    "skyEnd": "#2b3f7a"
+   }
+  }
+ ],
+ "body": {
+  "top": 112,
+  "bottom": 74,
+  "left": 28,
+  "right": 28
+ },
+ "layers": [
+  {
+   "type": "shape",
+   "anchor": "page",
+   "rect": {},
+   "z": -4,
+   "fill": "sky",
+   "fillEnd": "skyEnd"
+  },
+  {
+   "type": "image",
+   "src": "images/stars.png",
+   "fit": "crop",
+   "anchor": "page",
+   "rect": {},
+   "z": -3,
+   "when": {
+    "time": "20:00-05:30"
+   }
+  },
+  {
+   "type": "image",
+   "src": "images/sun.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "right": 22,
+    "top": 8,
+    "width": 64,
+    "height": 64
+   },
+   "z": -3,
+   "when": {
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "image",
+   "src": "images/moon.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "right": 22,
+    "top": 8,
+    "width": 64,
+    "height": 64
+   },
+   "z": -3,
+   "when": {
+    "time": "20:00-05:30"
+   }
+  },
+  {
+   "type": "image",
+   "src": "images/clouds.png",
+   "fit": "crop",
+   "anchor": "top",
+   "rect": {
+    "left": -10,
+    "right": -10,
+    "top": 36,
+    "height": 64
+   },
+   "z": -3,
+   "opacity": 0.95,
+   "when": {
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "image",
+   "src": "images/clouds.png",
+   "fit": "crop",
+   "anchor": "top",
+   "rect": {
+    "left": -10,
+    "right": -10,
+    "top": 36,
+    "height": 64
+   },
+   "z": -3,
+   "opacity": 0.14,
+   "when": {
+    "time": "20:00-05:30"
+   }
+  },
+  {
+   "type": "shape",
+   "anchor": "top",
+   "rect": {
+    "left": 22,
+    "top": 18,
+    "width": 230,
+    "height": 28
+   },
+   "z": 1,
+   "fill": "card@90%",
+   "radius": 14
+  },
+  {
+   "type": "text",
+   "value": "★ {chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 34,
+    "top": 18,
+    "width": 210,
+    "height": 28
+   },
+   "size": 12,
+   "color": "ink",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "weight": 700
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -14,
+    "right": -14,
+    "top": -14,
+    "bottom": -14
+   },
+   "z": -2,
+   "fill": "card",
+   "radius": 20
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 44,
+    "right": 44,
+    "top": 20,
+    "height": 10
+   },
+   "z": 1,
+   "fill": "card@50%",
+   "radius": 5
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 44,
+    "right": 44,
+    "top": 20,
+    "height": 10
+   },
+   "z": 1,
+   "fill": "yellow",
+   "radius": 5,
+   "progress": "chapter.progress"
+  },
+  {
+   "type": "text",
+   "value": "{book.name}",
+   "anchor": "bottom",
+   "rect": {
+    "left": 30,
+    "top": 40,
+    "width": 150,
+    "height": 14
+   },
+   "size": 9,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "text",
+   "value": "{page.index} / {page.count}",
+   "anchor": "bottom",
+   "rect": {
+    "top": 38,
+    "width": 120,
+    "height": 18
+   },
+   "size": 12,
+   "color": "ink",
+   "align": "center",
+   "z": 1,
+   "font": "serif",
+   "weight": 700
+  },
+  {
+   "type": "text",
+   "value": "{percent(book.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 30,
+    "top": 40,
+    "width": 80,
+    "height": 14
+   },
+   "size": 9,
+   "color": "muted",
+   "align": "end",
+   "z": 1,
+   "font": "serif"
+  }
+ ]
+}

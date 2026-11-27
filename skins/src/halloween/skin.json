@@ -1,0 +1,184 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "halloween",
+ "version": 1,
+ "name": {
+  "en": "Halloween",
+  "vi": "Halloween"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "A haunted night: a harvest moon with bats, carved pumpkins, a cobweb in the corner and pale text on purple dusk.",
+  "vi": "Đêm ma quái: trăng mùa gặt cùng đàn dơi, bí ngô khắc mặt, mạng nhện ở góc và chữ sáng trên nền tím hoàng hôn."
+ },
+ "tokens": {
+  "background": "#1c1226",
+  "fog": "#3b1f45",
+  "card": "#120b19@70%",
+  "text": "#efe3f7",
+  "ink": "#efe3f7",
+  "orange": "#ff8a2e",
+  "muted": "#efe3f7@58%",
+  "faint": "#efe3f7@16%"
+ },
+ "body": {
+  "top": 128,
+  "bottom": 96,
+  "left": 30,
+  "right": 30
+ },
+ "layers": [
+  {
+   "type": "shape",
+   "anchor": "page",
+   "rect": {},
+   "z": -4,
+   "fill": "background",
+   "fillEnd": "fog"
+  },
+  {
+   "type": "image",
+   "src": "images/bats.png",
+   "fit": "crop",
+   "anchor": "page",
+   "rect": {},
+   "z": -3
+  },
+  {
+   "type": "image",
+   "src": "images/moon.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "right": -10,
+    "top": -24,
+    "width": 200,
+    "height": 162
+   },
+   "z": -2
+  },
+  {
+   "type": "text",
+   "value": "✦ TRICK OR READ ✦",
+   "anchor": "top",
+   "rect": {
+    "left": 26,
+    "right": 150,
+    "top": 22,
+    "height": 12
+   },
+   "size": 8,
+   "color": "orange",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 2.5
+  },
+  {
+   "type": "text",
+   "value": "{chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 26,
+    "right": 150,
+    "top": 38,
+    "height": 26
+   },
+   "size": 17,
+   "color": "ink",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "weight": 700
+  },
+  {
+   "type": "text",
+   "value": "{book.name}",
+   "anchor": "top",
+   "rect": {
+    "left": 26,
+    "right": 150,
+    "top": 66,
+    "height": 14
+   },
+   "size": 9.5,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -14,
+    "right": -14,
+    "top": -12,
+    "bottom": -12
+   },
+   "z": -2,
+   "fill": "card",
+   "radius": 10
+  },
+  {
+   "type": "image",
+   "src": "images/web-se.png",
+   "fit": "contain",
+   "anchor": "page",
+   "rect": {
+    "right": 0,
+    "bottom": 0,
+    "width": 120,
+    "height": 120
+   },
+   "z": -3,
+   "opacity": 0.7
+  },
+  {
+   "type": "image",
+   "src": "images/pumpkins.png",
+   "fit": "contain",
+   "anchor": "bottom",
+   "rect": {
+    "left": 10,
+    "top": 14,
+    "width": 150,
+    "height": 75
+   },
+   "z": 1
+  },
+  {
+   "type": "text",
+   "value": "{page.index} / {page.count}",
+   "anchor": "bottom",
+   "rect": {
+    "top": 34,
+    "width": 120,
+    "height": 18
+   },
+   "size": 12,
+   "color": "orange",
+   "align": "center",
+   "z": 1,
+   "font": "serif",
+   "weight": 700
+  },
+  {
+   "type": "text",
+   "value": "{percent(book.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "top": 56,
+    "width": 120,
+    "height": 14
+   },
+   "size": 9,
+   "color": "muted",
+   "align": "center",
+   "z": 1,
+   "font": "serif"
+  }
+ ]
+}
