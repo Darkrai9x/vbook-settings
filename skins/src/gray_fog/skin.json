@@ -1,0 +1,461 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "gray_fog",
+ "version": 2,
+ "name": {
+  "en": "Above the Gray Fog",
+  "vi": "Trên màn sương xám"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "Lord of the Mysteries tarot: a Rider–Waite card per chapter, a footer of cards and paper whose tone follows the time of day.",
+  "vi": "Quỷ Bí Chi Chủ – tarot: mỗi chương một lá Rider–Waite, dải lá bài cuối trang, giấy đổi sắc theo giờ trong ngày."
+ },
+ "tokens": {
+  "background": "#ebe1cb",
+  "fog": "#ddcdae",
+  "paper": "#f6efde",
+  "text": "#2b2520",
+  "accent": "#8c2f45",
+  "rule": "#b8975a",
+  "glow": "#33271f",
+  "muted": "glow@58%",
+  "faint": "glow@22%"
+ },
+ "palettes": [
+  {
+   "when": {
+    "dark": true
+   },
+   "tokens": {
+    "background": "#0f0c0d",
+    "fog": "#1d1716",
+    "paper": "#221d1b",
+    "text": "#d8cdb7",
+    "accent": "#c25a72",
+    "rule": "#8a7346",
+    "glow": "#cdbf9c"
+   }
+  }
+ ],
+ "body": {
+  "top": 104,
+  "bottom": 86,
+  "left": 30,
+  "right": 30
+ },
+ "imageSets": {
+  "cards": {
+   "pattern": "cards/card-{i:2}.jpg",
+   "count": 22
+  }
+ },
+ "layers": [
+  {
+   "type": "shape",
+   "anchor": "page",
+   "rect": {},
+   "fill": "background",
+   "fillEnd": "fog",
+   "z": -3
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -14,
+    "right": -14,
+    "top": -12,
+    "bottom": -12
+   },
+   "fill": "paper",
+   "radius": 4,
+   "z": -2
+  },
+  {
+   "type": "texture",
+   "texture": "aged",
+   "radius": 4,
+   "anchor": "body",
+   "rect": {
+    "left": -14,
+    "right": -14,
+    "top": -12,
+    "bottom": -12
+   },
+   "opacity": 0.55,
+   "z": -2,
+   "when": {
+    "dark": false,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "texture",
+   "texture": "aged",
+   "radius": 4,
+   "anchor": "body",
+   "rect": {
+    "left": -14,
+    "right": -14,
+    "top": -12,
+    "bottom": -12
+   },
+   "opacity": 0.22,
+   "z": -2,
+   "when": {
+    "time": "20:00-05:30"
+   }
+  },
+  {
+   "type": "texture",
+   "texture": "aged",
+   "radius": 4,
+   "anchor": "body",
+   "rect": {
+    "left": -14,
+    "right": -14,
+    "top": -12,
+    "bottom": -12
+   },
+   "opacity": 0.22,
+   "z": -2,
+   "when": {
+    "dark": true,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -14,
+    "right": -14,
+    "top": -12,
+    "bottom": -12
+   },
+   "stroke": "rule",
+   "strokeWidth": 1.2,
+   "radius": 4,
+   "z": -2
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -10,
+    "right": -10,
+    "top": -8,
+    "bottom": -8
+   },
+   "stroke": "rule@45%",
+   "strokeWidth": 0.6,
+   "radius": 2,
+   "z": -1
+  },
+  {
+   "type": "text",
+   "value": "✦",
+   "anchor": "body",
+   "rect": {
+    "left": -19,
+    "top": -17,
+    "width": 10,
+    "height": 10
+   },
+   "size": 9,
+   "color": "rule",
+   "align": "center",
+   "font": "serif",
+   "z": -1
+  },
+  {
+   "type": "text",
+   "value": "✦",
+   "anchor": "body",
+   "rect": {
+    "right": -19,
+    "top": -17,
+    "width": 10,
+    "height": 10
+   },
+   "size": 9,
+   "color": "rule",
+   "align": "center",
+   "font": "serif",
+   "z": -1
+  },
+  {
+   "type": "text",
+   "value": "✦",
+   "anchor": "body",
+   "rect": {
+    "left": -19,
+    "bottom": -17,
+    "width": 10,
+    "height": 10
+   },
+   "size": 9,
+   "color": "rule",
+   "align": "center",
+   "font": "serif",
+   "z": -1
+  },
+  {
+   "type": "text",
+   "value": "✦",
+   "anchor": "body",
+   "rect": {
+    "right": -19,
+    "bottom": -17,
+    "width": 10,
+    "height": 10
+   },
+   "size": 9,
+   "color": "rule",
+   "align": "center",
+   "font": "serif",
+   "z": -1
+  },
+  {
+   "type": "text",
+   "value": "RECORDS ABOVE THE GRAY FOG · {phase == 'dawn' ? 'MORNING MIST' : phase == 'day' ? 'DAYLIGHT JOURNAL' : phase == 'dusk' ? 'DUSK LETTERS' : 'CRIMSON NIGHT'}",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "top": 16,
+    "right": 80,
+    "height": 14
+   },
+   "size": 8.5,
+   "color": "rule",
+   "align": "start",
+   "font": "serif",
+   "z": 1,
+   "letterSpacing": 2
+  },
+  {
+   "type": "text",
+   "value": "{chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "top": 31,
+    "right": 80,
+    "height": 24
+   },
+   "size": 15,
+   "color": "glow",
+   "align": "start",
+   "font": "serif",
+   "z": 1,
+   "weight": 600
+  },
+  {
+   "type": "text",
+   "value": "{roman(chapterSeed % 22)} · {pick(chapterSeed % 22, 'THE FOOL', 'THE MAGICIAN', 'THE HIGH PRIESTESS', 'THE EMPRESS', 'THE EMPEROR', 'THE HIEROPHANT', 'THE LOVERS', 'THE CHARIOT', 'STRENGTH', 'THE HERMIT', 'WHEEL OF FORTUNE', 'JUSTICE', 'THE HANGED MAN', 'DEATH', 'TEMPERANCE', 'THE DEVIL', 'THE TOWER', 'THE STAR', 'THE MOON', 'THE SUN', 'JUDGEMENT', 'THE WORLD')}",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "top": 56,
+    "right": 80,
+    "height": 14
+   },
+   "size": 9,
+   "color": "muted",
+   "align": "start",
+   "font": "serif",
+   "z": 1,
+   "letterSpacing": 1.5
+  },
+  {
+   "type": "set",
+   "set": "cards",
+   "pick": "chapterSeed % 22",
+   "count": 1,
+   "highlight": 0,
+   "radius": 3,
+   "anchor": "top",
+   "rect": {
+    "right": 26,
+    "top": 12,
+    "width": 40,
+    "height": 67
+   },
+   "z": 1
+  },
+  {
+   "type": "set",
+   "set": "cards",
+   "pick": "chapterSeed + page.index - 4",
+   "count": 7,
+   "highlight": 3,
+   "gap": 4,
+   "radius": 2,
+   "anchor": "bottom",
+   "rect": {
+    "top": 16,
+    "width": 164,
+    "height": 33
+   },
+   "z": 1
+  },
+  {
+   "type": "text",
+   "value": "TAROT {roman((chapterSeed + page.index - 1) % 22)} / XXI",
+   "anchor": "bottom",
+   "rect": {
+    "left": 24,
+    "top": 56,
+    "width": 150,
+    "height": 14
+   },
+   "size": 8.5,
+   "color": "muted",
+   "align": "start",
+   "font": "serif",
+   "z": 1,
+   "letterSpacing": 1
+  },
+  {
+   "type": "text",
+   "value": "{page.index} / {page.count}",
+   "anchor": "bottom",
+   "rect": {
+    "top": 54,
+    "width": 90,
+    "height": 18
+   },
+   "size": 11,
+   "color": "glow",
+   "align": "center",
+   "font": "serif",
+   "z": 1
+  },
+  {
+   "type": "text",
+   "value": "{percent(chapter.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 24,
+    "top": 56,
+    "width": 90,
+    "height": 14
+   },
+   "size": 8.5,
+   "color": "muted",
+   "align": "end",
+   "font": "serif",
+   "z": 1
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 24,
+    "right": 24,
+    "top": 75,
+    "height": 1.5
+   },
+   "fill": "faint",
+   "z": 1
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 24,
+    "right": 24,
+    "top": 75,
+    "height": 1.5
+   },
+   "fill": "rule",
+   "progress": "chapter.progress",
+   "z": 1
+  }
+ ],
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "background": "#17121a",
+    "fog": "#2b1b24",
+    "paper": "#231d20",
+    "text": "#d6cab3",
+    "glow": "#dcc39a"
+   }
+  },
+  {
+   "at": "05:15",
+   "tokens": {
+    "background": "#17121a",
+    "fog": "#2b1b24",
+    "paper": "#231d20",
+    "text": "#d6cab3",
+    "glow": "#dcc39a"
+   }
+  },
+  {
+   "at": "05:30",
+   "tokens": {
+    "background": "#e7dccd",
+    "fog": "#d9c1b5",
+    "paper": "#f3eadb",
+    "text": "#2b2520",
+    "glow": "#3d2c2a"
+   }
+  },
+  {
+   "at": "09:00",
+   "tokens": {
+    "background": "#ebe1cb",
+    "fog": "#ddcdae",
+    "paper": "#f6efde",
+    "text": "#2b2520",
+    "glow": "#33271f"
+   }
+  },
+  {
+   "at": "17:00",
+   "tokens": {
+    "background": "#ebe1cb",
+    "fog": "#ddcdae",
+    "paper": "#f6efde",
+    "text": "#2b2520",
+    "glow": "#33271f"
+   }
+  },
+  {
+   "at": "18:30",
+   "tokens": {
+    "background": "#e9d2b5",
+    "fog": "#cfa182",
+    "paper": "#f4e5cc",
+    "text": "#2b2520",
+    "glow": "#3e2418"
+   }
+  },
+  {
+   "at": "19:45",
+   "tokens": {
+    "background": "#e9d2b5",
+    "fog": "#cfa182",
+    "paper": "#f4e5cc",
+    "text": "#2b2520",
+    "glow": "#3e2418"
+   }
+  },
+  {
+   "at": "20:00",
+   "tokens": {
+    "background": "#17121a",
+    "fog": "#2b1b24",
+    "paper": "#231d20",
+    "text": "#d6cab3",
+    "glow": "#dcc39a"
+   }
+  }
+ ]
+}

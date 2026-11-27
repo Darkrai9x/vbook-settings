@@ -15,6 +15,7 @@
   "app_tts_model_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/models.json",
   "app_tts_voice_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ai-tts/voices.json",
   "app_reader_background_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/backgrounds/catalog.json",
+  "app_reader_skin_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/catalog.json",
   "app_ambience_url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/ambience/catalog.json",
   "app_tts_clone_url": "https://github.com/Darkrai9x/vbook-settings/releases/download/ai-tts/vieneu-clone.zip",
   "app_tts_clone_version": 1,

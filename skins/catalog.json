@@ -1,0 +1,21 @@
+{
+  "skins": [
+    {
+      "id": "gray_fog",
+      "name": {
+        "en": "Above the Gray Fog",
+        "vi": "Trên màn sương xám"
+      },
+      "description": {
+        "en": "Lord of the Mysteries tarot: a Rider–Waite card per chapter, a footer of cards and paper whose tone follows the time of day.",
+        "vi": "Quỷ Bí Chi Chủ – tarot: mỗi chương một lá Rider–Waite, dải lá bài cuối trang, giấy đổi sắc theo giờ trong ngày."
+      },
+      "author": "vBook",
+      "version": 2,
+      "minApp": 1,
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/gray_fog.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/gray_fog.zip?v=2",
+      "size": 742976
+    }
+  ]
+}
