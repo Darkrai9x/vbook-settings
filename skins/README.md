@@ -2,7 +2,7 @@
 
 Skin là một bộ "trang phục" cho trang đọc chữ: nền, khung giấy, header / footer riêng, ảnh, màu đổi theo giờ trong ngày. Skin không nằm sẵn trong app. Người dùng tải về từ kho (Cài đặt đọc → **Skin**) hoặc nhập file `.zip` từ máy.
 
-Trang này dành cho người muốn tự làm skin. Dùng AI để làm skin: cho nó đọc [`AGENTS.md`](AGENTS.md) (đặc tả đầy đủ), [`skin.schema.json`](skin.schema.json) và bắt đầu từ [`template/`](template/).
+Trang này dành cho người muốn tự làm skin.
 
 - [Cấu trúc gói](#cấu-trúc-gói)
 - [Thử skin](#thử-skin)
