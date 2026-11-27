@@ -1,6 +1,40 @@
 {
   "skins": [
     {
+      "id": "co_thu",
+      "name": {
+        "en": "Old Tome",
+        "vi": "Cổ thư"
+      },
+      "description": {
+        "en": "A thread-bound book on mulberry paper: a double frame, the chapter set in the margin and a cinnabar seal on each opening page.",
+        "vi": "Sách đóng chỉ trên giấy dó: khung viền đôi, tên chương canh giữa và dấu son đỏ ở trang mở đầu mỗi chương."
+      },
+      "author": "vBook",
+      "version": 1,
+      "minApp": 1,
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/co_thu.jpg?v=1",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/co_thu.zip?v=1",
+      "size": 80167
+    },
+    {
+      "id": "dem_sao",
+      "name": {
+        "en": "Starlit Sky",
+        "vi": "Tinh không"
+      },
+      "description": {
+        "en": "Read under the stars: the sky turns from blue hour to deep night, each chapter has its constellation and its phase of the moon.",
+        "vi": "Đọc dưới bầu trời sao: trời đổi từ giờ xanh đến đêm sâu, mỗi chương một chòm sao và một tuần trăng."
+      },
+      "author": "vBook",
+      "version": 1,
+      "minApp": 1,
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/dem_sao.jpg?v=1",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/dem_sao.zip?v=1",
+      "size": 152443
+    },
+    {
       "id": "gray_fog",
       "name": {
         "en": "Above the Gray Fog",
@@ -11,11 +45,45 @@
         "vi": "Quỷ Bí Chi Chủ – tarot: mỗi chương một lá Rider–Waite, dải lá bài cuối trang, giấy đổi sắc theo giờ trong ngày."
       },
       "author": "vBook",
-      "version": 2,
+      "version": 3,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/gray_fog.jpg?v=2",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/gray_fog.zip?v=2",
-      "size": 742976
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/gray_fog.jpg?v=3",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/gray_fog.zip?v=3",
+      "size": 743285
+    },
+    {
+      "id": "hai_trinh",
+      "name": {
+        "en": "Ship's Log",
+        "vi": "Nhật ký hải trình"
+      },
+      "description": {
+        "en": "A captain's log on a sea chart: rhumb lines, a compass rose, a position for every chapter; by lantern light at night.",
+        "vi": "Nhật ký thuyền trưởng trên hải đồ: đường la bàn, hoa gió, mỗi chương một toạ độ; đêm xuống đọc dưới ánh đèn bão."
+      },
+      "author": "vBook",
+      "version": 1,
+      "minApp": 1,
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/hai_trinh.jpg?v=1",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/hai_trinh.zip?v=1",
+      "size": 107048
+    },
+    {
+      "id": "terminal",
+      "name": {
+        "en": "Terminal",
+        "vi": "Terminal"
+      },
+      "description": {
+        "en": "A CRT console: green phosphor by day, amber at night, scanlines and a status bar.",
+        "vi": "Màn hình CRT cổ: chữ xanh lục ban ngày, hổ phách ban đêm, vạch quét và thanh trạng thái."
+      },
+      "author": "vBook",
+      "version": 1,
+      "minApp": 1,
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/terminal.jpg?v=1",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/terminal.zip?v=1",
+      "size": 55275
     }
   ]
 }

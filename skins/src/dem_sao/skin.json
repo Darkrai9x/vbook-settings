@@ -1,0 +1,314 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "dem_sao",
+ "version": 1,
+ "name": {
+  "en": "Starlit Sky",
+  "vi": "Tinh không"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "Read under the stars: the sky turns from blue hour to deep night, each chapter has its constellation and its phase of the moon.",
+  "vi": "Đọc dưới bầu trời sao: trời đổi từ giờ xanh đến đêm sâu, mỗi chương một chòm sao và một tuần trăng."
+ },
+ "tokens": {
+  "background": "#0b1026",
+  "fog": "#1b2350",
+  "text": "#dde2f0",
+  "card": "#0c1330@72%",
+  "glow": "#f0d9a6",
+  "rule": "#8a95c9@55%",
+  "muted": "#dde2f0@58%",
+  "faint": "#dde2f0@16%"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "background": "#060918",
+    "fog": "#121838"
+   }
+  },
+  {
+   "at": "05:30",
+   "tokens": {
+    "background": "#171a3c",
+    "fog": "#4a3963"
+   }
+  },
+  {
+   "at": "09:00",
+   "tokens": {
+    "background": "#10204a",
+    "fog": "#2b4a7c"
+   }
+  },
+  {
+   "at": "17:00",
+   "tokens": {
+    "background": "#10204a",
+    "fog": "#2b4a7c"
+   }
+  },
+  {
+   "at": "18:45",
+   "tokens": {
+    "background": "#1b1536",
+    "fog": "#5b2e55"
+   }
+  },
+  {
+   "at": "21:00",
+   "tokens": {
+    "background": "#080b1e",
+    "fog": "#161c42"
+   }
+  }
+ ],
+ "imageSets": {
+  "moon": {
+   "pattern": "moon/moon-{i}.png",
+   "count": 8
+  }
+ },
+ "body": {
+  "top": 100,
+  "bottom": 76,
+  "left": 30,
+  "right": 30
+ },
+ "layers": [
+  {
+   "type": "shape",
+   "anchor": "page",
+   "rect": {},
+   "z": -4,
+   "fill": "background",
+   "fillEnd": "fog"
+  },
+  {
+   "type": "image",
+   "src": "images/stars.webp",
+   "fit": "crop",
+   "anchor": "page",
+   "rect": {},
+   "z": -3,
+   "opacity": 0.95,
+   "when": {
+    "time": "18:30-05:30"
+   }
+  },
+  {
+   "type": "image",
+   "src": "images/stars.webp",
+   "fit": "crop",
+   "anchor": "page",
+   "rect": {},
+   "z": -3,
+   "opacity": 0.45,
+   "when": {
+    "time": "05:30-18:30"
+   }
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -16,
+    "right": -16,
+    "top": -14,
+    "bottom": -14
+   },
+   "z": -2,
+   "fill": "card",
+   "radius": 14
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -16,
+    "right": -16,
+    "top": -14,
+    "bottom": -14
+   },
+   "z": -2,
+   "stroke": "rule",
+   "strokeWidth": 0.8,
+   "radius": 14
+  },
+  {
+   "type": "text",
+   "value": "✦",
+   "anchor": "body",
+   "rect": {
+    "left": -22,
+    "top": -21,
+    "width": 12,
+    "height": 12
+   },
+   "size": 8,
+   "color": "glow",
+   "align": "center",
+   "z": -1,
+   "font": "serif"
+  },
+  {
+   "type": "text",
+   "value": "✦",
+   "anchor": "body",
+   "rect": {
+    "right": -22,
+    "bottom": -21,
+    "width": 12,
+    "height": 12
+   },
+   "size": 8,
+   "color": "glow",
+   "align": "center",
+   "z": -1,
+   "font": "serif"
+  },
+  {
+   "type": "text",
+   "value": "{pick(chapterSeed % 12, 'ARIES', 'TAURUS', 'GEMINI', 'CANCER', 'LEO', 'VIRGO', 'LIBRA', 'SCORPIUS', 'SAGITTARIUS', 'CAPRICORNUS', 'AQUARIUS', 'PISCES')}",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "right": 80,
+    "top": 18,
+    "height": 14
+   },
+   "size": 9,
+   "color": "glow",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 3
+  },
+  {
+   "type": "text",
+   "value": "{chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "right": 80,
+    "top": 34,
+    "height": 26
+   },
+   "size": 16,
+   "color": "text",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "weight": 600
+  },
+  {
+   "type": "text",
+   "value": "{roman(chapter.index)} · {book.name}",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "right": 80,
+    "top": 62,
+    "height": 14
+   },
+   "size": 9,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 1
+  },
+  {
+   "type": "set",
+   "set": "moon",
+   "pick": "chapterSeed % 8",
+   "count": 1,
+   "radius": 0,
+   "anchor": "top",
+   "rect": {
+    "right": 22,
+    "top": 14,
+    "width": 56,
+    "height": 56
+   },
+   "z": 1
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 24,
+    "right": 24,
+    "top": 56,
+    "height": 1
+   },
+   "z": 1,
+   "fill": "faint"
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 24,
+    "right": 24,
+    "top": 56,
+    "height": 1
+   },
+   "z": 1,
+   "fill": "glow",
+   "progress": "chapter.progress"
+  },
+  {
+   "type": "text",
+   "value": "✦ {pad(chapter.index, 3)}",
+   "anchor": "bottom",
+   "rect": {
+    "left": 24,
+    "top": 30,
+    "width": 120,
+    "height": 16
+   },
+   "size": 9,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 1
+  },
+  {
+   "type": "text",
+   "value": "{page.index} / {page.count}",
+   "anchor": "bottom",
+   "rect": {
+    "top": 28,
+    "width": 100,
+    "height": 18
+   },
+   "size": 11,
+   "color": "text",
+   "align": "center",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "text",
+   "value": "{percent(book.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 24,
+    "top": 30,
+    "width": 90,
+    "height": 16
+   },
+   "size": 9,
+   "color": "muted",
+   "align": "end",
+   "z": 1,
+   "font": "serif"
+  }
+ ]
+}

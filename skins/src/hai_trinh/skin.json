@@ -1,0 +1,395 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "hai_trinh",
+ "version": 1,
+ "name": {
+  "en": "Ship's Log",
+  "vi": "Nhật ký hải trình"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "A captain's log on a sea chart: rhumb lines, a compass rose, a position for every chapter; by lantern light at night.",
+  "vi": "Nhật ký thuyền trưởng trên hải đồ: đường la bàn, hoa gió, mỗi chương một toạ độ; đêm xuống đọc dưới ánh đèn bão."
+ },
+ "tokens": {
+  "background": "#e7d8b5",
+  "paper": "#f1e6cb",
+  "text": "#2e261c",
+  "ink": "#3b2f22",
+  "sea": "#2f5d6e",
+  "rule": "#8a6a43",
+  "muted": "ink@58%",
+  "faint": "ink@15%"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "background": "#1a1712",
+    "paper": "#221e18",
+    "text": "#e0d3b6",
+    "ink": "#e0d3b6",
+    "sea": "#79abb6",
+    "rule": "#9b7c4c"
+   }
+  },
+  {
+   "at": "05:15",
+   "tokens": {
+    "background": "#1a1712",
+    "paper": "#221e18",
+    "text": "#e0d3b6",
+    "ink": "#e0d3b6",
+    "sea": "#79abb6",
+    "rule": "#9b7c4c"
+   }
+  },
+  {
+   "at": "05:30",
+   "tokens": {
+    "background": "#e3d6bd",
+    "paper": "#efe6d1",
+    "text": "#2e261c",
+    "ink": "#3b2f22",
+    "sea": "#3d6474",
+    "rule": "#8a6a43"
+   }
+  },
+  {
+   "at": "09:00",
+   "tokens": {
+    "background": "#e7d8b5",
+    "paper": "#f1e6cb",
+    "text": "#2e261c",
+    "ink": "#3b2f22",
+    "sea": "#2f5d6e",
+    "rule": "#8a6a43"
+   }
+  },
+  {
+   "at": "17:00",
+   "tokens": {
+    "background": "#e7d8b5",
+    "paper": "#f1e6cb",
+    "text": "#2e261c",
+    "ink": "#3b2f22",
+    "sea": "#2f5d6e",
+    "rule": "#8a6a43"
+   }
+  },
+  {
+   "at": "18:30",
+   "tokens": {
+    "background": "#e6cfa6",
+    "paper": "#f1e2c4",
+    "text": "#2e261c",
+    "ink": "#3b2f22",
+    "sea": "#3a5a68",
+    "rule": "#8a6a43"
+   }
+  },
+  {
+   "at": "19:45",
+   "tokens": {
+    "background": "#e6cfa6",
+    "paper": "#f1e2c4",
+    "text": "#2e261c",
+    "ink": "#3b2f22",
+    "sea": "#3a5a68",
+    "rule": "#8a6a43"
+   }
+  },
+  {
+   "at": "20:00",
+   "tokens": {
+    "background": "#1a1712",
+    "paper": "#221e18",
+    "text": "#e0d3b6",
+    "ink": "#e0d3b6",
+    "sea": "#79abb6",
+    "rule": "#9b7c4c"
+   }
+  }
+ ],
+ "palettes": [
+  {
+   "when": {
+    "dark": true
+   },
+   "tokens": {
+    "background": "#1a1712",
+    "paper": "#221e18",
+    "text": "#e0d3b6",
+    "ink": "#e0d3b6",
+    "sea": "#79abb6",
+    "rule": "#9b7c4c"
+   }
+  }
+ ],
+ "body": {
+  "top": 104,
+  "bottom": 76,
+  "left": 32,
+  "right": 32
+ },
+ "layers": [
+  {
+   "type": "image",
+   "src": "images/chart.webp",
+   "fit": "crop",
+   "anchor": "page",
+   "rect": {},
+   "z": -3,
+   "opacity": 0.5,
+   "when": {
+    "dark": false,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "image",
+   "src": "images/chart.webp",
+   "fit": "crop",
+   "anchor": "page",
+   "rect": {},
+   "z": -3,
+   "opacity": 0.12,
+   "when": {
+    "time": "20:00-05:30"
+   }
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -16,
+    "right": -16,
+    "top": -12,
+    "bottom": -12
+   },
+   "z": -2,
+   "fill": "paper",
+   "radius": 2
+  },
+  {
+   "type": "texture",
+   "texture": "aged",
+   "anchor": "body",
+   "rect": {
+    "left": -16,
+    "right": -16,
+    "top": -12,
+    "bottom": -12
+   },
+   "radius": 2,
+   "z": -2,
+   "opacity": 0.45,
+   "when": {
+    "dark": false,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "texture",
+   "texture": "aged",
+   "anchor": "body",
+   "rect": {
+    "left": -16,
+    "right": -16,
+    "top": -12,
+    "bottom": -12
+   },
+   "radius": 2,
+   "z": -2,
+   "opacity": 0.15,
+   "when": {
+    "time": "20:00-05:30"
+   }
+  },
+  {
+   "type": "texture",
+   "texture": "aged",
+   "anchor": "body",
+   "rect": {
+    "left": -16,
+    "right": -16,
+    "top": -12,
+    "bottom": -12
+   },
+   "radius": 2,
+   "z": -2,
+   "opacity": 0.15,
+   "when": {
+    "dark": true,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -16,
+    "right": -16,
+    "top": -12,
+    "bottom": -12
+   },
+   "z": -1,
+   "stroke": "rule",
+   "strokeWidth": 1.4,
+   "radius": 2
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -11,
+    "right": -11,
+    "top": -7,
+    "bottom": -7
+   },
+   "z": -1,
+   "stroke": "sea@45%",
+   "strokeWidth": 0.7
+  },
+  {
+   "type": "text",
+   "value": "N {pad(chapterSeed % 60, 2)}°{pad(floor(chapterSeed / 60) % 60, 2)}′ · E {100 + floor(chapterSeed / 3600) % 20}°{pad(floor(chapterSeed / 7) % 60, 2)}′",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "right": 90,
+    "top": 18,
+    "height": 14
+   },
+   "size": 9,
+   "color": "sea",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 2
+  },
+  {
+   "type": "text",
+   "value": "{chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "right": 90,
+    "top": 34,
+    "height": 26
+   },
+   "size": 16,
+   "color": "ink",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "weight": 600
+  },
+  {
+   "type": "text",
+   "value": "LOG № {pad(chapter.index, 3)} — {book.name}",
+   "anchor": "top",
+   "rect": {
+    "left": 24,
+    "right": 90,
+    "top": 62,
+    "height": 14
+   },
+   "size": 9,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 1
+  },
+  {
+   "type": "image",
+   "src": "images/compass.png",
+   "fit": "contain",
+   "anchor": "top",
+   "rect": {
+    "right": 20,
+    "top": 10,
+    "width": 64,
+    "height": 64
+   },
+   "z": 1,
+   "opacity": 0.9
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 24,
+    "right": 24,
+    "top": 54,
+    "height": 1.5
+   },
+   "z": 1,
+   "fill": "faint"
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 24,
+    "right": 24,
+    "top": 54,
+    "height": 1.5
+   },
+   "z": 1,
+   "fill": "sea",
+   "progress": "chapter.progress"
+  },
+  {
+   "type": "text",
+   "value": "⚓ {page.index} / {page.count}",
+   "anchor": "bottom",
+   "rect": {
+    "top": 26,
+    "width": 140,
+    "height": 18
+   },
+   "size": 11,
+   "color": "ink",
+   "align": "center",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "text",
+   "value": "{upper(phase)} WATCH",
+   "anchor": "bottom",
+   "rect": {
+    "left": 24,
+    "top": 28,
+    "width": 140,
+    "height": 14
+   },
+   "size": 8.5,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 1.5
+  },
+  {
+   "type": "text",
+   "value": "{percent(book.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 24,
+    "top": 28,
+    "width": 90,
+    "height": 14
+   },
+   "size": 8.5,
+   "color": "muted",
+   "align": "end",
+   "z": 1,
+   "font": "serif"
+  }
+ ]
+}

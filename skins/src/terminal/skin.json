@@ -1,0 +1,212 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "terminal",
+ "version": 1,
+ "name": {
+  "en": "Terminal",
+  "vi": "Terminal"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "A CRT console: green phosphor by day, amber at night, scanlines and a status bar.",
+  "vi": "Màn hình CRT cổ: chữ xanh lục ban ngày, hổ phách ban đêm, vạch quét và thanh trạng thái."
+ },
+ "tokens": {
+  "background": "#070b07",
+  "text": "#8ef08e",
+  "phosphor": "#8ef08e",
+  "dim": "phosphor@50%",
+  "faint": "phosphor@16%",
+  "panel": "phosphor@5%"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "text": "#ffb54a",
+    "phosphor": "#ffb54a"
+   }
+  },
+  {
+   "at": "06:45",
+   "tokens": {
+    "text": "#ffb54a",
+    "phosphor": "#ffb54a"
+   }
+  },
+  {
+   "at": "07:00",
+   "tokens": {
+    "text": "#8ef08e",
+    "phosphor": "#8ef08e"
+   }
+  },
+  {
+   "at": "18:45",
+   "tokens": {
+    "text": "#8ef08e",
+    "phosphor": "#8ef08e"
+   }
+  },
+  {
+   "at": "19:00",
+   "tokens": {
+    "text": "#ffb54a",
+    "phosphor": "#ffb54a"
+   }
+  }
+ ],
+ "body": {
+  "top": 92,
+  "bottom": 70,
+  "left": 28,
+  "right": 28
+ },
+ "layers": [
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -14,
+    "right": -14,
+    "top": -12,
+    "bottom": -12
+   },
+   "z": -2,
+   "fill": "panel",
+   "radius": 8
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -14,
+    "right": -14,
+    "top": -12,
+    "bottom": -12
+   },
+   "z": -2,
+   "stroke": "faint",
+   "strokeWidth": 1,
+   "radius": 8
+  },
+  {
+   "type": "text",
+   "value": "> {upper(book.name)}",
+   "anchor": "top",
+   "rect": {
+    "left": 22,
+    "right": 22,
+    "top": 18,
+    "height": 14
+   },
+   "size": 9.5,
+   "color": "dim",
+   "align": "start",
+   "z": 1,
+   "font": "mono"
+  },
+  {
+   "type": "text",
+   "value": "{chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 22,
+    "right": 22,
+    "top": 36,
+    "height": 24
+   },
+   "size": 15,
+   "color": "phosphor",
+   "align": "start",
+   "z": 1,
+   "font": "mono",
+   "weight": 700
+  },
+  {
+   "type": "text",
+   "value": "[CH {pad(chapter.index, 3)}/{pad(chapter.count, 3)}]  [{upper(phase)}]  [OK]",
+   "anchor": "top",
+   "rect": {
+    "left": 22,
+    "right": 22,
+    "top": 62,
+    "height": 14
+   },
+   "size": 9,
+   "color": "dim",
+   "align": "start",
+   "z": 1,
+   "font": "mono"
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 22,
+    "right": 22,
+    "top": 22,
+    "height": 14
+   },
+   "z": 1,
+   "stroke": "faint",
+   "strokeWidth": 1
+  },
+  {
+   "type": "shape",
+   "anchor": "bottom",
+   "rect": {
+    "left": 24,
+    "right": 24,
+    "top": 24,
+    "height": 10
+   },
+   "z": 1,
+   "fill": "phosphor@55%",
+   "progress": "chapter.progress"
+  },
+  {
+   "type": "text",
+   "value": "PG {pad(page.index, 3)}/{pad(page.count, 3)}",
+   "anchor": "bottom",
+   "rect": {
+    "left": 22,
+    "top": 42,
+    "width": 160,
+    "height": 14
+   },
+   "size": 9,
+   "color": "dim",
+   "align": "start",
+   "z": 1,
+   "font": "mono"
+  },
+  {
+   "type": "text",
+   "value": "BOOK {percent(book.progress)} █",
+   "anchor": "bottom",
+   "rect": {
+    "right": 22,
+    "top": 42,
+    "width": 160,
+    "height": 14
+   },
+   "size": 9,
+   "color": "dim",
+   "align": "end",
+   "z": 1,
+   "font": "mono"
+  },
+  {
+   "type": "image",
+   "src": "images/scanlines.png",
+   "fit": "fill",
+   "anchor": "page",
+   "rect": {},
+   "z": 2,
+   "opacity": 0.22
+  }
+ ]
+}

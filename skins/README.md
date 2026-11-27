@@ -262,4 +262,9 @@ Kho là repo này: nguồn skin nằm trong `skins/src/<id>/`.
 - **Ảnh nhẹ.** Thẻ, góc, hoạ tiết vài chục KB là đủ; ảnh nền toàn trang nên dưới 300 KB (WebP / JPEG).
 - **Thử hai trang.** Trên màn ngang hoặc máy gập, mỗi trang được vẽ skin riêng và gáy sách nằm giữa.
 - **Cuộn dọc.** Skin đứng yên quanh vùng chữ (header / footer vẫn cập nhật theo chỗ đang đọc), chữ cuộn bên trong `body`.
-- Xem skin mẫu `src/gray_fog/` để có ví dụ đầy đủ.
+- Xem các skin trong `src/` để có ví dụ đầy đủ:
+  - `gray_fog`: bộ ảnh lá bài, timeline bốn buổi.
+  - `co_thu`: chỉ dùng shape, text và một ảnh dấu chỉ hiện ở trang đầu chương.
+  - `dem_sao`: skin tối, bộ ảnh tuần trăng, ảnh sao đổi độ đậm theo giờ.
+  - `hai_trinh`: biểu thức toạ độ theo `chapterSeed`, hải đồ mờ đi ban đêm.
+  - `terminal`: font `mono`, màu chữ đổi xanh / hổ phách theo giờ, vạch quét vẽ trên chữ (`z` dương).

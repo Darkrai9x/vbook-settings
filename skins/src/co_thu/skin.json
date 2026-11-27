@@ -1,0 +1,343 @@
+{
+ "schema": 1,
+ "minApp": 1,
+ "id": "co_thu",
+ "version": 1,
+ "name": {
+  "en": "Old Tome",
+  "vi": "Cổ thư"
+ },
+ "author": "vBook",
+ "preview": "preview.jpg",
+ "description": {
+  "en": "A thread-bound book on mulberry paper: a double frame, the chapter set in the margin and a cinnabar seal on each opening page.",
+  "vi": "Sách đóng chỉ trên giấy dó: khung viền đôi, tên chương canh giữa và dấu son đỏ ở trang mở đầu mỗi chương."
+ },
+ "tokens": {
+  "background": "#efe3c6",
+  "paper": "#efe3c6",
+  "text": "#2b2118",
+  "ink": "#2b2118",
+  "rule": "#7a5c3a",
+  "cinnabar": "#a33a2c",
+  "muted": "ink@55%",
+  "faint": "ink@16%"
+ },
+ "timeline": [
+  {
+   "at": "00:00",
+   "tokens": {
+    "background": "#1c1813",
+    "paper": "#1c1813",
+    "text": "#dccdb1",
+    "ink": "#dccdb1",
+    "rule": "#8f744e",
+    "cinnabar": "#c45a4a"
+   }
+  },
+  {
+   "at": "05:15",
+   "tokens": {
+    "background": "#1c1813",
+    "paper": "#1c1813",
+    "text": "#dccdb1",
+    "ink": "#dccdb1",
+    "rule": "#8f744e",
+    "cinnabar": "#c45a4a"
+   }
+  },
+  {
+   "at": "05:30",
+   "tokens": {
+    "background": "#ece0c8",
+    "text": "#2b2118",
+    "ink": "#2b2118",
+    "rule": "#7a5c3a",
+    "cinnabar": "#a33a2c"
+   }
+  },
+  {
+   "at": "09:00",
+   "tokens": {
+    "background": "#efe3c6",
+    "text": "#2b2118",
+    "ink": "#2b2118",
+    "rule": "#7a5c3a",
+    "cinnabar": "#a33a2c"
+   }
+  },
+  {
+   "at": "17:00",
+   "tokens": {
+    "background": "#efe3c6",
+    "text": "#2b2118",
+    "ink": "#2b2118",
+    "rule": "#7a5c3a",
+    "cinnabar": "#a33a2c"
+   }
+  },
+  {
+   "at": "18:30",
+   "tokens": {
+    "background": "#ecd9b8",
+    "text": "#2b2118",
+    "ink": "#2b2118",
+    "rule": "#7a5c3a",
+    "cinnabar": "#a33a2c"
+   }
+  },
+  {
+   "at": "19:45",
+   "tokens": {
+    "background": "#ecd9b8",
+    "text": "#2b2118",
+    "ink": "#2b2118",
+    "rule": "#7a5c3a",
+    "cinnabar": "#a33a2c"
+   }
+  },
+  {
+   "at": "20:00",
+   "tokens": {
+    "background": "#1c1813",
+    "paper": "#1c1813",
+    "text": "#dccdb1",
+    "ink": "#dccdb1",
+    "rule": "#8f744e",
+    "cinnabar": "#c45a4a"
+   }
+  }
+ ],
+ "palettes": [
+  {
+   "when": {
+    "dark": true
+   },
+   "tokens": {
+    "background": "#1c1813",
+    "paper": "#1c1813",
+    "text": "#dccdb1",
+    "ink": "#dccdb1",
+    "rule": "#8f744e",
+    "cinnabar": "#c45a4a"
+   }
+  }
+ ],
+ "body": {
+  "top": 96,
+  "bottom": 74,
+  "left": 36,
+  "right": 36
+ },
+ "layers": [
+  {
+   "type": "texture",
+   "texture": "do",
+   "anchor": "page",
+   "rect": {},
+   "radius": 0,
+   "z": -2,
+   "opacity": 0.6,
+   "when": {
+    "dark": false,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "texture",
+   "texture": "do",
+   "anchor": "page",
+   "rect": {},
+   "radius": 0,
+   "z": -2,
+   "opacity": 0.15,
+   "when": {
+    "time": "20:00-05:30"
+   }
+  },
+  {
+   "type": "texture",
+   "texture": "do",
+   "anchor": "page",
+   "rect": {},
+   "radius": 0,
+   "z": -2,
+   "opacity": 0.15,
+   "when": {
+    "dark": true,
+    "time": "05:30-20:00"
+   }
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -20,
+    "right": -20,
+    "top": -16,
+    "bottom": -16
+   },
+   "z": -1,
+   "stroke": "rule",
+   "strokeWidth": 2.4
+  },
+  {
+   "type": "shape",
+   "anchor": "body",
+   "rect": {
+    "left": -14,
+    "right": -14,
+    "top": -10,
+    "bottom": -10
+   },
+   "z": -1,
+   "stroke": "rule@70%",
+   "strokeWidth": 0.8
+  },
+  {
+   "type": "text",
+   "value": "◆",
+   "anchor": "body",
+   "rect": {
+    "top": -24,
+    "height": 16,
+    "width": 40
+   },
+   "size": 9,
+   "color": "cinnabar",
+   "align": "center",
+   "z": -1,
+   "font": "serif"
+  },
+  {
+   "type": "text",
+   "value": "◆",
+   "anchor": "body",
+   "rect": {
+    "bottom": -24,
+    "height": 16,
+    "width": 40
+   },
+   "size": 9,
+   "color": "cinnabar",
+   "align": "center",
+   "z": -1,
+   "font": "serif"
+  },
+  {
+   "type": "text",
+   "value": "{book.name}",
+   "anchor": "top",
+   "rect": {
+    "left": 48,
+    "right": 48,
+    "top": 18,
+    "height": 14
+   },
+   "size": 9,
+   "color": "muted",
+   "align": "center",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 3
+  },
+  {
+   "type": "text",
+   "value": "{chapter.title}",
+   "anchor": "top",
+   "rect": {
+    "left": 40,
+    "right": 40,
+    "top": 36,
+    "height": 26
+   },
+   "size": 16,
+   "color": "ink",
+   "align": "center",
+   "z": 1,
+   "font": "serif",
+   "weight": 600
+  },
+  {
+   "type": "shape",
+   "anchor": "top",
+   "rect": {
+    "top": 67,
+    "height": 2,
+    "width": 110
+   },
+   "z": 1,
+   "shape": "line",
+   "stroke": "rule",
+   "strokeWidth": 0.8
+  },
+  {
+   "type": "image",
+   "src": "images/seal.png",
+   "fit": "contain",
+   "anchor": "bottom",
+   "rect": {
+    "right": 30,
+    "top": 12,
+    "width": 38,
+    "height": 38
+   },
+   "opacity": 0.88,
+   "z": 1,
+   "when": {
+    "pages": "first"
+   }
+  },
+  {
+   "type": "text",
+   "value": "— {page.index} —",
+   "anchor": "bottom",
+   "rect": {
+    "top": 30,
+    "height": 18,
+    "width": 120
+   },
+   "size": 11,
+   "color": "ink",
+   "align": "center",
+   "z": 1,
+   "font": "serif"
+  },
+  {
+   "type": "text",
+   "value": "§ {chapter.index} / {chapter.count}",
+   "anchor": "bottom",
+   "rect": {
+    "left": 36,
+    "top": 32,
+    "width": 140,
+    "height": 14
+   },
+   "size": 9,
+   "color": "muted",
+   "align": "start",
+   "z": 1,
+   "font": "serif",
+   "letterSpacing": 1
+  },
+  {
+   "type": "text",
+   "value": "{percent(book.progress)}",
+   "anchor": "bottom",
+   "rect": {
+    "right": 36,
+    "top": 32,
+    "width": 90,
+    "height": 14
+   },
+   "size": 9,
+   "color": "muted",
+   "align": "end",
+   "z": 1,
+   "font": "serif",
+   "when": {
+    "pages": "other"
+   }
+  }
+ ]
+}
