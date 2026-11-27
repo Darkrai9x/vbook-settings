@@ -11,11 +11,11 @@
         "vi": "Mùa hoa anh đào: cành hoa trên tiêu đề, cánh hoa rơi khắp trang; hồng phấn ban ngày, đêm ngắm hoa tím mận ban đêm."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/anh_dao.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/anh_dao.zip?v=1",
-      "size": 93534
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/anh_dao.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/anh_dao.zip?v=2",
+      "size": 100794
     },
     {
       "id": "art_deco",
@@ -28,11 +28,11 @@
         "vi": "Phong cách thập niên 20: quạt nắng vàng trên tiêu đề đen, góc bậc thang và đường kẻ chevron; ngà voi ban ngày, đá onyx ban đêm."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/art_deco.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/art_deco.zip?v=1",
-      "size": 101711
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/art_deco.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/art_deco.zip?v=2",
+      "size": 109947
     },
     {
       "id": "co_thu",
@@ -45,11 +45,11 @@
         "vi": "Sách đóng chỉ trên giấy dó: khung viền đôi, tên chương canh giữa và dấu son đỏ ở trang mở đầu mỗi chương."
       },
       "author": "vBook",
-      "version": 2,
+      "version": 3,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/co_thu.jpg?v=2",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/co_thu.zip?v=2",
-      "size": 76661
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/co_thu.jpg?v=3",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/co_thu.zip?v=3",
+      "size": 81509
     },
     {
       "id": "dem_sao",
@@ -62,11 +62,11 @@
         "vi": "Đọc dưới bầu trời sao: trời đổi từ giờ xanh đến đêm sâu, mỗi chương một chòm sao và một tuần trăng."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/dem_sao.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/dem_sao.zip?v=1",
-      "size": 152443
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/dem_sao.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/dem_sao.zip?v=2",
+      "size": 157211
     },
     {
       "id": "dong",
@@ -79,11 +79,11 @@
         "vi": "Rừng thông phủ tuyết đầu trang, bông tuyết rơi qua trang chữ; xanh băng ban ngày, đêm đông lặng lẽ."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/dong.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/dong.zip?v=1",
-      "size": 111922
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/dong.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/dong.zip?v=2",
+      "size": 120048
     },
     {
       "id": "dong_bo",
@@ -96,11 +96,11 @@
         "vi": "Buồng lái HUD đỏ thẫm: vạch cảnh báo, vòng quỹ đạo, thanh đồng bộ đầy dần theo chương và sóng 9 cột đổi mỗi trang. Cảm hứng từ 赤色同步 của Archive; không dùng nhân vật."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/dong_bo.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/dong_bo.zip?v=1",
-      "size": 91527
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/dong_bo.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/dong_bo.zip?v=2",
+      "size": 94930
     },
     {
       "id": "gray_fog",
@@ -113,11 +113,11 @@
         "vi": "Quỷ Bí Chi Chủ – tarot: mỗi chương một lá Rider–Waite, dải lá bài cuối trang, giấy đổi sắc theo giờ trong ngày."
       },
       "author": "vBook",
-      "version": 3,
+      "version": 4,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/gray_fog.jpg?v=3",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/gray_fog.zip?v=3",
-      "size": 743285
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/gray_fog.jpg?v=4",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/gray_fog.zip?v=4",
+      "size": 751576
     },
     {
       "id": "ha",
@@ -130,11 +130,11 @@
         "vi": "Mùa hè học trò: cành phượng đỏ trên tiêu đề, nắng vàng rực, sóng biển dưới chân trang; ban đêm là gió biển mát."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/ha.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/ha.zip?v=1",
-      "size": 104332
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/ha.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/ha.zip?v=2",
+      "size": 107437
     },
     {
       "id": "hai_trinh",
@@ -147,11 +147,11 @@
         "vi": "Nhật ký thuyền trưởng trên hải đồ: đường la bàn, hoa gió, mỗi chương một toạ độ; đêm xuống đọc dưới ánh đèn bão."
       },
       "author": "vBook",
-      "version": 2,
+      "version": 3,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/hai_trinh.jpg?v=2",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/hai_trinh.zip?v=2",
-      "size": 117784
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/hai_trinh.jpg?v=3",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/hai_trinh.zip?v=3",
+      "size": 126523
     },
     {
       "id": "halloween",
@@ -164,11 +164,11 @@
         "vi": "Đêm ma quái: trăng mùa gặt cùng đàn dơi, bí ngô khắc mặt, mạng nhện ở góc và chữ sáng trên nền tím hoàng hôn."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/halloween.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/halloween.zip?v=1",
-      "size": 149040
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/halloween.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/halloween.zip?v=2",
+      "size": 155538
     },
     {
       "id": "hoa_tien",
@@ -181,11 +181,11 @@
         "vi": "Giấy viết thư viền vàng: góc hoa văn cuộn, huy hiệu mẫu đơn từ tranh thực vật 1868 và tiêu đề kiểu sổ hoa. Port từ 鎏金花笺 của Archive."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/hoa_tien.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/hoa_tien.zip?v=1",
-      "size": 119211
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/hoa_tien.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/hoa_tien.zip?v=2",
+      "size": 118099
     },
     {
       "id": "khoi",
@@ -198,11 +198,11 @@
         "vi": "Phiêu lưu thế giới khối: trời pixel có mặt trời, mặt trăng chạy theo giờ, hotbar đổi ô theo trang, thanh cấp độ theo chương. Lấy cảm hứng từ mẫu sandbox của Archive; toàn bộ hình vẽ mới."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/khoi.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/khoi.zip?v=1",
-      "size": 72022
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/khoi.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/khoi.zip?v=2",
+      "size": 77618
     },
     {
       "id": "mua_thu",
@@ -215,11 +215,11 @@
         "vi": "Lá phong chuyển màu hổ phách và đỏ son ở góc trang, vài chiếc rơi khắp trang; giấy ấm ban ngày, nâu lò sưởi ban đêm."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/mua_thu.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/mua_thu.zip?v=1",
-      "size": 88473
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/mua_thu.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/mua_thu.zip?v=2",
+      "size": 90470
     },
     {
       "id": "ngay_xanh",
@@ -232,11 +232,11 @@
         "vi": "Bầu trời hoạt hình: mây tròn, mặt trời to ban ngày, trăng khuyết giữa sao ban đêm, thẻ trắng mềm cho chữ. Cảm hứng từ 未来口袋 của Archive; không dùng nhân vật."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/ngay_xanh.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/ngay_xanh.zip?v=1",
-      "size": 81211
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/ngay_xanh.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/ngay_xanh.zip?v=2",
+      "size": 83590
     },
     {
       "id": "noel",
@@ -249,11 +249,11 @@
         "vi": "Dây thông treo quả châu, lá nhựa ruồi ở góc và tuyết rơi nhẹ; kem và đỏ quả mọng ban ngày, đêm xanh rừng thông."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/noel.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/noel.zip?v=1",
-      "size": 128087
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/noel.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/noel.zip?v=2",
+      "size": 131376
     },
     {
       "id": "tap_chi",
@@ -266,11 +266,11 @@
         "vi": "Dàn trang kiểu tạp chí: trang mở đầu có hình hoạ hình học và tít lớn, các trang sau có running head và số trang. Port từ 书刊 của Archive."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/tap_chi.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/tap_chi.zip?v=1",
-      "size": 83718
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/tap_chi.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/tap_chi.zip?v=2",
+      "size": 90224
     },
     {
       "id": "terminal",
@@ -283,11 +283,11 @@
         "vi": "Màn hình CRT cổ: chữ xanh lục ban ngày, hổ phách ban đêm, vạch quét và thanh trạng thái."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/terminal.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/terminal.zip?v=1",
-      "size": 55275
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/terminal.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/terminal.zip?v=2",
+      "size": 67375
     },
     {
       "id": "thuy_mac",
@@ -300,11 +300,11 @@
         "vi": "Tranh thủy mặc: núi sương và rặng thông đầu trang, mặt trời son, triện khắc; giấy dó ban ngày, mực đêm ban đêm."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/thuy_mac.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/thuy_mac.zip?v=1",
-      "size": 108354
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/thuy_mac.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/thuy_mac.zip?v=2",
+      "size": 116904
     },
     {
       "id": "vo_hoc_tro",
@@ -317,11 +317,11 @@
         "vi": "Vở ô li gáy lò xo, lề đỏ và hình vẽ bút bi ban ngày; ban đêm hoá thành bảng đen phấn trắng."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/vo_hoc_tro.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/vo_hoc_tro.zip?v=1",
-      "size": 74212
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/vo_hoc_tro.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/vo_hoc_tro.zip?v=2",
+      "size": 84095
     },
     {
       "id": "xuan",
@@ -334,11 +334,11 @@
         "vi": "Tết Nguyên Đán: cành mai vàng, đèn lồng đỏ chữ 福, viền vàng; kem ấm ban ngày, đỏ sơn mài ban đêm."
       },
       "author": "vBook",
-      "version": 1,
+      "version": 2,
       "minApp": 1,
-      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/xuan.jpg?v=1",
-      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/xuan.zip?v=1",
-      "size": 105024
+      "preview": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/previews/xuan.jpg?v=2",
+      "url": "https://raw.githubusercontent.com/Darkrai9x/vbook-settings/main/skins/xuan.zip?v=2",
+      "size": 106149
     }
   ]
 }

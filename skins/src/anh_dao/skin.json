@@ -2,7 +2,7 @@
  "schema": 1,
  "minApp": 1,
  "id": "anh_dao",
- "version": 1,
+ "version": 2,
  "name": {
   "en": "Sakura",
   "vi": "Anh đào"

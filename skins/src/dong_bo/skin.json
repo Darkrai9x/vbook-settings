@@ -2,7 +2,7 @@
  "schema": 1,
  "minApp": 1,
  "id": "dong_bo",
- "version": 1,
+ "version": 2,
  "name": {
   "en": "Red Sync",
   "vi": "Đồng bộ đỏ"

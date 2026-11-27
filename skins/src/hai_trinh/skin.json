@@ -2,7 +2,7 @@
  "schema": 1,
  "minApp": 1,
  "id": "hai_trinh",
- "version": 2,
+ "version": 3,
  "name": {
   "en": "Ship's Log",
   "vi": "Nhật ký hải trình"

@@ -2,7 +2,7 @@
  "schema": 1,
  "minApp": 1,
  "id": "vo_hoc_tro",
- "version": 1,
+ "version": 2,
  "name": {
   "en": "School Notebook",
   "vi": "Vở học trò"
